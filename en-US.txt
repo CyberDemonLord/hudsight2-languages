@@ -18,7 +18,8 @@ ABOUT_COPYRIGHT			Eduard Kozadaev
 ABOUT_ACTIVATED			Software is activated.
 ABOUT_TRIAL			Software is in trial mode.
 CURRENT_VERSION			Build %d (%s)
-STEAM_NO_STATUS			No status
+STEAM_VERSION_ON		Steam version
+STEAM_NO_STATUS_CHANGE		Status not changed
 
 TRIAL_WANT_CODE			Would you like to get your activation code?
 TRIAL_GET_LICENSE		Order a license
