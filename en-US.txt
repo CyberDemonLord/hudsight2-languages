@@ -98,7 +98,6 @@ SIGHT_SWITCH_MODE_PRESS		On press
 SIGHT_SWITCH_MODE_RELEASE	On release
 
 SETTINGS_LANGUAGE_EX		Interface language and font size
-//SETTINGS_LANGUAGE_EX_HINT	You need to restart the program to apply these options. 
 SETTINGS_START_AS_ADMIN		Start with high privileges (as admin)
 SETTINGS_START_AS_ADMIN_HINT	High privileges are required to access some features.\nYou need to restart the program to apply this option.
 SETTINGS_START_WITH_WINDOWS	Autostart with Windows
