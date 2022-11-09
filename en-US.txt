@@ -1,0 +1,129 @@
+//
+//	This is original English language file
+//	If you want to make a translation, then create file with locale name with UTF-8 encoding
+//	and translate english lines (right parts, not their identifiers :) )
+//	special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//	locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//	or here http://www.science.co.il/Language/Locale-codes.php
+//	for example, English language and United States country gives "en-US" locale name
+//
+
+/////////  Information //////////////////////
+BTN_CANCEL			Cancel
+BTN_CLOSE			Close
+
+//ABOUT_DIALOG			About the program
+ABOUT_COPYRIGHT			Eduard Kozadaev
+ABOUT_ACTIVATED			Software is activated.
+ABOUT_TRIAL			Software is in trial mode.
+CURRENT_VERSION			Build %d (%s)
+STEAM_NO_STATUS			No status
+
+TRIAL_WANT_CODE			Would you like to get your activation code?
+TRIAL_GET_LICENSE		Order a license
+TRIAL_ACTIVATE			Activate software
+TRIAL_ACTIVATION_CODE		Activation code
+TRIAL_ACTIVATION_ERROR		Error activating software:\n\n%s
+TRIAL_ACTIVATION_PROGRESS	Activating...
+TRIAL_REMINDER			You use the HudSight 2 demo version.\n\nBuy a license to remove all demo restrictions and help us make this tool better!
+TRIAL_REMINDER2			The demo version restrictions: crosshairs settings cannot be saved or loaded, there is a watermark over a game screen.
+TRIAL_REMINDER3			When you buy a license, you help us make the program better.\nBe part of our community!
+TRIAL_REMINDER_STOP		HudSight 2 demo version doesn't save changes of the crosshairs settings.\n\nThis demo restriction will be removed in the full licensed version.
+TRIAL_GET_LICENSE		Get a license
+TRIAL_ACTIVATE			Activate software
+TRIAL_TRY_IT			Try it
+TRIAL_FREE_GAME			Activation was done using a special key.\nSoftware works as full version for the game: %s
+TRIAL_STEAM_NOT_SHOW		HudSight needs to be activated using Steam client.\nYour Steam status will be changed to "running HudSight".\n\nShould we continue?
+
+STEAM_NOT_STARTED		Fatal error.\n\nCannot connect to software launcher. Please start the program from Steam client.
+STEAM_NO_AUTH			Fatal error.\n\nCannot authorize in Steam. To activate software you need to start it from Steam client.
+
+
+/////////    Hotkeys   //////////////////////
+
+HOTKEY_HINT			Press up to three buttons or Escape to cancel
+HOTKEY_NOT_BOUND		Not bound
+
+
+SIGHT_TABS_CROSSHAIR		Crosshair
+SIGHT_TABS_LIBRARY		Library
+SIGHT_TABS_COMMON		Common
+SIGHT_TABS_INFO			Information
+
+SIGHT_TABS_CROSSHAIR_EX		Available crosshairs
+SIGHT_TABS_LIBRARY_EX		Crosshairs library
+SIGHT_TABS_BLACKLIST_EX		Blacklist settings
+SIGHT_TABS_COMMON_EX		Common settings
+SIGHT_TABS_XBOX_EX		Xbox Game Bar interaction
+
+LIBRARY_ADD_IMAGE		Add image
+LIBRARY_DELETE_IMAGE		Delete selected
+LIBRARY_RESTORE_DEFAULTS	Restore defaults
+LIBRARY_EDIT_IMAGE		Edit image
+
+SIGHT_EDITOR			Image editor
+SIGHT_EDITOR_NEW		New
+SIGHT_EDITOR_ENTER_NAME		Enter image name
+SIGHT_EDITOR_SAVE		Save
+SIGHT_EDITOR_SAVEAS		Save as
+SIGHT_EDITOR_IMAGESIZE		Image size
+SIGHT_EDITOR_ZOOM		Zoom
+SIGHT_EDITOR_PEN_VALUE		Pen color
+SIGHT_EDITOR_PEN_RGBA		Use RGBA pen
+SIGHT_EDITOR_PIXELVALUE		Value under cursor
+
+
+SIGHT_ENABLE_CUSTOM_PROFILE	Custom profile for this crosshair
+SIGHT_COLOR_MASK		Color mask
+SIGHT_COLOR_MASK_WARNING	The crosshair is almost invisible, check the transparency channel (Alpha) of the color mask
+SIGHT_SCALE			Image scale, percents
+SIGHT_RESET_BUTTON		Reset
+SIGHT_OFFSET			Offset from a screen center, X/Y
+SIGHT_OFFSET_HINT		Hold CTRL button and click to offset input field\nto enter exact offset value
+SIGHT_VIS_HOTKEY		Visibility hotkey
+SIGHT_VIS_MODE			Visibility mode
+SIGHT_VIS_MODE_DEFAULT		Press to toggle visibility
+SIGHT_VIS_MODE_HOLD		Hold for visibility
+SIGHT_VIS_MODE_HOLD_INV		Inversed Hold mode
+
+SIGHT_LEAN			Enable crosshair lean
+SIGHT_LEAN_HOTKEYS		Hotkeys for lean left and right
+SIGHT_LEAN_ANGLE		Angle, degrees
+
+SIGHT_ENABLE_ADVANCED		Enable advanced settings
+SIGHT_SWITCH_HOTKEY		Switch to crosshair hotkey
+SIGHT_SWITCH_MODE		Switch mode
+SIGHT_SWITCH_MODE_PRESS		On press
+SIGHT_SWITCH_MODE_RELEASE	On release
+
+SETTINGS_LANGUAGE_EX		Interface language and font size
+//SETTINGS_LANGUAGE_EX_HINT	You need to restart the program to apply these options. 
+SETTINGS_START_AS_ADMIN		Start with high privileges (as admin)
+SETTINGS_START_AS_ADMIN_HINT	High privileges are required to access some features.\nYou need to restart the program to apply this option.
+SETTINGS_START_WITH_WINDOWS	Autostart with Windows
+SETTINGS_ADMIN_REQUIRED		Start as admin to enable this option
+SETTINGS_START_MINIMIZED	Start minimized
+SETTINGS_DONOT_USE_TRAY		Remove icon from system tray
+SETTINGS_MINIMIZE_TRAY		Minimize to system tray
+SETTINGS_CLOSE_MINIMIZE		Close button as minimize
+SETTINGS_CHECK_UPDATE		Check for update on start
+SETTINGS_SHOW_HINTS		Show tooltips
+SETTINGS_SYSTEM_MESSAGES	System messages
+SETTINGS_LIGHT_THEME		Use light interface theme
+SETTINGS_NO_SHOW_STEAM		Do not alter the Steam status
+
+/////// Xbox Game Bar settings /////////////////
+XBOX_ENABLE			Use Xbox Game Bar overlay
+XBOX_HELP_READ_MORE		Read this before using
+
+/////// Blacklist settings /////////////////////
+
+BLACKLIST_BLACK_MODE		Blacklist mode
+BLACKLIST_WHITE_MODE		Whitelist mode
+BLACKLIST_BLOCKED		Blocked processes
+BLACKLIST_ALLOWED		Allowed processes
+BLACKLIST_BLOCK			Block process
+BLACKLIST_ALLOW			Allow process
+BLACKLIST_UNBLOCK		Remove process
+BLACKLIST_SELECT		Select process
