@@ -1,0 +1,129 @@
+//
+//	This is original English language file
+//	If you want to make a translation, then create file with locale name with UTF-8 encoding
+//	and translate english lines (right parts, not their identifiers :) )
+//	special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//	locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//	or here http://www.science.co.il/Language/Locale-codes.php
+//	for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL							Отмена
+BTN_CLOSE							Закрыть
+
+//ABOUT_DIALOG						О программе
+ABOUT_COPYRIGHT						Эдуард Козадаев
+ABOUT_ACTIVATED						Программа активирована.
+ABOUT_TRIAL							Программа в демо режиме.
+CURRENT_VERSION						Сборка %d (%s)
+STEAM_VERSION_ON					Steam версия
+STEAM_NO_STATUS_CHANGE				Неизменный статус
+
+TRIAL_WANT_CODE						Хотите получить свой код активации?
+TRIAL_GET_LICENSE					Приобрести лицензию
+TRIAL_ACTIVATE						Активировать программу
+TRIAL_ACTIVATION_CODE				Код активации
+TRIAL_ACTIVATION_ERROR				Ошибка активации программы:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Выполняется активация...
+TRIAL_REMINDER						Вы пользуетесь демо-версией HudSight 2.\n\nПриобретая лицензию, вы не только убираете ограничения демо-версии, но и помогаете в развитии программы!
+TRIAL_REMINDER2						Ограничения демо-версии: настройки прицела не могут быть сохранены или загружены, на экране игры появляется водяной знак.
+TRIAL_REMINDER3						Программа становится лучше благодаря тем, кто приобрел лицензию.\nСделайте свой вклад, спасибо!
+TRIAL_REMINDER_STOP					Демо-версия HudSight 2 не сохраняет изменения настроек прицела.\n\nЭто демо ограничение будет снято после активации программы.
+TRIAL_GET_LICENSE					Приобрести лицензию
+TRIAL_ACTIVATE						Активировать программу
+TRIAL_TRY_IT						Попробовать демо-версию
+TRIAL_FREE_GAME						Вы активировали программу специальным ключом.\nПрограмма работает как полная версия для игры: %s
+TRIAL_STEAM_NOT_SHOW				HudSight должен быть активирован с помощью клиента Steam.\nВаш статус в Steam будет изменен на "запущен HudSight".\n\nНужно ли продолжать?
+
+STEAM_NOT_STARTED					Критическая ошибка.\n\nНевозможно получить данные от стартового модуля. Пожалуйста, запустите программу из клиента Steam.
+STEAM_NO_AUTH						Критическая ошибка.\n\nНемозвожмон авторизоваться в Steam. Для активации программы необходимо запустить ее из клиента Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Нажмите не более трех кнопок вместе или Escape для отмены
+HOTKEY_NOT_BOUND					Не задано
+
+SIGHT_TABS_CROSSHAIR				Прицел
+SIGHT_TABS_LIBRARY					Библиотека
+SIGHT_TABS_COMMON					Общее
+SIGHT_TABS_INFO						Информация
+
+SIGHT_TABS_CROSSHAIR_EX				Доступные прицелы
+SIGHT_TABS_LIBRARY_EX				Библиотека прицелов
+SIGHT_TABS_BLACKLIST_EX				Черный список
+SIGHT_TABS_COMMON_EX				Общие настройки
+SIGHT_TABS_XBOX_EX					Xbox Game Bar interaction
+
+LIBRARY_ADD_IMAGE					Добавить
+LIBRARY_DELETE_IMAGE				Удалить
+LIBRARY_RESTORE_DEFAULTS			Восстановить набор
+LIBRARY_EDIT_IMAGE					Редактировать
+
+SIGHT_EDITOR						Редактор изображения прицела
+SIGHT_EDITOR_NEW					Создать
+SIGHT_EDITOR_ENTER_NAME				Введите название изображения
+SIGHT_EDITOR_SAVE					Сохранить
+SIGHT_EDITOR_SAVEAS					Сохранить как
+SIGHT_EDITOR_IMAGESIZE				Размер
+SIGHT_EDITOR_ZOOM					Масштаб
+SIGHT_EDITOR_PEN_VALUE				Цвет карандаша
+SIGHT_EDITOR_PEN_RGBA				Использовать RGBA карандаш
+SIGHT_EDITOR_PIXELVALUE				Цвет под курсором
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Пользовательский профиль для этого прицела
+SIGHT_COLOR_MASK					Цветовая маска
+SIGHT_COLOR_MASK_WARNING			Прицел почти невидим, проверьте значение канала прозрачности (Альфа) цветовой маски
+SIGHT_SCALE							Масштаб изображения, проценты
+SIGHT_RESET_BUTTON					Сбросить
+SIGHT_OFFSET						Смещение от центра экрана, X/Y
+SIGHT_OFFSET_HINT					Клик мышкой на поле смещения вместе с нажатой кнопкой CTRL\nдает возможность вводить точные значения смещения
+SIGHT_VIS_HOTKEY					Клавиша отображения прицела
+SIGHT_VIS_MODE						Режим отображения
+SIGHT_VIS_MODE_DEFAULT				По нажатию клавиши
+SIGHT_VIS_MODE_HOLD					Удерживать для отображения
+SIGHT_VIS_MODE_HOLD_INV				Инверсия режима удержания
+
+SIGHT_LEAN							Включить наклон прицела
+SIGHT_LEAN_HOTKEYS					Горячие клавиши для наклона влево | вправо
+SIGHT_LEAN_ANGLE					Угол наклона, градусы
+
+SIGHT_ENABLE_ADVANCED				Включить расширенные настройки
+SIGHT_SWITCH_HOTKEY					Клавиша смены прицела
+SIGHT_SWITCH_MODE					Режим переключения
+SIGHT_SWITCH_MODE_PRESS				По нажатию
+SIGHT_SWITCH_MODE_RELEASE			При отпускании
+
+SETTINGS_LANGUAGE_EX				Язык интерфейса и размер шрифта
+SETTINGS_LANGUAGE_EX_HINT			Перезапустите программу для применения этих настроек. 
+SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как Админ)
+SETTINGS_START_AS_ADMIN_HINT		Повышенные права необходимы для доступа к некоторым функциям.\nПерезапустите программу для применения этой настройки.
+SETTINGS_START_WITH_WINDOWS			Автозапуск вместе с Windows
+SETTINGS_ADMIN_REQUIRED				Запустите от имени Администратора для включения этой настройки
+SETTINGS_START_MINIMIZED			Запускаться свернутым
+SETTINGS_DONOT_USE_TRAY				Убрать иконку из трея
+SETTINGS_MINIMIZE_TRAY				Сворачивать в трей
+SETTINGS_CLOSE_MINIMIZE				Сворачивать при закрытии
+SETTINGS_CHECK_UPDATE				Проверять обновление при запуске программы
+SETTINGS_SHOW_HINTS					Показывать всплывающие подсказки
+SETTINGS_SYSTEM_MESSAGES			Системные сообщения
+SETTINGS_LIGHT_THEME				Светлая цветовая тема
+SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
+
+//////////    Xbox Game Bar settings    //////////
+
+XBOX_ENABLE							Использовать оверлей Xbox Game Bar
+XBOX_HELP_READ_MORE					Прочитайте это перед использованием
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Режим черного списка
+BLACKLIST_WHITE_MODE				Режим белого списка
+BLACKLIST_BLOCKED					Заблокированные процессы
+BLACKLIST_ALLOWED					Разрешенные процессы
+BLACKLIST_BLOCK						Заблокировать процесс
+BLACKLIST_ALLOW						Разрешить процесс
+BLACKLIST_UNBLOCK					Удалить
+BLACKLIST_SELECT					Выбрать процесс
