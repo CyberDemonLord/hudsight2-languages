@@ -30,7 +30,12 @@ TRIAL_ACTIVATION_PROGRESS	Activating...
 TRIAL_REMINDER			You use the HudSight 2 demo version.\n\nBuy a license to remove all demo restrictions and help us make this tool better!
 TRIAL_REMINDER2			The demo version restrictions: crosshairs settings cannot be saved or loaded, there is a watermark over a game screen.
 TRIAL_REMINDER3			When you buy a license, you help us make the program better.\nBe part of our community!
+TRIAL_REMINDER_SOFTWARE		Settings are not saved in the trial mode
 TRIAL_REMINDER_STOP		HudSight 2 demo version doesn't save changes of the crosshairs settings.\n\nThis demo restriction will be removed in the full licensed version.
+TRIAL_RECOVER_WANT		Recover your activation code
+TRIAL_RECOVER_EMAIL		Enter your email
+TRIAL_RECOVER			Send the code
+TRIAL_RECOVER_CHECK_EMAIL	Please check your email
 TRIAL_GET_LICENSE		Get a license
 TRIAL_ACTIVATE			Activate software
 TRIAL_TRY_IT			Try it
