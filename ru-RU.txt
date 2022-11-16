@@ -80,6 +80,13 @@ SIGHT_EDITOR_IMAGESIZE				Размер
 SIGHT_EDITOR_PEN_VALUE				Цвет карандаша
 SIGHT_EDITOR_PEN_RGBA				Использовать RGBA карандаш
 SIGHT_EDITOR_PIXELVALUE				Цвет под курсором
+SIGHT_EDITOR_GEN_THICKNESS			Толщина
+SIGHT_EDITOR_GEN_SIZE				Размер
+SIGHT_EDITOR_GEN_OUTLINE			Обводка
+SIGHT_EDITOR_GEN_GAP				Промежуток
+SIGHT_EDITOR_GEN_DRAW_DOT			Рисовать точку
+SIGHT_EDITOR_GEN_DRAW_CROSS			Рисовать крест
+SIGHT_EDITOR_GEN_DRAW_TOPRAY			Рисовать верхний луч
 
 SIGHT_ENABLE_CUSTOM_PROFILE			Пользовательский профиль для этого прицела
 SIGHT_COLOR_MASK					Цветовая маска
