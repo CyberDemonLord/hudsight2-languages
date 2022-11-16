@@ -68,14 +68,15 @@ LIBRARY_RESTORE_DEFAULTS			Restore defaults
 LIBRARY_EDIT_IMAGE					Edit image
 
 SIGHT_EDITOR						Image editor
-SIGHT_EDITOR_NEW					Create new
+SIGHT_EDITOR_NEW		Clear crosshair image
+SIGHT_EDITOR_GEN		Generate new image
+SIGHT_EDITOR_RENAME		Rename image
 SIGHT_EDITOR_ENTER_NAME				Enter image name
 SIGHT_EDITOR_UNDO					Undo
 SIGHT_EDITOR_REDO					Redo
-SIGHT_EDITOR_SAVE					Save
-SIGHT_EDITOR_SAVEAS					Save as
+SIGHT_EDITOR_ZOOMIN		Zoom in
+SIGHT_EDITOR_ZOOMOUT		Zoom out
 SIGHT_EDITOR_IMAGESIZE				Image size
-SIGHT_EDITOR_ZOOM					Zoom
 SIGHT_EDITOR_PEN_VALUE				Pen color
 SIGHT_EDITOR_PEN_RGBA				Use RGBA pen
 SIGHT_EDITOR_PIXELVALUE				Value under cursor
@@ -86,7 +87,6 @@ SIGHT_COLOR_MASK_WARNING			The crosshair is almost invisible, check the transpar
 SIGHT_SCALE							Image scale, percents
 SIGHT_RESET_BUTTON					Reset
 SIGHT_OFFSET						Offset from a screen center, X/Y
-SIGHT_OFFSET_HINT					Hold CTRL button and click to offset input field\nto enter exact offset value
 SIGHT_VIS_HOTKEY					Visibility hotkey
 SIGHT_VIS_MODE						Visibility mode
 SIGHT_VIS_MODE_DEFAULT				Press to toggle visibility
