@@ -69,24 +69,29 @@ LIBRARY_EDIT_IMAGE					Редактировать
 
 SIGHT_EDITOR						Редактор изображения прицела
 SIGHT_EDITOR_NEW					Очистить изображение прицела
-SIGHT_EDITOR_GEN				Сгенерировать новый прицел
-SIGHT_EDITOR_RENAME				Переименовать изображение
+SIGHT_EDITOR_GEN					Сгенерировать новый прицел
+SIGHT_EDITOR_RENAME					Переименовать изображение
 SIGHT_EDITOR_ENTER_NAME				Введите название изображения
 SIGHT_EDITOR_UNDO					Отмена
 SIGHT_EDITOR_REDO					Повтор
-SIGHT_EDITOR_ZOOMIN				Увеличить
+SIGHT_EDITOR_ZOOMIN					Увеличить
 SIGHT_EDITOR_ZOOMOUT				Уменьшить
 SIGHT_EDITOR_IMAGESIZE				Размер
 SIGHT_EDITOR_PEN_VALUE				Цвет карандаша
 SIGHT_EDITOR_PEN_RGBA				Использовать RGBA карандаш
 SIGHT_EDITOR_PIXELVALUE				Цвет под курсором
-SIGHT_EDITOR_GEN_THICKNESS			Толщина
+SIGHT_EDITOR_GEN_THICKNESS			олщина
 SIGHT_EDITOR_GEN_SIZE				Размер
 SIGHT_EDITOR_GEN_OUTLINE			Обводка
 SIGHT_EDITOR_GEN_GAP				Промежуток
+SIGHT_EDITOR_GEN_STYLE				Вид прицела
 SIGHT_EDITOR_GEN_DRAW_DOT			Рисовать точку
-SIGHT_EDITOR_GEN_DRAW_CROSS			Рисовать крест
-SIGHT_EDITOR_GEN_DRAW_TOPRAY			Рисовать верхний луч
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Пустой
+SIGHT_EDITOR_GEN_STYLE_CROSS		Крест
+SIGHT_EDITOR_GEN_STYLE_TCROSS		Т-образный
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Диагональный крест
+SIGHT_EDITOR_OVERWRITE				Изображение было изменено.\nВы хотите сохранить изменения?
+SIGHT_EDITOR_RENAME_BUSY			Это имя уже занято
 
 SIGHT_ENABLE_CUSTOM_PROFILE			Пользовательский профиль для этого прицела
 SIGHT_COLOR_MASK					Цветовая маска
@@ -101,7 +106,7 @@ SIGHT_VIS_MODE_HOLD					Удерживать для отображения
 SIGHT_VIS_MODE_HOLD_INV				Инверсия режима удержания
 
 SIGHT_LEAN							Включить наклон прицела
-SIGHT_LEAN_HOTKEYS					Горячие клавиши для наклона влево | вправо
+SIGHT_LEAN_HOTKEYS					Горячие клавиши для наклона влево и вправо
 SIGHT_LEAN_ANGLE					Угол наклона, градусы
 
 SIGHT_ENABLE_ADVANCED				Включить расширенные настройки
@@ -112,7 +117,7 @@ SIGHT_SWITCH_MODE_RELEASE			При отпускании
 
 SETTINGS_LANGUAGE_EX				Язык интерфейса и размер шрифта
 SETTINGS_LANGUAGE_EX_HINT			Перезапустите программу для применения этих настроек.
-SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как админ)
+SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как Админ)
 SETTINGS_START_AS_ADMIN_HINT		Повышенные права необходимы для доступа к некоторым функциям.\nПерезапустите программу для применения этой настройки.
 SETTINGS_START_WITH_WINDOWS			Автозапуск вместе с Windows
 SETTINGS_ADMIN_REQUIRED				Запустите от имени администратора для включения этой настройки
