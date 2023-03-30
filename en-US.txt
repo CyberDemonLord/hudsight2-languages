@@ -66,6 +66,8 @@ LIBRARY_ADD_IMAGE					Add image
 LIBRARY_DELETE_IMAGE				Delete selected
 LIBRARY_RESTORE_DEFAULTS			Restore defaults
 LIBRARY_EDIT_IMAGE					Edit image
+LIBRARY_MAKE_FAVORITE				Mark/unmark favorite
+LIBRARY_SHOW_ONLY_FAVORITES			Show only favorites
 
 SIGHT_EDITOR						Image editor
 SIGHT_EDITOR_NEW		Clear crosshair image
@@ -139,6 +141,7 @@ SETTINGS_SHOW_HINTS					Show tooltips
 SETTINGS_SYSTEM_MESSAGES			System messages
 SETTINGS_LIGHT_THEME				Use light interface theme
 SETTINGS_NO_SHOW_STEAM				Do not alter the Steam status
+SETTINGS_USE_FAVORITES				Enable favorite crosshairs
 
 //////////    Xbox Game Bar settings    //////////
 

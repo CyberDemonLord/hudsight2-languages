@@ -66,6 +66,8 @@ LIBRARY_ADD_IMAGE					Добавить
 LIBRARY_DELETE_IMAGE				Удалить
 LIBRARY_RESTORE_DEFAULTS			Восстановить набор
 LIBRARY_EDIT_IMAGE					Редактировать
+LIBRARY_MAKE_FAVORITE				Установить/снять отметку избранного
+LIBRARY_SHOW_ONLY_FAVORITES			Показывать только избранные
 
 SIGHT_EDITOR						Редактор изображения прицела
 SIGHT_EDITOR_NEW					Очистить изображение прицела
@@ -122,6 +124,7 @@ SIGHT_SWITCH_MODE					Режим переключения
 SIGHT_SWITCH_MODE_PRESS				По нажатию
 SIGHT_SWITCH_MODE_RELEASE			При отпускании
 
+
 SETTINGS_LANGUAGE_EX				Язык интерфейса и размер шрифта
 SETTINGS_LANGUAGE_EX_HINT			Перезапустите программу для применения этих настроек.
 SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как Админ)
@@ -137,6 +140,7 @@ SETTINGS_SHOW_HINTS					Показывать всплывающие подска
 SETTINGS_SYSTEM_MESSAGES			Системные сообщения
 SETTINGS_LIGHT_THEME				Светлая цветовая тема
 SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
+SETTINGS_USE_FAVORITES				Включить избранные прицелы
 
 //////////    Xbox Game Bar settings    //////////
 
