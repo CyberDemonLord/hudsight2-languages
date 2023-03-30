@@ -62,10 +62,13 @@ SIGHT_TABS_BLACKLIST_EX				Blacklist settings
 SIGHT_TABS_COMMON_EX				Common settings
 SIGHT_TABS_XBOX_EX					Xbox Game Bar interaction
 
+LIBRARY_NEW_IMAGE					Create a new image
 LIBRARY_ADD_IMAGE					Add image
 LIBRARY_DELETE_IMAGE				Delete selected
 LIBRARY_RESTORE_DEFAULTS			Restore defaults
 LIBRARY_EDIT_IMAGE					Edit image
+LIBRARY_EDITOR_RENAME				Rename image
+LIBRARY_EDITOR_ENTER_NAME				Enter image name
 
 SIGHT_EDITOR						Image editor
 SIGHT_EDITOR_NEW		Clear crosshair image
@@ -98,7 +101,7 @@ SIGHT_EDITOR_GEN_STYLE_DOT		Dot
 SIGHT_EDITOR_GEN_STYLE_CIRCLE		Circle
 SIGHT_EDITOR_GEN_STYLE_SQUARE		Square
 SIGHT_EDITOR_OVERWRITE			The image is changed.\nDo you want to save the changes?
-SIGHT_EDITOR_RENAME_BUSY		This name is already busy
+SIGHT_EDITOR_RENAME_BUSY		This name is already taken
 
 
 
