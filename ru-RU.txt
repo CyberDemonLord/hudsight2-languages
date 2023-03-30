@@ -62,12 +62,15 @@ SIGHT_TABS_BLACKLIST_EX				Черный список
 SIGHT_TABS_COMMON_EX				Общие настройки
 SIGHT_TABS_XBOX_EX					Настройки Xbox Game Bar
 
+LIBRARY_NEW_IMAGE					Создать новое изображение
 LIBRARY_ADD_IMAGE					Добавить
 LIBRARY_DELETE_IMAGE				Удалить
 LIBRARY_RESTORE_DEFAULTS			Восстановить набор
 LIBRARY_EDIT_IMAGE					Редактировать
 LIBRARY_MAKE_FAVORITE				Установить/снять отметку избранного
 LIBRARY_SHOW_ONLY_FAVORITES			Показывать только избранные
+LIBRARY_EDITOR_RENAME				Переименовать изображение
+LIBRARY_EDITOR_ENTER_NAME				Введите название изображения
 
 SIGHT_EDITOR						Редактор изображения прицела
 SIGHT_EDITOR_NEW					Очистить изображение прицела
