@@ -63,19 +63,22 @@ SIGHT_TABS_COMMON_EX				Common settings
 SIGHT_TABS_XBOX_EX					Xbox Game Bar interaction
 
 LIBRARY_NEW_IMAGE					Create a new image
-LIBRARY_ADD_IMAGE					Add image
-LIBRARY_DELETE_IMAGE				Delete selected
-LIBRARY_RESTORE_DEFAULTS			Restore defaults
+LIBRARY_ADD_IMAGE					Add an image from disk
+LIBRARY_DELETE_IMAGE				Delete selected image
+LIBRARY_RESTORE_DEFAULTS			Restore default images set
 LIBRARY_EDIT_IMAGE					Edit image
 LIBRARY_MAKE_FAVORITE				Mark/unmark favorite
 LIBRARY_SHOW_ONLY_FAVORITES			Show only favorites
-LIBRARY_EDITOR_RENAME				Rename image
+LIBRARY_EDITOR_RENAME				Rename selected image
 LIBRARY_EDITOR_ENTER_NAME				Enter image name
+LIBRARY_STEAMWORKSHOP_UPLOAD			Upload image to Steam workshop
+LIBRARY_STEAMWORKSHOP_REMOVE			Remove image from Steam workshop
+LIBRARY_STEAM_AGREEMENT				You need to agree to the Steam Subscriber Agreement for correct processing of your uploads.
 
 SIGHT_EDITOR						Image editor
 SIGHT_EDITOR_NEW		Clear crosshair image
 SIGHT_EDITOR_GEN		Generate new image
-SIGHT_EDITOR_RENAME		Rename image
+//SIGHT_EDITOR_RENAME		Rename image
 SIGHT_EDITOR_ENTER_NAME				Enter image name
 SIGHT_EDITOR_UNDO					Undo
 SIGHT_EDITOR_REDO					Redo
