@@ -73,6 +73,7 @@ LIBRARY_EDITOR_RENAME				Переименовать изображение
 LIBRARY_EDITOR_ENTER_NAME				Введите название изображения
 LIBRARY_STEAMWORKSHOP_UPLOAD			Выгрузить изображение в мастерскую Steam
 LIBRARY_STEAMWORKSHOP_REMOVE			Удалить изображение из мастерской Steam
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Ошибка удаления изображения из мастерской Steam.\nВероятно, у вас нет на это прав.\n\nВы можете отписаться от этого предмета в мастерской (в вашем аккаунте Steam) и удалить прицел здесь.
 LIBRARY_STEAM_AGREEMENT				Вам необходимо одобрить с Соглашением подписчика Steam для корректной работы с вашими изображениями
 
 
