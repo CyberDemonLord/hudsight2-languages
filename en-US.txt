@@ -21,6 +21,7 @@ ABOUT_TRIAL                         Software is in trial mode.
 CURRENT_VERSION                     Build %d (%s)
 STEAM_VERSION_ON                    Steam version
 STEAM_NO_STATUS_CHANGE              Status not changed
+FIRST_START_ADMIN			This is the first start of the application. You may need to start once with elevated privileges to support Vulkan games.\n\nWould you like to restart "as admin" now?
 
 TRIAL_WANT_CODE						Would you like to get your activation code?
 TRIAL_GET_LICENSE					Order a license
