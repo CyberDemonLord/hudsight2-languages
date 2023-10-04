@@ -149,6 +149,7 @@ SETTINGS_SYSTEM_MESSAGES			Системные сообщения
 SETTINGS_LIGHT_THEME				Светлая цветовая тема
 SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
 SETTINGS_USE_FAVORITES				Включить избранные прицелы
+SETTINGS_BACK_VERSION1				Переключиться обратно на Версию 1
 
 //////////    Xbox Game Bar settings    //////////
 

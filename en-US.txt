@@ -149,6 +149,7 @@ SETTINGS_SYSTEM_MESSAGES			System messages
 SETTINGS_LIGHT_THEME				Use light interface theme
 SETTINGS_NO_SHOW_STEAM				Do not alter the Steam status
 SETTINGS_USE_FAVORITES				Enable favorite crosshairs
+SETTINGS_BACK_VERSION1				Switch back to Version 1
 
 //////////    Xbox Game Bar settings    //////////
 
