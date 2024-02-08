@@ -21,7 +21,14 @@ ABOUT_TRIAL                         Software is in trial mode.
 CURRENT_VERSION                     Build %d (%s)
 STEAM_VERSION_ON                    Steam version
 STEAM_NO_STATUS_CHANGE              Status not changed
-FIRST_START_ADMIN			This is the first start of the application. You may need to start once with elevated privileges to support Vulkan games.\n\nWould you like to restart "as admin" now?
+ADMINISTRATOR				Administrator
+FIRST_START_ADMIN1			This is the first start of the application.\nYou may need to run with elevated privileges to get additional features.
+FIRST_START_ADMIN2			To enable Vulkan support you need to start with elevated privileges only once.\nReal Overlay mode (<a href="REAL_OVERLAY">overlays without hooks</a>) requires to run "as admin" permanently.\n\nYou can change this option later in the application settings (Common tab).
+FIRST_START_ADMIN_YES1			Run "as admin"
+FIRST_START_ADMIN_NO1			Do not elevate privileges
+FIRST_START_ADMIN_YES2			Continue running "as admin"
+FIRST_START_ADMIN_NO2			Disable elevating on next startup
+ 			
 
 TRIAL_WANT_CODE						Would you like to get your activation code?
 TRIAL_GET_LICENSE					Order a license
@@ -61,7 +68,7 @@ SIGHT_TABS_CROSSHAIR_EX				Available crosshairs
 SIGHT_TABS_LIBRARY_EX				Crosshairs library
 SIGHT_TABS_BLACKLIST_EX				Blacklist settings
 SIGHT_TABS_COMMON_EX				Common settings
-SIGHT_TABS_XBOX_EX					Xbox Game Bar interaction
+SIGHT_TABS_OVERLAY_MODE_EX			Crosshair draw mode
 
 LIBRARY_NEW_IMAGE					Create a new image
 LIBRARY_ADD_IMAGE					Add an image from disk
@@ -152,10 +159,13 @@ SETTINGS_NO_SHOW_STEAM				Do not alter the Steam status
 SETTINGS_USE_FAVORITES				Enable favorite crosshairs
 SETTINGS_BACK_VERSION1				Switch back to Version 1
 
-//////////    Xbox Game Bar settings    //////////
+//////////    Overlay mode settings    //////////
+OVERLAY_MODE_HOOKS				Default (hooks)
+OVERLAY_MODE_XBOX				Xbox Game Bar (using game bar widget)
+OVERLAY_MODE_MIRROR				Real Overlay (admin is required)
+OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Start as admin to enable Real Overlay mode
 
-XBOX_ENABLE							Use Xbox Game Bar overlay
-XBOX_HELP_READ_MORE					Read this before using
+OVERLAY_MODE_READ_MORE				Read this before using
 
 //////////    Blacklist settings    //////////
 

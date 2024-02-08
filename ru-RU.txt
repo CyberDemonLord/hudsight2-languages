@@ -21,7 +21,13 @@ ABOUT_TRIAL							Программа в демо режиме.
 CURRENT_VERSION						Сборка %d (%s)
 STEAM_VERSION_ON					Steam версия
 STEAM_NO_STATUS_CHANGE				Неизменный статус
-FIRST_START_ADMIN			Это первый старт программы. Вам может потребоваться один раз запустить программу с повышенными правами для поддержки игр на Vulkan.\n\nЗапуститься "как администратор" прямо сейчас?
+ADMINISTRATOR				Администратор
+FIRST_START_ADMIN1			Это первый старт программы.\nВам может потребоваться запуск программы с повышенными правами для получения дополнительных возможностей.
+FIRST_START_ADMIN2			Для включения поддержки Vulkan нужно запуститься с повышенными правами только один раз.\nРежим Real Overlay (<a href="REAL_OVERLAY">оверлеи без хуков</a>) требует постоянного запуска "от имени администратора".\n\nВы можете изменить это позже в настройках программы (закладка Общие).
+FIRST_START_ADMIN_YES1			Запуститься "как администратор" 
+FIRST_START_ADMIN_NO1			Не повышать права 			
+FIRST_START_ADMIN_YES2			Продолжать "как администратор" 
+FIRST_START_ADMIN_NO2			Выключить повышение на следующем запуске 			
 
 TRIAL_WANT_CODE						Хотите получить свой код активации?
 TRIAL_GET_LICENSE					Приобрести лицензию
@@ -61,7 +67,7 @@ SIGHT_TABS_CROSSHAIR_EX				Доступные прицелы
 SIGHT_TABS_LIBRARY_EX				Библиотека прицелов
 SIGHT_TABS_BLACKLIST_EX				Черный список
 SIGHT_TABS_COMMON_EX				Общие настройки
-SIGHT_TABS_XBOX_EX					Настройки Xbox Game Bar
+SIGHT_TABS_OVERLAY_MODE_EX			Способ отрисовки прицела
 
 LIBRARY_NEW_IMAGE					Создать новое изображение
 LIBRARY_ADD_IMAGE					Добавить изображение с диска
@@ -152,10 +158,13 @@ SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
 SETTINGS_USE_FAVORITES				Включить избранные прицелы
 SETTINGS_BACK_VERSION1				Переключиться обратно на Версию 1
 
-//////////    Xbox Game Bar settings    //////////
+//////////    Overlay mode settings    //////////
+OVERLAY_MODE_HOOKS				Стандартный (hooks)
+OVERLAY_MODE_XBOX				Xbox Game Bar (через виджет game bar)
+OVERLAY_MODE_MIRROR				Real Overlay (требуются права администратора)
+OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Запустите от имени администратора для включения режима Real Overlay
 
-XBOX_ENABLE							Использовать оверлей Xbox Game Bar
-XBOX_HELP_READ_MORE					Прочитайте это перед использованием
+OVERLAY_MODE_READ_MORE					Прочитайте это перед использованием
 
 //////////    Blacklist settings    //////////
 
