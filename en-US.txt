@@ -13,6 +13,7 @@
 
 BTN_CANCEL                          Cancel
 BTN_CLOSE                           Close
+TRAYMENU_CLOSE			Exit HudSight
 
 //ABOUT_DIALOG                      About the program
 ABOUT_COPYRIGHT                     Eduard Kozadaev
@@ -82,7 +83,7 @@ LIBRARY_EDITOR_ENTER_NAME				Enter image name
 LIBRARY_STEAMWORKSHOP_UPLOAD			Upload image to Steam workshop
 LIBRARY_STEAMWORKSHOP_REMOVE			Remove image from Steam workshop
 LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Error removing the image from Steam workshop.\nProbably you have not rights for this.\n\nYou may unsubscribe from this item in the workshop (in your Steam account) and delete this crosshair here.
-LIBRARY_STEAM_AGREEMENT				You need to agree to the Steam Subscriber Agreement for correct processing of your uploads.
+LIBRARY_STEAM_AGREEMENT				First you need to agree to the Steam Subscriber Agreement for correct processing of your uploads.
 
 SIGHT_EDITOR						Image editor
 SIGHT_EDITOR_NEW		Clear crosshair image
