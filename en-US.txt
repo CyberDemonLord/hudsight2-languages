@@ -13,7 +13,7 @@
 
 BTN_CANCEL                          Cancel
 BTN_CLOSE                           Close
-TRAYMENU_CLOSE			Exit HudSight
+TRAYMENU_CLOSE			Exit HudSight 2
 
 //ABOUT_DIALOG                      About the program
 ABOUT_COPYRIGHT                     Eduard Kozadaev
@@ -27,8 +27,8 @@ FIRST_START_ADMIN1			This is the first start of the application.\nYou may need t
 FIRST_START_ADMIN2			To enable Vulkan support you need to start with elevated privileges only once.\nReal Overlay mode (<a href="REAL_OVERLAY">overlays without hooks</a>) requires to run "as admin" permanently.\n\nYou can change this option later in the application settings (Common tab).
 FIRST_START_ADMIN_YES1			Run "as admin"
 FIRST_START_ADMIN_NO1			Do not elevate privileges
-FIRST_START_ADMIN_YES2			Continue running "as admin"
-FIRST_START_ADMIN_NO2			Disable elevating on next startup
+FIRST_START_ADMIN_YES2			Continue to run "as admin"
+FIRST_START_ADMIN_NO2			Turn off elevated privileges on next startup
  			
 
 TRIAL_WANT_CODE						Would you like to get your activation code?
@@ -37,17 +37,16 @@ TRIAL_ACTIVATE						Activate software
 TRIAL_ACTIVATION_CODE				Activation code
 TRIAL_ACTIVATION_ERROR				Error activating software:\n\n%s
 TRIAL_ACTIVATION_PROGRESS			Activating...
-TRIAL_REMINDER						You use the HudSight 2 demo version.\n\nBuy a license to remove all demo restrictions and help us make this tool better!
+TRIAL_REMINDER						You're using the HudSight 2 demo version.\n\nBuy a license to remove all demo restrictions and help us improve this tool!
 TRIAL_REMINDER2						The demo version restrictions: crosshairs settings cannot be saved or loaded, there is a watermark over a game screen.
-TRIAL_REMINDER3						When you buy a license, you help us make the program better.\nBe part of our community!
+TRIAL_REMINDER3						When you buy a license, you help us make the program better.\nBecome a part of our community!
 TRIAL_REMINDER_SOFTWARE				Settings are not saved in the trial mode
 TRIAL_REMINDER_STOP					HudSight 2 demo version doesn't save changes of the crosshairs settings.\n\nThis demo restriction will be removed in the full licensed version.
 TRIAL_RECOVER_WANT					Recover your activation code
-TRIAL_RECOVER_EMAIL					Enter your e-mail
+TRIAL_RECOVER_EMAIL					Enter your email
 TRIAL_RECOVER						Send the code
-TRIAL_RECOVER_CHECK_EMAIL			Please check your e-mail
+TRIAL_RECOVER_CHECK_EMAIL			Please check your email
 TRIAL_GET_LICENSE					Get a license
-TRIAL_ACTIVATE						Activate software
 TRIAL_TRY_IT						Try it
 TRIAL_FREE_GAME						Activation was done using a special key.\nSoftware works as full version for the game: %s
 TRIAL_STEAM_NOT_SHOW				HudSight needs to be activated using Steam client.\nYour Steam status will be changed to "running HudSight".\n\nShould we continue?
@@ -128,7 +127,7 @@ SIGHT_COLOR_MASK					Color mask
 SIGHT_COLOR_MASK_WARNING			The crosshair is almost invisible, check the transparency channel (Alpha) of the color mask
 SIGHT_SCALE							Image scale, percents
 SIGHT_RESET_BUTTON					Reset
-SIGHT_OFFSET						Offset from a screen center, X/Y
+SIGHT_OFFSET						Offset from screen center, X/Y
 SIGHT_VIS_HOTKEY					Visibility hotkey
 SIGHT_VIS_MODE						Visibility mode
 SIGHT_VIS_MODE_DEFAULT				Press to toggle visibility
@@ -152,10 +151,10 @@ SETTINGS_START_AS_ADMIN_HINT		High privileges are required to access some featur
 SETTINGS_START_WITH_WINDOWS			Autostart with Windows
 SETTINGS_ADMIN_REQUIRED				Start as admin to enable this option
 SETTINGS_START_MINIMIZED			Start minimized
-SETTINGS_DONOT_USE_TRAY				Remove icon from system tray
-SETTINGS_MINIMIZE_TRAY				Minimize to system tray
+SETTINGS_DONOT_USE_TRAY				Remove the icon from the system tray
+SETTINGS_MINIMIZE_TRAY				Minimize to the system tray
 SETTINGS_CLOSE_MINIMIZE				Close button as minimize
-SETTINGS_CHECK_UPDATE				Check for update on start
+SETTINGS_CHECK_UPDATE				Check for updates on start
 SETTINGS_SHOW_HINTS					Show tooltips
 SETTINGS_SYSTEM_MESSAGES			System messages
 SETTINGS_LIGHT_THEME				Use light interface theme

@@ -13,7 +13,7 @@
 
 BTN_CANCEL							Отмена
 BTN_CLOSE							Закрыть
-TRAYMENU_CLOSE						Закрыть HudSight
+TRAYMENU_CLOSE						Закрыть HudSight 2
 
 //ABOUT_DIALOG						О программе
 ABOUT_COPYRIGHT						Эдуард Козадаев
