@@ -13,9 +13,8 @@
 
 BTN_CANCEL							Отмена
 BTN_CLOSE							Закрыть
-TRAYMENU_CLOSE						Закрыть HudSight 2
+TRAYMENU_CLOSE			Закрыть HudSight 2
 
-//ABOUT_DIALOG						О программе
 ABOUT_COPYRIGHT						Эдуард Козадаев
 ABOUT_ACTIVATED						Программа активирована.
 ABOUT_TRIAL							Программа в демо режиме.
@@ -46,7 +45,6 @@ TRIAL_RECOVER_EMAIL					Введите ваш e-mail
 TRIAL_RECOVER						Отправить код
 TRIAL_RECOVER_CHECK_EMAIL			Пожалуйста проверьте ваш e-mail
 TRIAL_GET_LICENSE					Приобрести лицензию
-TRIAL_ACTIVATE						Активировать программу
 TRIAL_TRY_IT						Попробовать демо-версию
 TRIAL_FREE_GAME						Вы активировали программу специальным ключом.\nПрограмма работает как полная версия для игры: %s
 TRIAL_STEAM_NOT_SHOW				HudSight должен быть активирован с помощью клиента Steam.\nВаш статус в Steam будет изменен на "запущен HudSight".\n\nНужно ли продолжать?
@@ -84,12 +82,10 @@ LIBRARY_STEAMWORKSHOP_REMOVE			Удалить изображение из мас
 LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Ошибка удаления изображения из мастерской Steam.\nВероятно, у вас нет на это прав.\n\nВы можете отписаться от этого предмета в мастерской (в вашем аккаунте Steam) и удалить прицел здесь.
 LIBRARY_STEAM_AGREEMENT				Сначала вам необходимо одобрить Соглашение подписчика Steam для корректной работы с вашими изображениями
 
-
 SIGHT_EDITOR						Редактор изображения прицела
 SIGHT_EDITOR_NEW					Очистить изображение прицела
 SIGHT_EDITOR_GEN					Генератор изображения прицела
 SIGHT_EDITOR_SETTINGS					Настройки редактора
-//SIGHT_EDITOR_RENAME					Переименовать изображение
 SIGHT_EDITOR_ENTER_NAME				Введите название изображения
 SIGHT_EDITOR_UNDO					Отмена
 SIGHT_EDITOR_REDO					Повтор
@@ -143,9 +139,9 @@ SIGHT_SWITCH_MODE					Режим переключения
 SIGHT_SWITCH_MODE_PRESS				По нажатию
 SIGHT_SWITCH_MODE_RELEASE			При отпускании
 
-
 SETTINGS_LANGUAGE_EX				Язык интерфейса и размер шрифта
 SETTINGS_LANGUAGE_EX_HINT			Перезапустите программу для применения этих настроек.
+SETTINGS_LANGUAGE_STEAM				Язык приложения в Steam
 SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как Админ)
 SETTINGS_START_AS_ADMIN_HINT		Повышенные права необходимы для доступа к некоторым функциям.\nПерезапустите программу для применения этой настройки.
 SETTINGS_START_WITH_WINDOWS			Автозапуск вместе с Windows

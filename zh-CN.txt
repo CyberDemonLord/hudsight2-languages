@@ -1,173 +1,178 @@
 //
-//   Chinese Simplified language file
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
 //
-//////////    Information    //////////
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here http://www.science.co.il/Language/Locale-codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
 
-BTN_CANCEL				取消
-BTN_CLOSE				关闭
-TRAYMENU_CLOSE				走 HudSight 2
+//////////    信息    //////////
+
+BTN_CANCEL                          取消
+BTN_CLOSE                           关闭
+TRAYMENU_CLOSE			关闭 HudSight 2
 
 ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED				软件已激活。
-ABOUT_TRIAL				软件处于试用模式。
-CURRENT_VERSION				版本 %d (%s)
-STEAM_VERSION_ON			Steam 版本
-STEAM_NO_STATUS_CHANGE			状态未改变
-ADMINISTRATOR				行政人员
-FIRST_START_ADMIN1			这是应用程序的首次启动。\n您可能需要以提升的权限运行才能获得附加功能。
-FIRST_START_ADMIN2			要启用 Vulkan 支持，您只需以提升的权限启动一次即可。\n真实覆盖模式（<a href="REAL_OVERLAY">无钩子的覆盖</a>）需要永久以“管理员身份”运行。\n\n您可以稍后在应用程序设置（常用选项卡）中更改此选项。
-FIRST_START_ADMIN_YES1			“以管理员身份”运行
-FIRST_START_ADMIN_NO1			不要提升权限
-FIRST_START_ADMIN_YES2			继续“以管理员身份”运行
-FIRST_START_ADMIN_NO2			下次启动时关闭提升的权限
- 			
+ABOUT_ACTIVATED                     软件已激活。
+ABOUT_TRIAL                         软件处于试用模式。
+CURRENT_VERSION                     构建版本 %d (%s)
+STEAM_VERSION_ON                    Steam 版本
+STEAM_NO_STATUS_CHANGE              状态未改变
+ADMINISTRATOR				管理员
+FIRST_START_ADMIN1			这是应用程序的首次启动。\n您可能需要以管理员权限运行以获取额外功能。
+FIRST_START_ADMIN2			要启用 Vulkan 支持，您只需以管理员权限启动一次。\n“真实覆盖模式”(<a href="REAL_OVERLAY">无钩子覆盖</a>)需要永久以管理员身份运行。\n\n您可以稍后在应用程序设置中更改此选项（通用选项卡）。
+FIRST_START_ADMIN_YES1			以管理员身份运行
+FIRST_START_ADMIN_NO1			不提升权限
+FIRST_START_ADMIN_YES2			继续以管理员身份运行
+FIRST_START_ADMIN_NO2			下次启动时取消提升权限
 
-TRIAL_WANT_CODE						您想获取您的激活码吗？
-TRIAL_GET_LICENSE					订购许可证
+TRIAL_WANT_CODE						您想获取激活码吗？
+TRIAL_GET_LICENSE					购买许可证
 TRIAL_ACTIVATE						激活软件
 TRIAL_ACTIVATION_CODE				激活码
-TRIAL_ACTIVATION_ERROR				激活软件错误：\n\n%s
-TRIAL_ACTIVATION_PROGRESS			激活...
-TRIAL_REMINDER						您使用的是 HudSight 2 演示版。\n\n购买许可证以删除所有演示限制并帮助我们改进此工具！
-TRIAL_REMINDER2						演示版本的限制：无法保存或加载十字准线设置，游戏屏幕上有水印。
-TRIAL_REMINDER3						当您购买许可证时，您可以帮助我们改进程序。\n成为我们社区的一部分！
-TRIAL_REMINDER_SOFTWARE				试用模式下不保存设置
-TRIAL_REMINDER_STOP					HudSight 2 演示版本不保存十字准线设置的更改。\n\n此演示限制将在完整许可版本中删除。
-TRIAL_RECOVER_WANT					恢复您的激活码
-TRIAL_RECOVER_EMAIL					输入您的电子邮件
-TRIAL_RECOVER						发送代码
-TRIAL_RECOVER_CHECK_EMAIL			请查看你的电子邮件
+TRIAL_ACTIVATION_ERROR				激活软件时出错：\n\n%s
+TRIAL_ACTIVATION_PROGRESS			正在激活...
+TRIAL_REMINDER						您正在使用 HudSight 2 的试用版本\n\n购买许可证以移除所有试用限制，并帮助我们改进此工具!
+TRIAL_REMINDER2						试用版本的限制: 无法保存或加载准星设置，游戏画面上会有水印。
+TRIAL_REMINDER3						购买许可证后，您将帮助我们改进程序。\n成为我们社区的一员吧！
+TRIAL_REMINDER_SOFTWARE				试用模式下，设置不会保存
+TRIAL_REMINDER_STOP					HudSight 2 试用版本不会保存准星设置的更改\n\n在完整版中此限制将被移除
+TRIAL_RECOVER_WANT					找回您的激活码
+TRIAL_RECOVER_EMAIL					请输入您的电子邮件
+TRIAL_RECOVER						发送激活码
+TRIAL_RECOVER_CHECK_EMAIL			请检查您的电子邮件
 TRIAL_GET_LICENSE					获取许可证
-TRIAL_TRY_IT						尝试一下
-TRIAL_FREE_GAME						激活是使用特殊密钥完成的。\n软件作为游戏的完整版本运行：%s
-TRIAL_STEAM_NOT_SHOW				HudSight 需要使用 Steam 客户端激活。\n您的 Steam 状态将更改为“正在运行 HudSight”。\n\n我们应该继续吗？
+TRIAL_TRY_IT						试用
+TRIAL_FREE_GAME						使用特殊密钥激活成功。\n软件在游戏：%s 中作为完整版运行
+TRIAL_STEAM_NOT_SHOW				HudSight 需要通过 Steam 客户端激活。\n您的 Steam 状态将更改为“正在运行 HudSight”。\n\n是否继续？
 
-STEAM_NOT_STARTED					致命错误。\n\n无法连接到软件启动器。请从 Steam 客户端启动该程序。
-STEAM_NO_AUTH						致命错误。\n\n无法在 Steam 中授权。要激活软件，您需要从 Steam 客户端启动它。
+STEAM_NOT_STARTED					严重错误。\n\n无法连接到软件启动器。请从 Steam 客户端启动程序。
+STEAM_NO_AUTH						严重错误。\n\n无法在 Steam 中授权。要激活软件，您需要从 Steam 客户端启动它。
 
-//////////    Hotkeys    //////////
+//////////    热键    //////////
 
-HOTKEY_HINT							按最多三个按钮或按 Esc 键取消
+HOTKEY_HINT							按下最多三个按钮或按下 Esc 取消
 HOTKEY_NOT_BOUND					未绑定
 
-SIGHT_TABS_CROSSHAIR				十字线
-SIGHT_TABS_LIBRARY					图书馆
-SIGHT_TABS_COMMON					通用设置
+SIGHT_TABS_CROSSHAIR				准星
+SIGHT_TABS_LIBRARY					库
+SIGHT_TABS_COMMON					常规
 SIGHT_TABS_INFO						信息
 
-SIGHT_TABS_CROSSHAIR_EX				可用十字线
-SIGHT_TABS_LIBRARY_EX				十字线库
+SIGHT_TABS_CROSSHAIR_EX				可用的准星
+SIGHT_TABS_LIBRARY_EX				准星库
 SIGHT_TABS_BLACKLIST_EX				黑名单设置
-SIGHT_TABS_COMMON_EX				通用设置
-SIGHT_TABS_OVERLAY_MODE_EX			十字线绘制模式
+SIGHT_TABS_COMMON_EX				常规设置
+SIGHT_TABS_OVERLAY_MODE_EX			准星绘制模式
 
-LIBRARY_NEW_IMAGE					创建新图像
-LIBRARY_ADD_IMAGE					从磁盘添加图像
+LIBRARY_NEW_IMAGE					创建新图片
+LIBRARY_ADD_IMAGE					从磁盘添加图片
 LIBRARY_DELETE_IMAGE				删除选定的图片
-LIBRARY_RESTORE_DEFAULTS			恢复默认图像集
-LIBRARY_EDIT_IMAGE					修改图片
-LIBRARY_MAKE_FAVORITE				标记/取消标记收藏
-LIBRARY_SHOW_ONLY_FAVORITES			仅显示收藏夹
-LIBRARY_EDITOR_RENAME				重命名选定的图像
-LIBRARY_EDITOR_ENTER_NAME				输入图像名
-LIBRARY_STEAMWORKSHOP_UPLOAD			将图片上传至 Steam 创意工坊
-LIBRARY_STEAMWORKSHOP_REMOVE			从 Steam 创意工坊移除图片
-LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		从 Steam 创意工坊移除图像时出错。\n可能您没有这样的权利。\n\n您可以在创意工坊中取消订阅此项目（在您的 Steam 帐户中）并在此处删除此十字准线。
-LIBRARY_STEAM_AGREEMENT				首先，您需要同意 Steam 订阅者协议才能正确处理您的上传内容。
+LIBRARY_RESTORE_DEFAULTS			恢复默认图片集
+LIBRARY_EDIT_IMAGE					编辑图片
+LIBRARY_MAKE_FAVORITE				标记/取消标记为收藏
+LIBRARY_SHOW_ONLY_FAVORITES			仅显示收藏
+LIBRARY_EDITOR_RENAME				重命名选定图片
+LIBRARY_EDITOR_ENTER_NAME				输入图片名称
+LIBRARY_STEAMWORKSHOP_UPLOAD			上传图片到 Steam 创意工坊
+LIBRARY_STEAMWORKSHOP_REMOVE			从 Steam 创意工坊删除图片
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		从 Steam 创意工坊删除图片时出错。\n可能您没有相关权限。\n\n您可以在 Steam 帐户中取消订阅此项目并在此处删除该准星。
+LIBRARY_STEAM_AGREEMENT				首先您需要同意 Steam 订阅者协议，以便正确处理您的上传内容。
 
-SIGHT_EDITOR						图像编辑器
-SIGHT_EDITOR_NEW		清晰的十字线图像
-SIGHT_EDITOR_GEN		十字线图像生成器
+SIGHT_EDITOR						图片编辑器
+SIGHT_EDITOR_NEW		清除准星图片
+SIGHT_EDITOR_GEN		准星图片生成器
 SIGHT_EDITOR_SETTINGS		编辑器设置
-//SIGHT_EDITOR_RENAME		重命名此图像
-SIGHT_EDITOR_ENTER_NAME				输入图像名
-SIGHT_EDITOR_UNDO					撤消
+SIGHT_EDITOR_ENTER_NAME				输入图片名称
+SIGHT_EDITOR_UNDO					撤销
 SIGHT_EDITOR_REDO					重做
 SIGHT_EDITOR_ZOOMIN		放大
 SIGHT_EDITOR_ZOOMOUT		缩小
-SIGHT_EDITOR_IMAGESIZE				图片大小
-SIGHT_EDITOR_PEN_VALUE				笔颜色
-SIGHT_EDITOR_PEN_RGBA				使用 RGBA 笔
-SIGHT_EDITOR_PIXELVALUE				光标下的值
-SIGHT_EDITOR_DROPPER			移液器
+SIGHT_EDITOR_IMAGESIZE				图片尺寸
+SIGHT_EDITOR_PEN_VALUE				笔刷颜色
+SIGHT_EDITOR_PEN_RGBA				使用 RGBA 笔刷
+SIGHT_EDITOR_PIXELVALUE				光标下的像素值
+SIGHT_EDITOR_DROPPER			吸管工具
 SIGHT_EDITOR_PIXEL_OFFSET		显示光标下像素的偏移量
 SIGHT_EDITOR_GEN_THICKNESS		厚度
-SIGHT_EDITOR_GEN_SIZE			尺寸
-SIGHT_EDITOR_GEN_OUTLINE		大纲
-SIGHT_EDITOR_GEN_GAP			差距
-SIGHT_EDITOR_GEN_STYLE1			主要风格
+SIGHT_EDITOR_GEN_SIZE			大小
+SIGHT_EDITOR_GEN_OUTLINE		轮廓
+SIGHT_EDITOR_GEN_GAP			间隙
+SIGHT_EDITOR_GEN_STYLE1			主要样式
 SIGHT_EDITOR_GEN_STYLE2			附加样式
-SIGHT_EDITOR_GEN_STYLE_EMPTY		空的
-SIGHT_EDITOR_GEN_STYLE_CROSS		十字架
-SIGHT_EDITOR_GEN_STYLE_TCROSS		T 形
-SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	对角十字
-SIGHT_EDITOR_GEN_STYLE_CHEVRON		雪佛龙
+SIGHT_EDITOR_GEN_STYLE_EMPTY		空
+SIGHT_EDITOR_GEN_STYLE_CROSS		十字
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T字形
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	斜十字
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		尖形
 SIGHT_EDITOR_GEN_STYLE_3RAY		3射线
-SIGHT_EDITOR_GEN_STYLE_PREDATOR		捕食者
-SIGHT_EDITOR_GEN_STYLE_2DOTS		2 个点
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		掠食者
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2点
 SIGHT_EDITOR_GEN_STYLE_DOT		点
-SIGHT_EDITOR_GEN_STYLE_CIRCLE		圆圈
-SIGHT_EDITOR_GEN_STYLE_SQUARE		正方形
-SIGHT_EDITOR_OVERWRITE			图像已更改。\n是否要保存更改？
-SIGHT_EDITOR_RENAME_BUSY		此名称已被使用
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		圆
+SIGHT_EDITOR_GEN_STYLE_SQUARE		方形
+SIGHT_EDITOR_OVERWRITE			图片已更改。\n是否保存更改？
+SIGHT_EDITOR_RENAME_BUSY		该名称已被占用
 
+SIGHT_ENABLE_CUSTOM_PROFILE			启用自定义配置文件
+SIGHT_COLOR_MASK					颜色遮罩
+SIGHT_COLOR_MASK_WARNING			准星几乎不可见，请检查颜色遮罩的透明通道 (Alpha)
+SIGHT_SCALE							图片缩放百分比
+SIGHT_RESET_BUTTON                  重置
+SIGHT_OFFSET                        距屏幕中心的偏移量，X/Y
+SIGHT_VIS_HOTKEY                    可见性热键
+SIGHT_VIS_MODE                      可见性模式
+SIGHT_VIS_MODE_DEFAULT              按下切换可见性
+SIGHT_VIS_MODE_HOLD                 按住显示
+SIGHT_VIS_MODE_HOLD_INV             反向按住模式
 
+SIGHT_LEAN                          启用准星倾斜
+SIGHT_LEAN_HOTKEYS                  左右倾斜热键
+SIGHT_LEAN_ANGLE                    角度，度数
 
-SIGHT_ENABLE_CUSTOM_PROFILE			此十字线的自定义配置文件
-SIGHT_COLOR_MASK					彩色蒙版
-SIGHT_COLOR_MASK_WARNING			十字准线几乎看不见，检查颜色蒙版的透明度通道（Alpha）
-SIGHT_SCALE							图像比例，百分比
-SIGHT_RESET_BUTTON					重置
-SIGHT_OFFSET						距屏幕中心的偏移，X/Y
-SIGHT_VIS_HOTKEY					可见性热键
-SIGHT_VIS_MODE						可见性模式
-SIGHT_VIS_MODE_DEFAULT				按下可切换可见性
-SIGHT_VIS_MODE_HOLD					保持可见性
-SIGHT_VIS_MODE_HOLD_INV				反向保持模式
+SIGHT_ENABLE_ADVANCED               启用高级设置
+SIGHT_SWITCH_HOTKEY                 切换准星热键
+SIGHT_SWITCH_MODE                   切换模式
+SIGHT_SWITCH_MODE_PRESS             按下切换
+SIGHT_SWITCH_MODE_RELEASE           松开切换
 
-SIGHT_LEAN							启用十字线精益
-SIGHT_LEAN_HOTKEYS					左倾和右倾热键
-SIGHT_LEAN_ANGLE					角度，度
+SETTINGS_LANGUAGE_EX                界面语言和字体大小
+SETTINGS_LANGUAGE_EX_HINT           您需要重新启动程序以应用这些选项。
+SETTINGS_LANGUAGE_STEAM				Steam 应用程序语言
+SETTINGS_START_AS_ADMIN             以管理员权限启动
+SETTINGS_START_AS_ADMIN_HINT        需要高权限才能访问某些功能。\n您需要重新启动程序以应用此选项。
+SETTINGS_START_WITH_WINDOWS         随 Windows 启动
+SETTINGS_ADMIN_REQUIRED             启用此选项需要以管理员身份启动
+SETTINGS_START_MINIMIZED            启动时最小化
+SETTINGS_DONOT_USE_TRAY             从系统托盘中移除图标
+SETTINGS_MINIMIZE_TRAY              最小化到系统托盘
+SETTINGS_CLOSE_MINIMIZE             关闭按钮作为最小化
+SETTINGS_CHECK_UPDATE               启动时检查更新
+SETTINGS_SHOW_HINTS                 显示工具提示
+SETTINGS_SYSTEM_MESSAGES            系统消息
+SETTINGS_LIGHT_THEME                使用浅色界面主题
+SETTINGS_NO_SHOW_STEAM              不改变 Steam 状态
+SETTINGS_USE_FAVORITES              启用收藏的准星
+SETTINGS_BACK_VERSION1              切换回版本1
 
-SIGHT_ENABLE_ADVANCED				启用高级设置
-SIGHT_SWITCH_HOTKEY					切换到十字线热键
-SIGHT_SWITCH_MODE					开关方式
-SIGHT_SWITCH_MODE_PRESS				按下时
-SIGHT_SWITCH_MODE_RELEASE			当按钮释放时
+//////////    覆盖模式设置    //////////
+OVERLAY_MODE_HOOKS				默认 (钩子)
+OVERLAY_MODE_XBOX				Xbox 游戏栏 (使用游戏栏小组件)
+OVERLAY_MODE_MIRROR				真实覆盖 (需要管理员权限)
+OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		以管理员身份启动以启用真实覆盖模式
 
-SETTINGS_LANGUAGE_EX				界面语言和字体大小
-SETTINGS_LANGUAGE_EX_HINT			您需要重新启动程序才能应用这些选项。
-SETTINGS_START_AS_ADMIN				以高权限启动（作为管理员）
-SETTINGS_START_AS_ADMIN_HINT			访问某些功能需要较高权限。\n您需要重新启动程序才能应用此选项。
-SETTINGS_START_WITH_WINDOWS			与 Windows 自动启动
-SETTINGS_ADMIN_REQUIRED				以管理员身份启动以启用此选项
-SETTINGS_START_MINIMIZED			最小化开始
-SETTINGS_DONOT_USE_TRAY				从系统托盘删除图标
-SETTINGS_MINIMIZE_TRAY				最小化至系统托盘
-SETTINGS_CLOSE_MINIMIZE				关闭按钮为最小化
-SETTINGS_CHECK_UPDATE				启动时检查更新
-SETTINGS_SHOW_HINTS					显示工具提示
-SETTINGS_SYSTEM_MESSAGES			系统消息
-SETTINGS_LIGHT_THEME				使用浅色界面主题
-SETTINGS_NO_SHOW_STEAM				请勿更改 Steam 状态
-SETTINGS_USE_FAVORITES				启用最喜欢的十字准线
-SETTINGS_BACK_VERSION1				切换回版本 1
+OVERLAY_MODE_READ_MORE				使用前请阅读此内容
 
-//////////    Overlay mode settings    //////////
-OVERLAY_MODE_HOOKS				默认（钩子）
-OVERLAY_MODE_XBOX				Xbox Game bar（使用游戏栏小部件）
-OVERLAY_MODE_MIRROR				Real Overlay (需管理员)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		以管理员身份启动以启用 Real Overlay 模式
+//////////    黑名单设置    //////////
 
-OVERLAY_MODE_READ_MORE				使用前请阅读
-
-//////////    Blacklist settings    //////////
-
-BLACKLIST_BLACK_MODE				黑名单模式
-BLACKLIST_WHITE_MODE				白名单模式
-BLACKLIST_BLOCKED					被阻止的进程
-BLACKLIST_ALLOWED					允许的进程
-BLACKLIST_BLOCK						块进程
-BLACKLIST_ALLOW						允许进程
-BLACKLIST_UNBLOCK					去掉进程
-BLACKLIST_SELECT					选择工艺
+BLACKLIST_BLACK_MODE                黑名单模式
+BLACKLIST_WHITE_MODE                白名单模式
+BLACKLIST_BLOCKED                   已阻止的进程
+BLACKLIST_ALLOWED                   已允许的进程
+BLACKLIST_BLOCK                     阻止进程
+BLACKLIST_ALLOW                     允许进程
+BLACKLIST_UNBLOCK                   移除进程
+BLACKLIST_SELECT                    选择进程
