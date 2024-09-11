@@ -23,7 +23,7 @@ STEAM_VERSION_ON                    Steam 版本
 STEAM_NO_STATUS_CHANGE              状态未改变
 ADMINISTRATOR				管理员
 FIRST_START_ADMIN1			这是应用程序的首次启动。\n您可能需要以管理员权限运行以获取额外功能。
-FIRST_START_ADMIN2			要启用 Vulkan 支持，您只需以管理员权限启动一次。\n“真实覆盖模式”(<a href="REAL_OVERLAY">无钩子覆盖</a>)需要永久以管理员身份运行。\n\n您可以稍后在应用程序设置中更改此选项（通用选项卡）。
+FIRST_START_ADMIN2			要启用 Vulkan 支持，您只需以管理员权限启动一次。\nReal Overlay 模式 (<a href="REAL_OVERLAY">无hooks覆盖</a>)需要永久以管理员身份运行。\n\n您可以稍后在应用程序设置中更改此选项（通用选项卡）。
 FIRST_START_ADMIN_YES1			以管理员身份运行
 FIRST_START_ADMIN_NO1			不提升权限
 FIRST_START_ADMIN_YES2			继续以管理员身份运行
@@ -159,10 +159,10 @@ SETTINGS_USE_FAVORITES              启用收藏的准星
 SETTINGS_BACK_VERSION1              切换回版本1
 
 //////////    覆盖模式设置    //////////
-OVERLAY_MODE_HOOKS				默认 (钩子)
-OVERLAY_MODE_XBOX				Xbox 游戏栏 (使用游戏栏小组件)
-OVERLAY_MODE_MIRROR				真实覆盖 (需要管理员权限)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		以管理员身份启动以启用真实覆盖模式
+OVERLAY_MODE_HOOKS				默认 (hooks)
+OVERLAY_MODE_XBOX				Xbox Game Bar (使用游戏栏小组件)
+OVERLAY_MODE_MIRROR				Real Overlay (需要管理员权限)
+OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		以管理员身份启动以启用Real Overlay模式
 
 OVERLAY_MODE_READ_MORE				使用前请阅读此内容
 

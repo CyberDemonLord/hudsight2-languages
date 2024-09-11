@@ -1,0 +1,178 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here http://www.science.co.il/Language/Locale-codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          İptal
+BTN_CLOSE                           Kapat
+TRAYMENU_CLOSE			HudSight 2'yi Kapat
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     Yazılım etkinleştirildi.
+ABOUT_TRIAL                         Yazılım deneme modundadır.
+CURRENT_VERSION                     Derleme %d (%s)
+STEAM_VERSION_ON                    Steam version
+STEAM_NO_STATUS_CHANGE              Durum değişmedi
+ADMINISTRATOR				Yönetici
+FIRST_START_ADMIN1			Bu, uygulamanın ilk başlangıcıdır.\nEk özellikler elde etmek için yükseltilmiş ayrıcalıklarla çalıştırmanız gerekebilir.
+FIRST_START_ADMIN2			Vulkan desteğini etkinleştirmek için yalnızca bir kez yükseltilmiş ayrıcalıklarla başlamanız gerekir.\nReal Overlay modu (<a href=“REAL_OVERLAY”>kancasız kaplamalar</a>) sürekli olarak “yönetici olarak” çalıştırmayı gerektirir.\n\nBu seçeneği daha sonra uygulama ayarlarından (Ortak sekmesi) değiştirebilirsiniz.
+FIRST_START_ADMIN_YES1			“Yönetici olarak” çalıştırın
+FIRST_START_ADMIN_NO1			Ayrıcalıkları yükseltmeyin
+FIRST_START_ADMIN_YES2			“Yönetici olarak” çalıştırmaya devam edin
+FIRST_START_ADMIN_NO2			Bir sonraki başlangıçta yükseltilmiş ayrıcalıkları kapatın
+
+TRIAL_WANT_CODE						Aktivasyon kodunuzu almak ister misiniz?
+TRIAL_GET_LICENSE					Bir lisans sipariş edin
+TRIAL_ACTIVATE						Yazılımı etkinleştirin
+TRIAL_ACTIVATION_CODE				Aktivasyon kodu
+TRIAL_ACTIVATION_ERROR				Yazılım etkinleştirilirken hata oluştu:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Etkinleştiriliyor...
+TRIAL_REMINDER						HudSight 2 demo sürümünü kullanıyorsunuz.\n\nTüm demo kısıtlamalarını kaldırmak ve bu aracı geliştirmemize yardımcı olmak için bir lisans satın alın!
+TRIAL_REMINDER2						Demo sürümü kısıtlamaları: artı işareti ayarları kaydedilemez veya yüklenemez, oyun ekranının üzerinde bir filigran vardır.
+TRIAL_REMINDER3						Bir lisans satın aldığınızda, programı daha iyi hale getirmemize yardımcı olursunuz.\nTopluluğumuzun bir parçası olun!
+TRIAL_REMINDER_SOFTWARE				Deneme modunda ayarlar kaydedilmez
+TRIAL_REMINDER_STOP					HudSight 2 demo sürümü, artı işareti ayarlarındaki değişiklikleri kaydetmez.\n\nBu demo kısıtlaması tam lisanslı sürümde kaldırılacaktır.
+TRIAL_RECOVER_WANT					Aktivasyon kodunuzu kurtarma
+TRIAL_RECOVER_EMAIL					E-posta adresinizi girin
+TRIAL_RECOVER						Kod gönder
+TRIAL_RECOVER_CHECK_EMAIL			Lütfen e-postanızı kontrol edin
+TRIAL_GET_LICENSE					Bir lisans alın
+TRIAL_TRY_IT						Dene bakalım
+TRIAL_FREE_GAME						Etkinleştirme özel bir anahtar kullanılarak yapıldı.\nYazılım oyun için tam sürüm olarak çalışıyor: %s
+TRIAL_STEAM_NOT_SHOW				HudSight'ın Steam istemcisi kullanılarak etkinleştirilmesi gerekiyor.\nSteam durumunuz “HudSight çalışıyor” olarak değiştirilecek.\n\nDevam edelim mi?
+
+STEAM_NOT_STARTED					Ölümcül hata.\n\nYazılım başlatıcısına bağlanılamıyor. Lütfen programı Steam istemcisinden başlatın.
+STEAM_NO_AUTH						Ölümcül hata.\n\nSteam'de yetkilendirme yapılamıyor. Yazılımı etkinleştirmek için Steam istemcisinden başlatmanız gerekir.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							İptal etmek için en fazla üç düğmeye veya Escape tuşuna basın
+HOTKEY_NOT_BOUND					Bağlı değil
+
+SIGHT_TABS_CROSSHAIR				Nişangah
+SIGHT_TABS_LIBRARY					Kütüphane
+SIGHT_TABS_COMMON					Genel
+SIGHT_TABS_INFO						Bilgilendirme
+
+SIGHT_TABS_CROSSHAIR_EX				Mevcut nişangahlar
+SIGHT_TABS_LIBRARY_EX				Nişangah kütüphanesi
+SIGHT_TABS_BLACKLIST_EX				Karaliste Ayarları
+SIGHT_TABS_COMMON_EX				Genel Ayarlar
+SIGHT_TABS_OVERLAY_MODE_EX			Nişangah çizim modu
+
+LIBRARY_NEW_IMAGE					Yeni bir resim oluşturun
+LIBRARY_ADD_IMAGE					Diskten görüntü ekleme
+LIBRARY_DELETE_IMAGE				Seçili görüntüyü sil
+LIBRARY_RESTORE_DEFAULTS			Varsayılan görüntü setini geri yükle
+LIBRARY_EDIT_IMAGE					Resmi düzenle
+LIBRARY_MAKE_FAVORITE				Favoriyi işaretle/işaretini kaldır
+LIBRARY_SHOW_ONLY_FAVORITES			Yalnızca favorileri göster
+LIBRARY_EDITOR_RENAME				Seçili görüntüyü yeniden adlandır
+LIBRARY_EDITOR_ENTER_NAME				Görüntü adını girin
+LIBRARY_STEAMWORKSHOP_UPLOAD			Steam atölyesine resim yükleyin
+LIBRARY_STEAMWORKSHOP_REMOVE			Steam atölyesinden resmi kaldır
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Steam atölyesinden resim kaldırılırken hata oluştu.\nMuhtemelen bunun için haklarınız yok.\n\nAtölyedeki (Steam hesabınızdaki) bu öğenin aboneliğini iptal edebilir ve bu artı işaretini buradan silebilirsiniz.
+LIBRARY_STEAM_AGREEMENT				Yüklemelerinizin doğru şekilde işlenmesi için öncelikle Steam Abone Sözleşmesini kabul etmeniz gerekmektedir.
+
+SIGHT_EDITOR						Resim Düzenleyici
+SIGHT_EDITOR_NEW		Net nişangah görüntüsü
+SIGHT_EDITOR_GEN		Nişangah görüntü oluşturucu
+SIGHT_EDITOR_SETTINGS		Düzenleyici ayarları
+SIGHT_EDITOR_ENTER_NAME				Görüntü adını girin
+SIGHT_EDITOR_UNDO					Geri al
+SIGHT_EDITOR_REDO					Yinele
+SIGHT_EDITOR_ZOOMIN		Yakınlaştır
+SIGHT_EDITOR_ZOOMOUT		Uzaklaştır
+SIGHT_EDITOR_IMAGESIZE				Resim boyutu
+SIGHT_EDITOR_PEN_VALUE				Kalem rengi
+SIGHT_EDITOR_PEN_RGBA				RGBA kalemini kullanma
+SIGHT_EDITOR_PIXELVALUE				İmlecin altındaki değer
+SIGHT_EDITOR_DROPPER			Damlalık
+SIGHT_EDITOR_PIXEL_OFFSET		İmlecin altındaki pikselin ofsetini göster
+SIGHT_EDITOR_GEN_THICKNESS		Kalınlık
+SIGHT_EDITOR_GEN_SIZE			Boyut
+SIGHT_EDITOR_GEN_OUTLINE		Anahatlar
+SIGHT_EDITOR_GEN_GAP			Boşluk
+SIGHT_EDITOR_GEN_STYLE1			Birincil stil
+SIGHT_EDITOR_GEN_STYLE2			Ek stil
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Boş
+SIGHT_EDITOR_GEN_STYLE_CROSS		Çapraz
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T şeklinde
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Diyagonal çapraz
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-Ray
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Yırtıcı
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 nokta
+SIGHT_EDITOR_GEN_STYLE_DOT		Nokta
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Çember
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Kare
+SIGHT_EDITOR_OVERWRITE			Görüntü değiştirildi.\nDeğişiklikleri kaydetmek istiyor musunuz?
+SIGHT_EDITOR_RENAME_BUSY		Bu isim çoktan alınmış
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Bu nişangah için özel profil
+SIGHT_COLOR_MASK					Renk maskesi
+SIGHT_COLOR_MASK_WARNING			Artı işareti neredeyse görünmez, renk maskesinin saydamlık kanalını (Alfa) kontrol edin
+SIGHT_SCALE							Görüntü ölçeği, yüzde
+SIGHT_RESET_BUTTON					Sıfırla
+SIGHT_OFFSET						Ekran merkezinden ofset, X/Y
+SIGHT_VIS_HOTKEY					Görünürlük kısayol tuşu
+SIGHT_VIS_MODE						Görünürlük modu
+SIGHT_VIS_MODE_DEFAULT				Görünürlüğü değiştirmek için basın
+SIGHT_VIS_MODE_HOLD					Görünürlük için tutun
+SIGHT_VIS_MODE_HOLD_INV				Görünürlük için tutun
+
+SIGHT_LEAN							Nişangah eğimini etkinleştir
+SIGHT_LEAN_HOTKEYS					Sola ve sağa eğilmek için kısayol tuşları
+SIGHT_LEAN_ANGLE					Açı, derece
+
+SIGHT_ENABLE_ADVANCED				Gelişmiş ayarları etkinleştirin
+SIGHT_SWITCH_HOTKEY					Nişangah kısayol tuşuna geç
+SIGHT_SWITCH_MODE					Anahtar modu
+SIGHT_SWITCH_MODE_PRESS				Basında
+SIGHT_SWITCH_MODE_RELEASE			Serbest bırakıldığında
+
+SETTINGS_LANGUAGE_EX				Arayüz dili ve yazı tipi boyutu
+SETTINGS_LANGUAGE_EX_HINT			Bu seçenekleri uygulamak için programı yeniden başlatmanız gerekir.
+SETTINGS_LANGUAGE_STEAM				Steam uygulama dili
+SETTINGS_START_AS_ADMIN				Yüksek ayrıcalıklarla başlayın (Yönetici olarak)
+SETTINGS_START_AS_ADMIN_HINT		Bazı özelliklere erişmek için yüksek ayrıcalıklar gerekir.\nBu seçeneği uygulamak için programı yeniden başlatmanız gerekir.
+SETTINGS_START_WITH_WINDOWS			Windows ile Otomatik Başlatma
+SETTINGS_ADMIN_REQUIRED				Bu seçeneği etkinleştirmek için yönetici olarak başlat
+SETTINGS_START_MINIMIZED			Simge durumuna küçültülmüş olarak başlat
+SETTINGS_DONOT_USE_TRAY				Simgeyi sistem tepsisinden kaldırma
+SETTINGS_MINIMIZE_TRAY				Sistem tepsisine küçültme
+SETTINGS_CLOSE_MINIMIZE				Simge durumuna küçült olarak kapat düğmesi
+SETTINGS_CHECK_UPDATE				Başlangıçta güncellemeleri kontrol edin
+SETTINGS_SHOW_HINTS					Araç ipuçlarını göster
+SETTINGS_SYSTEM_MESSAGES			Sistem mesajları
+SETTINGS_LIGHT_THEME				Hafif arayüz teması kullanın
+SETTINGS_NO_SHOW_STEAM				Steam durumunu değiştirmeyin
+SETTINGS_USE_FAVORITES				Favori artı işaretlerini etkinleştir
+SETTINGS_BACK_VERSION1				Sürüm 1'e geri dönün
+
+//////////    Overlay mode settings    //////////
+OVERLAY_MODE_HOOKS				Varsayılan (kancalar)
+OVERLAY_MODE_XBOX				Xbox Oyun Çubuğu (oyun çubuğu widget'ını kullanarak)
+OVERLAY_MODE_MIRROR				Gerçek Yer Paylaşımı (yönetici gereklidir)
+OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Real Overlay modunu etkinleştirmek için yönetici olarak başlatın
+
+OVERLAY_MODE_READ_MORE				Kullanmadan önce bunu okuyun
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Kara liste modu
+BLACKLIST_WHITE_MODE				Beyaz liste modu
+BLACKLIST_BLOCKED					Engellenen süreçler
+BLACKLIST_ALLOWED					İzin verilen süreçler
+BLACKLIST_BLOCK						Blok süreci
+BLACKLIST_ALLOW						Sürece izin ver
+BLACKLIST_UNBLOCK					İşlemi kaldırın
+BLACKLIST_SELECT					Süreci seçin

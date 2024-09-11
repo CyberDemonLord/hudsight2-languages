@@ -43,7 +43,7 @@ TRIAL_REMINDER_STOP					HudSight 2 demo version doesn't save changes of the cros
 TRIAL_RECOVER_WANT					Recover your activation code
 TRIAL_RECOVER_EMAIL					Enter your email
 TRIAL_RECOVER						Send the code
-TRIAL_RECOVER_CHECK_EMAIL			Please check your email
+TRIAL_RECOVER_CHECK_EMAIL			Please check your e-mail
 TRIAL_GET_LICENSE					Get a license
 TRIAL_TRY_IT						Try it
 TRIAL_FREE_GAME						Activation was done using a special key.\nSoftware works as full version for the game: %s
