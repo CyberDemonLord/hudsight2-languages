@@ -161,7 +161,7 @@ SETTINGS_BACK_VERSION1				Sürüm 1'e geri dönün
 //////////    Overlay mode settings    //////////
 OVERLAY_MODE_HOOKS				Varsayılan (kancalar)
 OVERLAY_MODE_XBOX				Xbox Oyun Çubuğu (oyun çubuğu widget'ını kullanarak)
-OVERLAY_MODE_MIRROR				Gerçek Yer Paylaşımı (yönetici gereklidir)
+OVERLAY_MODE_MIRROR				Real Overlay (yönetici gereklidir)
 OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Real Overlay modunu etkinleştirmek için yönetici olarak başlatın
 
 OVERLAY_MODE_READ_MORE				Kullanmadan önce bunu okuyun
