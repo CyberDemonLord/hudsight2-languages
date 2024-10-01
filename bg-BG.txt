@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          Отмяна
+BTN_CLOSE                           Затвори
+TRAYMENU_CLOSE			Затвори HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     Софтуерът е активиран.
+ABOUT_TRIAL                         Софтуерът е в пробен режим.
+CURRENT_VERSION                     Версия %d (%s)
+STEAM_VERSION_ON                    Версия на Steam
+STEAM_NO_STATUS_CHANGE              Статусът не е променен
+ADMINISTRATOR				Администратор
+FIRST_START_ADMIN1			Това е първоначалният старт на приложението.\nМоже да се наложи да стартирате с повишени привилегии, за да получите допълнителни функции.
+FIRST_START_ADMIN2			За да активирате поддръжката на Vulkan, трябва да стартирате с повишени привилегии само веднъж.\nReal Overlay режим (<a href="REAL_OVERLAY">наложения без hooks</a>) изисква постоянно стартиране "с администраторски права".\n\nМожете да промените тази опция по-късно в настройките на приложението (раздел Опции).
+FIRST_START_ADMIN_YES1			Стартирайте "с администраторски права"
+FIRST_START_ADMIN_NO1			Не повишавайте привилегии
+FIRST_START_ADMIN_YES2			Продължете да стартирате "с администраторски права"
+FIRST_START_ADMIN_NO2			Изключете повишените привилегии при следващото стартиране
+
+TRIAL_WANT_CODE						Бихте ли искали да получите кода за активиране?
+TRIAL_GET_LICENSE					Поръчайте лиценз
+TRIAL_ACTIVATE						Активирайте софтуера
+TRIAL_ACTIVATION_CODE				Код за активиране
+TRIAL_ACTIVATION_ERROR				Грешка при активиране на софтуера:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Активиране...
+TRIAL_REMINDER						Вие използвате демо версията на HudSight 2.\n\nЗакупете лицензия, за да премахнете всички ограничения на демонстрационната версия и да ни помогнете да подобрим този инструмент!
+TRIAL_REMINDER2						Ограничения на демонстрационната версия: настройките на прицелите не могат да бъдат запазвани или зареждани, има воден знак над екрана на играта.
+TRIAL_REMINDER3						Когато закупите лицензия, вие ни помагате да направим програмата по-добра.\nСтанете част от нашата общност!
+TRIAL_REMINDER_SOFTWARE				Настройките не се запазват в демо режима
+TRIAL_REMINDER_STOP					Демонстрационната версия на HudSight 2 не запазва промените в настройките на прицелите.\n\nТази демонстрационна ограничение ще бъде отстранено в пълната лицензирана версия.
+TRIAL_RECOVER_WANT					Възстановете кода за активация
+TRIAL_RECOVER_EMAIL					Въведете имейла си
+TRIAL_RECOVER						Изпратете кода
+TRIAL_RECOVER_CHECK_EMAIL			Моля, проверете имейла си
+TRIAL_GET_LICENSE					Вземете лиценз
+TRIAL_TRY_IT						Опитайте го
+TRIAL_FREE_GAME						Активацията беше направена с помощта на специален ключ.\nСофтуерът работи като пълна версия за играта: %s
+TRIAL_STEAM_NOT_SHOW				HudSight трябва да бъде активиран с помощта на клиента на Steam.\nВашият статус в Steam ще бъде променен на "работи HudSight".\n\nТрябва ли да продължим?
+
+STEAM_NOT_STARTED					Фатална грешка.\n\nНе може да се свърже със стартиращия софтуер. Моля, стартирайте програмата от клиента на Steam.
+STEAM_NO_AUTH						Фатална грешка.\n\nНе може да се авторизира в Steam. За да активирате софтуера, трябва да го стартирате от клиента на Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Натиснете до три бутона или Escape, за да отмените
+HOTKEY_NOT_BOUND					Не е зададено
+
+SIGHT_TABS_CROSSHAIR				Прицел
+SIGHT_TABS_LIBRARY					Библиотека
+SIGHT_TABS_OVERLAY_MODE					Режим на рисуване
+SIGHT_TABS_COMMON					Опции
+SIGHT_TABS_INFO						Информация
+
+SIGHT_TABS_CROSSHAIR_EX				Достъпни прицели
+SIGHT_TABS_LIBRARY_EX				Библиотека на прицелите
+SIGHT_TABS_BLACKLIST_EX				Настройки на черния списък
+SIGHT_TABS_COMMON_EX				Общи настройки
+SIGHT_TABS_OVERLAY_MODE_EX			Режим на рисуване на прицела
+
+LIBRARY_NEW_IMAGE					Създаване на ново изображение
+LIBRARY_ADD_IMAGE					Добавяне на изображение от диска
+LIBRARY_DELETE_IMAGE				Изтриване на избраното изображение
+LIBRARY_RESTORE_DEFAULTS			Възстановяване на настройките по подразбиране
+LIBRARY_EDIT_IMAGE					Редактиране на изображение
+LIBRARY_MAKE_FAVORITE				Маркиране/премахване на любимо
+LIBRARY_SHOW_ONLY_FAVORITES			Показване само на любимите
+LIBRARY_EDITOR_RENAME				Преименуване на избраното изображение
+LIBRARY_EDITOR_ENTER_NAME				Въведете името на изображението
+LIBRARY_STEAMWORKSHOP_UPLOAD			Качване на изображение в Steam работилницата
+LIBRARY_STEAMWORKSHOP_REMOVE			Премахване на изображение от Steam работилницата
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Грешка при премахване на изображението от Steam работилницата.\nВероятно нямате права за това.\n\nМожете да се отпишете от този елемент в работилницата (в профила си в Steam) и да изтриете този прицел тук.
+LIBRARY_STEAM_AGREEMENT				Първо трябва да се съгласите с Условията за абонати на Steam, за да бъде обработването на вашите качвания коректно.
+
+SIGHT_EDITOR						Редактор на изображения
+SIGHT_EDITOR_NEW		Изчисти изображението на прицела
+SIGHT_EDITOR_GEN		Генератор на изображения на прицела
+SIGHT_EDITOR_SETTINGS		Настройки на редактора
+SIGHT_EDITOR_ENTER_NAME				Въведете името на изображението
+SIGHT_EDITOR_UNDO					Отмяна
+SIGHT_EDITOR_REDO					Повторение
+SIGHT_EDITOR_ZOOMIN		Увеличаване
+SIGHT_EDITOR_ZOOMOUT		Намаляване
+SIGHT_EDITOR_IMAGESIZE				Размер на изображението
+SIGHT_EDITOR_PEN_VALUE				Цвят на химикалка
+SIGHT_EDITOR_PEN_RGBA				Използване на RGBA химикалка
+SIGHT_EDITOR_PIXELVALUE				Стойност под курсора
+SIGHT_EDITOR_DROPPER			Пипета
+SIGHT_EDITOR_PIXEL_OFFSET		Показване на отклонението на пиксела под курсора
+SIGHT_EDITOR_GEN_THICKNESS		Дебелина
+SIGHT_EDITOR_GEN_SIZE			Размер
+SIGHT_EDITOR_GEN_OUTLINE		Контур
+SIGHT_EDITOR_GEN_GAP			Отстояние
+SIGHT_EDITOR_GEN_STYLE1			Основен стил
+SIGHT_EDITOR_GEN_STYLE2			Допълнителен стил
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Празен
+SIGHT_EDITOR_GEN_STYLE_CROSS		Кръст
+SIGHT_EDITOR_GEN_STYLE_TCROSS		Т-образен
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Диагонален кръст
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Стрелка
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-лъча
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Хищник
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 точки
+SIGHT_EDITOR_GEN_STYLE_DOT		Точка
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Кръг
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Квадрат
+SIGHT_EDITOR_OVERWRITE			Изображението е променено.\nИскате ли да запазите промените?
+SIGHT_EDITOR_RENAME_BUSY		Това име вече е заето
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Персонализиран профил за този прицел
+SIGHT_COLOR_MASK					Цветова маска
+SIGHT_COLOR_MASK_WARNING			Прицелът е почти невидим, проверете канала на прозрачност (Алфа) на цветната маска
+SIGHT_SCALE							Масштаб на изображението, проценти
+SIGHT_RESET_BUTTON					Нулиране
+SIGHT_OFFSET						Отклонение от центъра на екрана, X/Y
+SIGHT_VIS_HOTKEY					Горещ клавиш за видимост
+SIGHT_VIS_MODE						Режим на видимост
+SIGHT_VIS_MODE_DEFAULT				Натиснете, за да смените видимостта
+SIGHT_VIS_MODE_HOLD					Дръжте за видимост
+SIGHT_VIS_MODE_HOLD_INV				Обърната режим на задържане
+
+SIGHT_LEAN							Активиране на наклона на прицела
+SIGHT_LEAN_HOTKEYS					Горещи клавиши за наклон наляво и надясно
+SIGHT_LEAN_ANGLE					Ъгъл, градуси
+
+SIGHT_ENABLE_ADVANCED				Активирайте разширените настройки на профила на прицела
+SIGHT_SWITCH_HOTKEY					Клавиш за превключване на прицела
+SIGHT_SWITCH_MODE					Режим на превключване
+SIGHT_SWITCH_MODE_PRESS				При натискане
+SIGHT_SWITCH_MODE_RELEASE			При освобождаване
+
+SETTINGS_LANGUAGE_EX				Език на интерфейса и размер на шрифта
+SETTINGS_LANGUAGE_EX_HINT			Трябва да рестартирате програмата, за да приложите тези опции.
+SETTINGS_LANGUAGE_STEAM				Език на приложението Steam
+SETTINGS_START_AS_ADMIN				Стартиране с високи права (като администратор)
+SETTINGS_START_AS_ADMIN_HINT		Необходими са високи права за достъп до някои функции.\nТрябва да рестартирате програмата, за да приложите тази опция.
+SETTINGS_START_WITH_WINDOWS			Автоматично стартиране с Windows
+SETTINGS_START_MINIMIZED			Стартиране минимизирано
+SETTINGS_DONOT_USE_TRAY				Премахване на иконата от системната зона
+SETTINGS_MINIMIZE_TRAY				Минимизиране в системната зона
+SETTINGS_CLOSE_MINIMIZE				Бутон за затваряне като минимизиране
+SETTINGS_CHECK_UPDATE				Проверка за актуализации при стартиране
+SETTINGS_SHOW_HINTS					Показване на подсказки
+SETTINGS_SYSTEM_MESSAGES			Системни съобщения
+SETTINGS_LIGHT_THEME				Използване на светла тема на интерфейса
+SETTINGS_NO_SHOW_STEAM				Да не се променя статусът на Steam
+SETTINGS_USE_FAVORITES				Активиране на любими прицели
+SETTINGS_BACK_VERSION1				Връщане обратно към версия 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Показване #%d)
+
+OVERLAY_MODE_DETAILS				Детайли
+OVERLAY_MODE_SELECT_DISPLAY			Избор на дисплей
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Изберете дисплея, който ще бъде използван за показване на прицела.
+OVERLAY_MODE_READ_MORE				Прочетете повече на уебсайта
+
+OVERLAY_MODE_SIMPLE_SHORT			Прицелният слой е нарисуван с помощта на прозорец с прозрачност, който е над всички останали прозорци.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay работи добре с игри в прозоречен или безпределен прозоречен режим. Също така е полезен за игри, които използват DirectX 9 или DirectX 12 с активирани оптимизации за цял екран (FSO).
+
+OVERLAY_MODE_REAL_SHORT				Това е подобрена версия на режима Simple Overlay, който може да показва overlay в режим на цял екран (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay работи с игри в прозоречен, безпределен прозоречен и режим на цял екран. Изисква администраторски права. Несъвместим е с игри на Vulkan и OpenGL в цял екран.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Стартирайте приложението като администратор, за да активирате режима Real Overlay.
+OVERLAY_MODE_REAL_STATE				Проверка на администраторските права...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Рестартирайте като администратор сега
+
+OVERLAY_MODE_XBOX_SHORT				Този режим на overlay е подобен на Real Overlay и може да работи в игри в режим на цял екран.
+OVERLAY_MODE_XBOX_LONG				Режимът Game Bar се захранва от Windows Game Bar. Не изисква администраторски права (както Real Overlay), но ще трябва да инсталирате нашето разширение Game Bar от Windows Store. Несъвместим е с игри на Vulkan и OpenGL в цял екран.
+OVERLAY_MODE_XBOX_INSTALL			Инсталирайте нашето разширение Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Отворете Game Bar (чрез клавишната комбинация Win+G) \n\t- Стартирайте нашето перо \n\t- Закрепете го \n\t- Активирайте пропускане на кликване с мишката за Game Bar.
+OVERLAY_MODE_XBOX_STATE				Проверка на свързването на уиджета...
+
+OVERLAY_MODE_HOOKS_SHORT			"Старият стил" на Hooks overlay използва заглавно интерцепция в игровия процес.
+OVERLAY_MODE_HOOKS_LONG				Този режим е съвместим с всякакви графични режима на игрите. Работи като Steam overlay и може да се използва с графики DirectX 9, 10, 11, 12, Vulkan и OpenGL. Въпреки това, някои античит програми не харесват такива надстройки (инжекции на DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			JПросто стартирайте играта, изчакайте няколко секунди и трябва да видите прицела си. Ако не виждате прицела и сте сигурни, че той трябва да бъде видим, моля, изпратете съобщение до поддръжката.\n\nПрицелът не е видим в този режим на работния плот, а само в игрите!
+
+OVERLAY_TEST_SUCCESS				(Успех)
+OVERLAY_TEST_FAILED				(Неуспех)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Режим на черен списък
+BLACKLIST_WHITE_MODE				Режим на бял списък
+BLACKLIST_BLOCKED					Блокирани процеси
+BLACKLIST_ALLOWED					Разрешени процеси
+BLACKLIST_BLOCK						Блокиране на процес
+BLACKLIST_ALLOW						Разрешаване на процес
+BLACKLIST_UNBLOCK					Премахване на процес
+BLACKLIST_SELECT					Избор на процес

@@ -1,12 +1,12 @@
 //
-//	This is original English language file
-//	If you want to make a translation, then create file with locale name with UTF-8 encoding
-//	and translate english lines (right parts, not their identifiers :) )
-//	special symbols like \n, \r, %d, %s, etc are not translatable
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
 //
-//	locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
-//	or here http://www.science.co.il/Language/Locale-codes.php
-//	for example, English language and United States country gives "en-US" locale name
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
 //
 
 //////////    Information    //////////
@@ -23,7 +23,7 @@ STEAM_VERSION_ON					Steam версия
 STEAM_NO_STATUS_CHANGE				Неизменный статус
 ADMINISTRATOR				Администратор
 FIRST_START_ADMIN1			Это первый старт программы.\nВам может потребоваться запуск программы с повышенными правами для получения дополнительных возможностей.
-FIRST_START_ADMIN2			Для включения поддержки Vulkan нужно запуститься с повышенными правами только один раз.\nРежим Real Overlay (<a href="REAL_OVERLAY">оверлеи без hooks</a>) требует постоянного запуска "от имени администратора".\n\nВы можете изменить это позже в настройках программы (закладка Общие).
+FIRST_START_ADMIN2			Для включения поддержки Vulkan нужно запуститься с повышенными правами только один раз.\nРежим Real Overlay (<a href="REAL_OVERLAY">оверлеи без hooks</a>) требует постоянного запуска "от имени администратора".\n\nВы можете изменить это позже в настройках программы (закладка Настройки).
 FIRST_START_ADMIN_YES1			Запуститься "как администратор" 
 FIRST_START_ADMIN_NO1			Не повышать права 			
 FIRST_START_ADMIN_YES2			Продолжать "как администратор" 
@@ -134,7 +134,7 @@ SIGHT_LEAN							Включить наклон прицела
 SIGHT_LEAN_HOTKEYS					Горячие клавиши для наклона влево и вправо
 SIGHT_LEAN_ANGLE					Угол наклона, градусы
 
-SIGHT_ENABLE_ADVANCED				Включить расширенные настройки
+SIGHT_ENABLE_ADVANCED				Включить расширенные настройки профиля прицела
 SIGHT_SWITCH_HOTKEY					Клавиша смены прицела
 SIGHT_SWITCH_MODE					Режим переключения
 SIGHT_SWITCH_MODE_PRESS				По нажатию
@@ -146,7 +146,6 @@ SETTINGS_LANGUAGE_STEAM				Язык приложения в Steam
 SETTINGS_START_AS_ADMIN				Запуск с повышенными правами (как Админ)
 SETTINGS_START_AS_ADMIN_HINT		Повышенные права необходимы для доступа к некоторым функциям.\nПерезапустите программу для применения этой настройки.
 SETTINGS_START_WITH_WINDOWS			Автозапуск вместе с Windows
-SETTINGS_ADMIN_REQUIRED				Запустите от имени администратора для включения этой настройки
 SETTINGS_START_MINIMIZED			Запускаться свернутым
 SETTINGS_DONOT_USE_TRAY				Убрать иконку из трея
 SETTINGS_MINIMIZE_TRAY				Сворачивать в трей
@@ -160,41 +159,39 @@ SETTINGS_USE_FAVORITES				Включить избранные прицелы
 SETTINGS_BACK_VERSION1				Переключиться обратно на Версию 1
 
 //////////    Overlay mode settings    //////////
-OVERLAY_MODE_SIMPLE				Простой Оверлей
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
 OVERLAY_MODE_HOOKS				Hooks
 OVERLAY_MODE_XBOX				Game Bar
-OVERLAY_MODE_MIRROR				Реальный Оверлей
+OVERLAY_MODE_MIRROR				Real Overlay
 OVERLAY_DISPLAY					(Экран #%d)
 
 OVERLAY_MODE_DETAILS				Детально
 OVERLAY_MODE_SELECT_DISPLAY			Выбор экрана
-OVERLAY_MODE_SELECT_DISPLAY_TEXT		Выберите экран, на котором будет показываться ваш прицел.
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Выберите экран, на котором будет отображаться ваш прицел.
 OVERLAY_MODE_READ_MORE				Прочитать больше на сайте
 
 OVERLAY_MODE_SIMPLE_SHORT			Оверлей прицела рисуется на прозрачном окне, которое располагается поверх всех других окон.
-OVERLAY_MODE_SIMPLE_LONG			Этот режим хорошо работает с играми в окне или в окне на весь экран. Также он полезен для игр, использующих DirectX 9 или DirectX 12 с включенной Полноэкранной Оптимизацией.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay хорошо работает с играми в оконном или безрамочном оконном режимах. Также он полезен для игр, использующих DirectX 9 или DirectX 12 с включенной Полноэкранной Оптимизацией (FSO).
 
-OVERLAY_MODE_REAL_SHORT				Это улучшенная версия режима Простой Оверлей, которая может показывать оверлей в полноэкранном эксклюзивном режиме.
-OVERLAY_MODE_REAL_LONG				Реальный Оверлей работает с играми в окне, окне на весь экран или в эксклюзивном полноэкранном режиме. Требуются привилегии Администратора. Несовместим с полноэкранными играми на Vulkan и OpenGL.
-OVERLAY_MODE_REAL_ADMIN_REQUIRED		Запустите от имени администратора для включения режима Реальный Оверлей.
+OVERLAY_MODE_REAL_SHORT				Это улучшенная версия режима Simple Overlay, которая может отображать оверлей в Полноэкранном Эксклюзивном режиме (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay работает с играми в оконном, безрамочном оконном и полноэкранном эксклюзивном режиме. Требуются привилегии Администратора. Несовместим с полноэкранными играми на Vulkan и OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Запустите от имени администратора для включения режима Real Overlay.
 OVERLAY_MODE_REAL_STATE				Проверка привилегий администратора...
 OVERLAY_MODE_REAL_ADMIN_RESTART			Перезапустить как Администратор сейчас
 
-OVERLAY_MODE_XBOX_SHORT				Этот режим похож на Реальный Оверлей, в нем оверлей может показываться в играх с полноэкранными эксклюзивными графическими режимами.
-OVERLAY_MODE_XBOX_LONG				Режим Game Bar работает с помощью Windows Game Bar. Ему не требуются привилегии Администратора (как для Реального Оверлея), но вам необходимо установить и настроить наш виджет Game Bar из Магазина Windows. Несовместим с полноэкранными играми на Vulkan и OpenGL.
+OVERLAY_MODE_XBOX_SHORT				Этот режим оверлея похож на Real Overlay и может работать в полноэкранных эксклюзивных играх.
+OVERLAY_MODE_XBOX_LONG				Режим Game Bar работает с помощью Windows Game Bar. Ему не требуются привилегии Администратора (как для Real Overlay), но вам необходимо установить и настроить наш виджет Game Bar из Магазина Windows. Несовместим с полноэкранными играми на Vulkan и OpenGL.
 OVERLAY_MODE_XBOX_INSTALL			Установить наш виджет Game Bar
-OVERLAY_MODE_XBOX_LAUNCH			Откройте Game bar (с помощью горячей клавиши Win-G) \n\t- Запустите виджет \n\t- Прикрепите его \n\t- Включите сквозной клик для мыши в Game Bar.
-OVERLAY_MODE_XBOX_STATE				Проверка соединения с виджетом...
+OVERLAY_MODE_XBOX_LAUNCH			Откройте Game Bar (с помощью комбинации Win+G) \n\t- Запустите наш виджет \n\t- Прикрепите его \n\t- Включите сквозной клик для мыши в Game Bar.
+OVERLAY_MODE_XBOX_STATE				Проверка подключения виджета...
 
-OVERLAY_MODE_HOOKS_SHORT			Оверлей "старого стиля", использует перехват рендера в процессе игры. 
-OVERLAY_MODE_HOOKS_LONG				Этот режим совместим с любым игровым графическим режимом. Он работает точно так же, как, например, оверлей Steam и может быть использован с играми на DirectX 9, 10, 11, 12, Vulkan и OpenGL. Однако, не все анти-читы любят такие оверлеи.
-OVERLAY_MODE_HOOKS_LAUNCH			Просто запустите игру, подождите несколько секунд и вы увидите прицел. Если вы не видите прицел и уверены, что он должен быть, пожалуйста, напишите нам в поддержку.\n\nПрицел в этом режиме не показывается на десктопе, а только в играх!
+OVERLAY_MODE_HOOKS_SHORT			Оверлей "старого стиля" Hooks использует перехват рендеринга в игровом процессе.
+OVERLAY_MODE_HOOKS_LONG				Этот режим совместим с любым игровым графическим режимом. Он работает аналогично оверлею Steam и может быть использован с играми на DirectX 9, 10, 11, 12, Vulkan и OpenGL. Однако некоторые анти-читы не любят такие оверлеи (DLL инъекции).
+OVERLAY_MODE_HOOKS_LAUNCH			Просто запустите игру, подождите несколько секунд и вы увидите ваш прицел. Если вы не видите прицел и уверены, что он должен быть виден, пожалуйста, отправьте сообщение в поддержку.\n\nПрицел в этом режиме не отображается на рабочем столе, а только в играх!
 
 OVERLAY_TEST_SUCCESS				(Успешно)
 OVERLAY_TEST_FAILED				(Неудачно)
-
-
-OVERLAY_MODE_READ_MORE					Прочитайте это перед использованием
 
 //////////    Blacklist settings    //////////
 

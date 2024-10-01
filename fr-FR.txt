@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          Annuler
+BTN_CLOSE                           Fermer
+TRAYMENU_CLOSE			Fermer HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     Le logiciel est activé.
+ABOUT_TRIAL                         Le logiciel est en mode d'essai.
+CURRENT_VERSION                     Version %d (%s)
+STEAM_VERSION_ON                    Version Steam
+STEAM_NO_STATUS_CHANGE              Statut non changé
+ADMINISTRATOR				Administrateur
+FIRST_START_ADMIN1			C'est le premier démarrage de l'application.\nVous devrez peut-être exécuter avec des privilèges élevés pour obtenir des fonctionnalités supplémentaires.
+FIRST_START_ADMIN2			Pour activer la prise en charge de Vulkan, vous devez démarrer avec des privilèges élevés une seule fois.\nLe mode Real Overlay (<a href="REAL_OVERLAY">superpositions sans hooks</a>) nécessite de s'exécuter "en tant qu'administrateur" en permanence.\n\nVous pouvez modifier cette option plus tard dans les paramètres de l'application (onglet Options).
+FIRST_START_ADMIN_YES1			Exécuter "en tant qu'administrateur"
+FIRST_START_ADMIN_NO1			Ne pas élever les privilèges
+FIRST_START_ADMIN_YES2			Continuer à exécuter "en tant qu'administrateur"
+FIRST_START_ADMIN_NO2			Désactiver les privilèges élevés au prochain démarrage
+
+TRIAL_WANT_CODE						Souhaitez-vous obtenir votre code d'activation?
+TRIAL_GET_LICENSE					Commander une licence
+TRIAL_ACTIVATE						Activer le logiciel
+TRIAL_ACTIVATION_CODE				Code d'activation
+TRIAL_ACTIVATION_ERROR				Erreur d'activation du logiciel:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Activation en cours...
+TRIAL_REMINDER						Vous utilisez la version demo de HudSight 2.\n\nAchetez une licence pour supprimer toutes les restrictions de la démo et nous aider à améliorer cet outil!
+TRIAL_REMINDER2						Les restrictions de la version démo: les paramètres de réticule ne peuvent pas être enregistrés ou chargés, il y a un filigrane sur l'écran du jeu.
+TRIAL_REMINDER3						Lorsque vous achetez une licence, vous nous aidez à améliorer le programme.\nDevenez membre de notre communauté!
+TRIAL_REMINDER_SOFTWARE				Les paramètres ne sont pas enregistrés en mode d'essai
+TRIAL_REMINDER_STOP					La version demo de HudSight 2 ne sauvegarde pas les modifications des paramètres de réticule.\n\nCette restriction de démo sera levée dans la version complète sous licence.
+TRIAL_RECOVER_WANT					Récupérer votre code d'activation
+TRIAL_RECOVER_EMAIL					Entrez votre e-mail
+TRIAL_RECOVER						Envoyer le code
+TRIAL_RECOVER_CHECK_EMAIL			Veuillez vérifier votre e-mail
+TRIAL_GET_LICENSE					Obtenir une licence
+TRIAL_TRY_IT						Essayez-le
+TRIAL_FREE_GAME						L'activation a été effectuée à l'aide d'une clé spéciale.\nLe logiciel fonctionne comme une version complète pour le jeu: %s
+TRIAL_STEAM_NOT_SHOW				HudSight doit être activé en utilisant le client Steam.\nVotre statut Steam sera changé en "exécution de HudSight".\n\nDevons-nous continuer?
+
+STEAM_NOT_STARTED					Erreur fatale.\n\nImpossible de se connecter au lanceur de logiciel. Veuillez démarrer le programme à partir du client Steam.
+STEAM_NO_AUTH						Erreur fatale.\n\nImpossible de s'autoriser dans Steam. Pour activer le logiciel, vous devez l'exécuter à partir du client Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Appuyez sur jusqu'à trois touches ou Échap pour annuler
+HOTKEY_NOT_BOUND					Non configuré
+
+SIGHT_TABS_CROSSHAIR				Réticule
+SIGHT_TABS_LIBRARY					Bibliothèque
+SIGHT_TABS_OVERLAY_MODE					Mode de dessin
+SIGHT_TABS_COMMON					Options
+SIGHT_TABS_INFO						Informations
+
+SIGHT_TABS_CROSSHAIR_EX				Réticules disponibles
+SIGHT_TABS_LIBRARY_EX				Bibliothèque de réticules
+SIGHT_TABS_BLACKLIST_EX				Paramètres de liste noire
+SIGHT_TABS_COMMON_EX				Paramètres généraux
+SIGHT_TABS_OVERLAY_MODE_EX			Mode de dessin de réticule
+
+LIBRARY_NEW_IMAGE					Créer une nouvelle image
+LIBRARY_ADD_IMAGE					Ajouter une image à partir du disque
+LIBRARY_DELETE_IMAGE				DSupprimer l'image sélectionnée
+LIBRARY_RESTORE_DEFAULTS			Restaurer l'ensemble d'images par défaut
+LIBRARY_EDIT_IMAGE					Modifier l'image
+LIBRARY_MAKE_FAVORITE				Marquer/démarquer comme favori
+LIBRARY_SHOW_ONLY_FAVORITES			Afficher uniquement les favoris
+LIBRARY_EDITOR_RENAME				Renommer l'image sélectionnée
+LIBRARY_EDITOR_ENTER_NAME				Entrer le nom de l'image
+LIBRARY_STEAMWORKSHOP_UPLOAD			Télécharger l'image sur le Workshop Steam
+LIBRARY_STEAMWORKSHOP_REMOVE			Supprimer l'image du Workshop Steam
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Erreur lors de la suppression de l'image du Workshop Steam.\nProbablement que vous n'avez pas les droits pour cela.\n\nVous pouvez vous désabonner de cet élément dans le workshop (dans votre compte Steam) et supprimer ce réticule ici.
+LIBRARY_STEAM_AGREEMENT				Tout d'abord, vous devez accepter l'accord d'abonnement Steam pour le traitement correct de vos téléchargements.
+
+SIGHT_EDITOR						Éditeur d'image
+SIGHT_EDITOR_NEW		Effacer l'image du réticule
+SIGHT_EDITOR_GEN		Générateur d'image de réticule
+SIGHT_EDITOR_SETTINGS		Paramètres de l'éditeur
+SIGHT_EDITOR_ENTER_NAME				Entrer le nom de l'image
+SIGHT_EDITOR_UNDO					Annuler
+SIGHT_EDITOR_REDO					Rétablir
+SIGHT_EDITOR_ZOOMIN		Zoomer
+SIGHT_EDITOR_ZOOMOUT		Dézoomer
+SIGHT_EDITOR_IMAGESIZE				Taille de l'image
+SIGHT_EDITOR_PEN_VALUE				Couleur du stylo
+SIGHT_EDITOR_PEN_RGBA				Utiliser un stylo RGBA
+SIGHT_EDITOR_PIXELVALUE				Valeur sous le curseur
+SIGHT_EDITOR_DROPPER			Pipette
+SIGHT_EDITOR_PIXEL_OFFSET		Afficher le décalage du pixel sous le curseur
+SIGHT_EDITOR_GEN_THICKNESS		Épaisseur
+SIGHT_EDITOR_GEN_SIZE			Taille
+SIGHT_EDITOR_GEN_OUTLINE		Contour
+SIGHT_EDITOR_GEN_GAP			Espacement
+SIGHT_EDITOR_GEN_STYLE1			Style principal
+SIGHT_EDITOR_GEN_STYLE2			Style supplémentaire
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Vide
+SIGHT_EDITOR_GEN_STYLE_CROSS		Croix
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T en forme de croix
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Croix diagonale
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-rayon
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Prédateur
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 points
+SIGHT_EDITOR_GEN_STYLE_DOT		Point
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Cercle
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Carré
+SIGHT_EDITOR_OVERWRITE			L'image a été modifiée.\nVoulez-vous enregistrer les modifications?
+SIGHT_EDITOR_RENAME_BUSY		Ce nom est déjà utilisé
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Profil personnalisé pour ce réticule
+SIGHT_COLOR_MASK					Masque de couleur
+SIGHT_COLOR_MASK_WARNING			Le réticule est presque invisible, vérifiez le canal de transparence (Alpha) du masque de couleur
+SIGHT_SCALE							Échelle de l'image, en pourcentage
+SIGHT_RESET_BUTTON					Réinitialiser
+SIGHT_OFFSET						Décalage par rapport au centre de l'écran, X/Y
+SIGHT_VIS_HOTKEY					Raccourci de visibilité
+SIGHT_VIS_MODE						Mode de visibilité
+SIGHT_VIS_MODE_DEFAULT				Appuyez pour alterner la visibilité
+SIGHT_VIS_MODE_HOLD					Maintenir pour la visibilité
+SIGHT_VIS_MODE_HOLD_INV				Mode inversé de maintien
+
+SIGHT_LEAN							Activer l’inclinaison du réticule
+SIGHT_LEAN_HOTKEYS					Raccourcis pour incliner à gauche et à droite
+SIGHT_LEAN_ANGLE					Angle, degrés
+
+SIGHT_ENABLE_ADVANCED				Activer les paramètres avancés du profil du réticule
+SIGHT_SWITCH_HOTKEY					Raccourci pour changer de réticule
+SIGHT_SWITCH_MODE					Mode de changement
+SIGHT_SWITCH_MODE_PRESS				Au press
+SIGHT_SWITCH_MODE_RELEASE			À la relâche
+
+SETTINGS_LANGUAGE_EX				Langue de l'interface et taille de la police
+SETTINGS_LANGUAGE_EX_HINT			Vous devez redémarrer le programme pour appliquer ces options.
+SETTINGS_LANGUAGE_STEAM				Langue de l'application Steam
+SETTINGS_START_AS_ADMIN				Démarrer avec des privilèges élevés (en tant qu'administrateur)
+SETTINGS_START_AS_ADMIN_HINT		Des privilèges élevés sont nécessaires pour accéder à certaines fonctionnalités.\nVous devez redémarrer le programme pour appliquer cette option.
+SETTINGS_START_WITH_WINDOWS			Démarrage automatique avec Windows
+SETTINGS_START_MINIMIZED			Démarrer réduit
+SETTINGS_DONOT_USE_TRAY				Supprimer l'icône de la zone de notification
+SETTINGS_MINIMIZE_TRAY				Réduire dans la zone de notification
+SETTINGS_CLOSE_MINIMIZE				Le bouton de fermeture réduit l'application
+SETTINGS_CHECK_UPDATE				Vérifier les mises à jour au démarrage
+SETTINGS_SHOW_HINTS					Afficher les infobulles
+SETTINGS_SYSTEM_MESSAGES			Messages du système
+SETTINGS_LIGHT_THEME				Utiliser un thème d'interface clair
+SETTINGS_NO_SHOW_STEAM				Ne pas modifier le statut Steam
+SETTINGS_USE_FAVORITES				Activer les réticules favoris
+SETTINGS_BACK_VERSION1				Revenir à la version 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Affichage #%d)
+
+OVERLAY_MODE_DETAILS				Détails
+OVERLAY_MODE_SELECT_DISPLAY			Sélectionner l'affichage
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Sélectionnez l'affichage qui sera utilisé pour afficher votre réticule.
+OVERLAY_MODE_READ_MORE				En savoir plus sur le site web
+
+OVERLAY_MODE_SIMPLE_SHORT			Le réticule est dessiné à l'aide d'une fenêtre transparente qui est au-dessus de toutes les autres fenêtres.
+OVERLAY_MODE_SIMPLE_LONG			Le mode Simple Overlay fonctionne bien avec les jeux en mode Fenêtré ou Fenêtré SANS Bordure. Également utile pour les jeux utilisant DirectX 9 ou DirectX 12 avec les Optimisations plein écran activées (FSO).
+
+OVERLAY_MODE_REAL_SHORT				Il s'agit d'une version améliorée du mode Simple Overlay qui peut afficher l'overlay en plein écran exclusif (FSE).
+OVERLAY_MODE_REAL_LONG				Le mode Real Overlay fonctionne avec les jeux en mode Fenêtré, Fenêtré SANS Bordure et Plein Écran Exclusif. Il nécessite des privilèges d'administrateur. Incompatible avec les jeux plein écran utilisant Vulkan et OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Démarrez l'application en tant qu'administrateur pour activer le mode Real Overlay.
+OVERLAY_MODE_REAL_STATE				Vérification des privilèges d'administrateur...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Redémarrer en tant qu'administrateur maintenant
+
+OVERLAY_MODE_XBOX_SHORT				Ce mode overlay est similaire à Real Overlay et peut fonctionner dans les jeux en plein écran exclusif.
+OVERLAY_MODE_XBOX_LONG				Le mode Game Bar est alimenté par la Game Bar de Windows. Il ne nécessite pas de privilèges d'administrateur (comme Real Overlay), mais vous devrez installer notre extension Game Bar depuis le Windows Store. Incompatible avec les jeux plein écran utilisant Vulkan et OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Installez notre extension Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Ouvrir la Game Bar (en utilisant le raccourci Win+G) \n\t- Lancer notre widget \n\t- Épingler \n\t- Activer le clic à travers pour la Game Bar.
+OVERLAY_MODE_XBOX_STATE				Vérification de la connexion du widget...
+
+OVERLAY_MODE_HOOKS_SHORT			Le mode "ancienne école" Hooks overlay utilise l'interception du rendu dans le processus de jeu.
+OVERLAY_MODE_HOOKS_LONG				Ce mode est compatible avec n'importe quel mode graphique de jeu. Il fonctionne comme l'overlay Steam et peut être utilisé avec DirectX 9, 10, 11, 12, Vulkan et OpenGL. Cependant, certains systèmes anti-triche n'aiment pas de tels overlays (injections DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			Démarrez simplement le jeu, attendez quelques secondes et vous devriez voir votre réticule. Si vous ne voyez pas le réticule et êtes sûr qu'il devrait être visible, veuillez envoyer un message au support.\n\nLe réticule n'est pas visible dans ce mode sur le bureau, mais seulement dans les jeux!
+
+OVERLAY_TEST_SUCCESS				(Succès)
+OVERLAY_TEST_FAILED				(Échoué)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Mode liste noire
+BLACKLIST_WHITE_MODE				Mode liste blanche
+BLACKLIST_BLOCKED					Processus bloqués
+BLACKLIST_ALLOWED					Processus autorisés
+BLACKLIST_BLOCK						Bloquer le processus
+BLACKLIST_ALLOW						Autoriser le processus
+BLACKLIST_UNBLOCK					Retirer le processus
+BLACKLIST_SELECT					Sélectionner le processus

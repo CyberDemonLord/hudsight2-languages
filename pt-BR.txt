@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          Cancelar
+BTN_CLOSE                           Fechar
+TRAYMENU_CLOSE			Fechar HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     O software está ativado.
+ABOUT_TRIAL                         O software está em modo de teste.
+CURRENT_VERSION                     Versão %d (%s)
+STEAM_VERSION_ON                    Steam version
+STEAM_NO_STATUS_CHANGE              Status not changed
+ADMINISTRATOR				Administrator
+FIRST_START_ADMIN1			Esta é a primeira execução do aplicativo.\nVocê pode precisar executar com privilégios elevados para obter recursos adicionais.
+FIRST_START_ADMIN2			Para ativar o suporte Vulkan, você precisa iniciar com privilégios elevados apenas uma vez.\nO modo Real Overlay (<a href="REAL_OVERLAY">sobreposições sem hooks</a>) requer execução "como administrador" permanentemente.\n\nVocê pode mudar esta opção mais tarde nas configurações do aplicativo (Aba de opções).
+FIRST_START_ADMIN_YES1			Executar "como administrador"
+FIRST_START_ADMIN_NO1			Não elevar privilégios
+FIRST_START_ADMIN_YES2			Continuar a executar "como administrador"
+FIRST_START_ADMIN_NO2			Desativar privilégios elevados na próxima inicialização
+
+TRIAL_WANT_CODE						Você gostaria de receber seu código de ativação?
+TRIAL_GET_LICENSE					Solicitar uma licença
+TRIAL_ACTIVATE						Ativar software
+TRIAL_ACTIVATION_CODE				Código de ativação
+TRIAL_ACTIVATION_ERROR				Erro ao ativar o software:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Ativando...
+TRIAL_REMINDER						Você está usando a versão demo do HudSight 2.\n\nCompre uma licença para remover todas as restrições da versão demo e nos ajudar a melhorar esta ferramenta!
+TRIAL_REMINDER2						Restrições da versão demo: as configurações de mira não podem ser salvas ou carregadas, há uma marca d'água na tela do jogo.
+TRIAL_REMINDER3						Ao comprar uma licença, você nos ajuda a melhorar o programa.\nTorne-se parte da nossa comunidade!
+TRIAL_REMINDER_SOFTWARE				As configurações não são salvas no modo de teste
+TRIAL_REMINDER_STOP					A versão demo do HudSight 2 não salva alterações nas configurações de mira.\n\nEssa restrição da demo será removida na versão licenciada completa.
+TRIAL_RECOVER_WANT					Recuperar seu código de ativação
+TRIAL_RECOVER_EMAIL					Insira seu e-mail
+TRIAL_RECOVER						Enviar o código
+TRIAL_RECOVER_CHECK_EMAIL			Por favor, verifique seu e-mail
+TRIAL_GET_LICENSE					Obter uma licença
+TRIAL_TRY_IT						Experimente
+TRIAL_FREE_GAME						A ativação foi feita usando uma chave especial.\nO software funciona como versão completa para o jogo: %s
+TRIAL_STEAM_NOT_SHOW				HudSight precisa ser ativado usando o cliente Steam.\nSeu status no Steam será mudado para "executando HudSight".\n\nDevemos continuar?
+
+STEAM_NOT_STARTED					Erro fatal.\n\nNão é possível conectar ao lançador do software. Por favor, inicie o programa a partir do cliente Steam.
+STEAM_NO_AUTH						Erro fatal.\n\nNão é possível autorizar no Steam. Para ativar o software, você precisa iniciá-lo a partir do cliente Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Pressione até três botões ou Escape para cancelar
+HOTKEY_NOT_BOUND					Não atribuído
+
+SIGHT_TABS_CROSSHAIR				Mira
+SIGHT_TABS_LIBRARY					Biblioteca
+SIGHT_TABS_OVERLAY_MODE					Modo de desenho
+SIGHT_TABS_COMMON					Opções
+SIGHT_TABS_INFO						Informação
+
+SIGHT_TABS_CROSSHAIR_EX				Miras disponíveis
+SIGHT_TABS_LIBRARY_EX				Biblioteca de miras
+SIGHT_TABS_BLACKLIST_EX				Configurações de lista negra
+SIGHT_TABS_COMMON_EX				Configurações gerais
+SIGHT_TABS_OVERLAY_MODE_EX			Modo de desenho da mira
+
+LIBRARY_NEW_IMAGE					Criar uma nova imagem
+LIBRARY_ADD_IMAGE					Adicionar uma imagem do disco
+LIBRARY_DELETE_IMAGE				Excluir a imagem selecionada
+LIBRARY_RESTORE_DEFAULTS			Restaurar o conjunto de imagens padrão
+LIBRARY_EDIT_IMAGE					Editar imagem
+LIBRARY_MAKE_FAVORITE				Marcar/desmarcar como favorito
+LIBRARY_SHOW_ONLY_FAVORITES			Mostrar apenas favoritos
+LIBRARY_EDITOR_RENAME				Renomear a imagem selecionada
+LIBRARY_EDITOR_ENTER_NAME				Inserir o nome da imagem
+LIBRARY_STEAMWORKSHOP_UPLOAD			Enviar imagem para o workshop do Steam
+LIBRARY_STEAMWORKSHOP_REMOVE			Remover imagem do workshop do Steam
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Erro ao remover a imagem do workshop do Steam.\nProvavelmente você não tem permissões para isso.\n\nVocê pode cancelar a assinatura deste item no workshop (na sua conta Steam) e excluir esta mira aqui.
+LIBRARY_STEAM_AGREEMENT				Primeiro, você precisa concordar com o Acordo de Assinante do Steam para o processamento correto de seus uploads.
+
+SIGHT_EDITOR						Editor de imagem
+SIGHT_EDITOR_NEW		Limpar imagem da mira
+SIGHT_EDITOR_GEN		Gerador de imagem da mira
+SIGHT_EDITOR_SETTINGS		Configurações do editor
+SIGHT_EDITOR_ENTER_NAME				Inserir nome da imagem
+SIGHT_EDITOR_UNDO					Desfazer
+SIGHT_EDITOR_REDO					Refazer
+SIGHT_EDITOR_ZOOMIN		Aumentar zoom
+SIGHT_EDITOR_ZOOMOUT		Reduzir zoom
+SIGHT_EDITOR_IMAGESIZE				Tamanho da imagem
+SIGHT_EDITOR_PEN_VALUE				Cor da caneta
+SIGHT_EDITOR_PEN_RGBA				Usar caneta RGBA
+SIGHT_EDITOR_PIXELVALUE				Valor sob o cursor
+SIGHT_EDITOR_DROPPER			Conta-gotas
+SIGHT_EDITOR_PIXEL_OFFSET		Mostrar deslocamento do pixel sob o cursor
+SIGHT_EDITOR_GEN_THICKNESS		Espessura
+SIGHT_EDITOR_GEN_SIZE			Tamanho
+SIGHT_EDITOR_GEN_OUTLINE		Contorno
+SIGHT_EDITOR_GEN_GAP			Espaçamento
+SIGHT_EDITOR_GEN_STYLE1			Estilo primário
+SIGHT_EDITOR_GEN_STYLE2			Estilo adicional
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Vazio
+SIGHT_EDITOR_GEN_STYLE_CROSS		Cruz
+SIGHT_EDITOR_GEN_STYLE_TCROSS		Em forma de T
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Cruz diagonal
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		3 raios
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predador
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 pontos
+SIGHT_EDITOR_GEN_STYLE_DOT		Ponto
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Círculo
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Quadrado
+SIGHT_EDITOR_OVERWRITE			A imagem foi alterada.\nVocê deseja salvar as alterações?
+SIGHT_EDITOR_RENAME_BUSY		Este nome já está em uso
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Perfil personalizado para esta mira
+SIGHT_COLOR_MASK					Máscara de cor
+SIGHT_COLOR_MASK_WARNING			A mira está quase invisível, verifique o canal de transparência (Alpha) da máscara de cor
+SIGHT_SCALE							Escala da imagem, porcentagens
+SIGHT_RESET_BUTTON					Redefinir
+SIGHT_OFFSET						Deslocamento do centro da tela, X/Y
+SIGHT_VIS_HOTKEY					Tecla de atalho para visibilidade
+SIGHT_VIS_MODE						Modo de visibilidade
+SIGHT_VIS_MODE_DEFAULT				Pressione para alternar visibilidade
+SIGHT_VIS_MODE_HOLD					Pressione para manter visibilidade
+SIGHT_VIS_MODE_HOLD_INV				Modo de manutenção inverso
+
+SIGHT_LEAN							Habilitar inclinação da mira
+SIGHT_LEAN_HOTKEYS					Teclas de atalho para inclinar à esquerda e à direita
+SIGHT_LEAN_ANGLE					Ângulo, graus
+
+SIGHT_ENABLE_ADVANCED				Habilitar configurações avançadas do perfil de mira
+SIGHT_SWITCH_HOTKEY					Tecla de atalho para alternar a mira
+SIGHT_SWITCH_MODE					Modo de alternância
+SIGHT_SWITCH_MODE_PRESS				Ao pressionar
+SIGHT_SWITCH_MODE_RELEASE			Ao soltar
+
+SETTINGS_LANGUAGE_EX				Idioma da interface e tamanho da fonte
+SETTINGS_LANGUAGE_EX_HINT			Você precisa reiniciar o programa para aplicar essas opções.
+SETTINGS_LANGUAGE_STEAM				Idioma do aplicativo Steam
+SETTINGS_START_AS_ADMIN				Iniciar com privilégios elevados (como Administrador)
+SETTINGS_START_AS_ADMIN_HINT		Privilégios elevados são necessários para acessar alguns recursos.\nVocê precisa reiniciar o programa para aplicar esta opção.
+SETTINGS_START_WITH_WINDOWS			Iniciar automaticamente com o Windows
+SETTINGS_START_MINIMIZED			Iniciar minimizado
+SETTINGS_DONOT_USE_TRAY				Remover o ícone da área de notificação
+SETTINGS_MINIMIZE_TRAY				Minimizar para a área de notificação
+SETTINGS_CLOSE_MINIMIZE				Botão de fechar como minimizar
+SETTINGS_CHECK_UPDATE				Verificar atualizações na inicialização
+SETTINGS_SHOW_HINTS					Mostrar dicas de ferramenta
+SETTINGS_SYSTEM_MESSAGES			Mensagens do sistema
+SETTINGS_LIGHT_THEME				Usar tema claro da interface
+SETTINGS_NO_SHOW_STEAM				Não alterar o status do Steam
+SETTINGS_USE_FAVORITES				Habilitar miras favoritas
+SETTINGS_BACK_VERSION1				Voltar para a Versão 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Exibição #%d)
+
+OVERLAY_MODE_DETAILS				Detalhes
+OVERLAY_MODE_SELECT_DISPLAY			Selecionar exibição
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Selecione a exibição que será usada para mostrar sua mira.
+OVERLAY_MODE_READ_MORE				Leia mais no site
+
+OVERLAY_MODE_SIMPLE_SHORT			A sobreposição da mira é desenhada usando uma janela transparente que fica acima de todas as outras janelas.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay funciona bem com jogos em Janela ou em Modo Janela Sem Bordas. Também é útil para jogos que utilizam DirectX 9 ou DirectX 12 com as Otimizações de Tela Cheia (FSO) habilitadas.
+
+OVERLAY_MODE_REAL_SHORT				Esta é uma versão melhorada do modo Simple Overlay que pode exibir a sobreposição em Tela Cheia Exclusiva (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay funciona com jogos em Janela, Modo Janela Sem Bordas e Tela Cheia Exclusiva. Requer privilégios de administrador. Incompatível com jogos em tela cheia utilizando Vulkan e OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Inicie o aplicativo como administrador para habilitar o modo Real Overlay.
+OVERLAY_MODE_REAL_STATE				Verificando privilégios de administrador...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Reinicie como administrador agora
+
+OVERLAY_MODE_XBOX_SHORT				Este modo de sobreposição é semelhante ao Real Overlay e pode funcionar em jogos em Tela Cheia Exclusiva.
+OVERLAY_MODE_XBOX_LONG				O modo Game Bar é alimentado pela Windows Game Bar. Não requer privilégios de administrador (como o Real Overlay), mas você precisará instalar nossa extensão Game Bar da Windows Store. Incompatível com jogos em tela cheia utilizando Vulkan e OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Instale nossa extensão Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Abra o Game Bar (usando o atalho Win+G) \n\t- Inicie nosso widget \n\t- Fixe-o \n\t- Ative a capacidade de clique do mouse através da Game Bar.
+OVERLAY_MODE_XBOX_STATE				Verificando a conexão do widget...
+
+OVERLAY_MODE_HOOKS_SHORT			A sobreposição "antiga" de Hooks utiliza interceptação de renderização no processo do jogo.
+OVERLAY_MODE_HOOKS_LONG				Esse modo é compatível com qualquer modo gráfico de jogo. Funciona como a sobreposição do Steam e pode ser usado com gráficos DirectX 9, 10, 11, 12, Vulkan e OpenGL. No entanto, alguns sistemas anti-cheat não gostam de tais sobreposições (injeções DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			Basta iniciar o jogo, esperar alguns segundos e você deve ver sua mira. Se você não ver a mira e estiver confiante de que ela deve estar visível, por favor, envie uma mensagem para o suporte.\n\nA mira não é visível neste modo na área de trabalho, mas apenas em jogos!
+
+OVERLAY_TEST_SUCCESS				(Sucesso)
+OVERLAY_TEST_FAILED				(Falhou)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Modo de lista negra
+BLACKLIST_WHITE_MODE				Modo de lista branca
+BLACKLIST_BLOCKED					Processos bloqueados
+BLACKLIST_ALLOWED					Processos permitidos
+BLACKLIST_BLOCK						Bloquear processo
+BLACKLIST_ALLOW						Permitir processo
+BLACKLIST_UNBLOCK					Remover processo
+BLACKLIST_SELECT					Selecionar processo

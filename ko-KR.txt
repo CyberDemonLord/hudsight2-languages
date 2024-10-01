@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          취소
+BTN_CLOSE                           닫기
+TRAYMENU_CLOSE			HudSight 2 닫기
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     소프트웨어 활성화.
+ABOUT_TRIAL                         데모 활성화.
+CURRENT_VERSION                     빌드 %d (%s)
+STEAM_VERSION_ON                    스팀 버전
+STEAM_NO_STATUS_CHANGE              상태 변경 없음
+ADMINISTRATOR				관리자
+FIRST_START_ADMIN1			어플리케이션을 처음 실행하였습니다.\n추가적인 기능을 사용하시려면 관리자 권한으로 실행해야 할 수도 있습니다.
+FIRST_START_ADMIN2			Vulkan 지원을 활성화 하려면 관리자 권한으로 실행해야 합니다.\nReal Overlay 기본 (<a href="REAL_OVERLAY">훅 없이 오버레이</a>)를 위해 "관리자 권한"으로 실행을 활성화 해야 합니다.\n\n이 옵션은 나중에 애플리케이션 설정(옵션 탭)에서 변경할 수 있습니다.
+FIRST_START_ADMIN_YES1			관리자 권한으로 실행
+FIRST_START_ADMIN_NO1			취소
+FIRST_START_ADMIN_YES2			관리자 권한 실행 유지
+FIRST_START_ADMIN_NO2			다음 실행시 관리자 권한 해제
+
+TRIAL_WANT_CODE						활성화 코드를 받으시겠습니까?
+TRIAL_GET_LICENSE					라이선스 주문
+TRIAL_ACTIVATE						소프트웨어 활성화
+TRIAL_ACTIVATION_CODE				코드 활성화
+TRIAL_ACTIVATION_ERROR				소프트웨어 활성화 에러:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			활성화 중...
+TRIAL_REMINDER						HudSight 2 데모 버전을 사용 중입니다.\n\n제품을 구매하고 다양한 기능을 활용하세요!
+TRIAL_REMINDER2						데모 버전 제한: 조준점 설정을 저장하거나 불러올 수 없으며, 게임 화면에 워터마크가 있습니다.
+TRIAL_REMINDER3						라이센스를 구매하면 프로그램을 더 좋게 만드는 데 도움이 됩니다. \n우리 커뮤니티의 일원이 되세요!
+TRIAL_REMINDER_SOFTWARE				체험 모드에서는 설정이 저장되지 않습니다
+TRIAL_REMINDER_STOP					HudSight 2 데모 버전에서는 조준점 설정 변경 사항이 저장되지 않습니다.\n\n이 데모 제한은 전체 라이선스 버전에서 제거됩니다.
+TRIAL_RECOVER_WANT					활성화 코드를 복구하세요
+TRIAL_RECOVER_EMAIL					이메일을 입력하세요
+TRIAL_RECOVER						코드를 보내세요
+TRIAL_RECOVER_CHECK_EMAIL			이메일을 확인하세요
+TRIAL_GET_LICENSE					라이센스를 받으세요
+TRIAL_TRY_IT						해보세요
+TRIAL_FREE_GAME						활성화는 특별한 키를 사용하여 완료되었습니다.\n소프트웨어는 게임의 전체 버전으로 작동합니다: %s
+TRIAL_STEAM_NOT_SHOW				HudSight는 Steam 클라이언트를 사용하여 활성화해야 합니다.\n귀하의 Steam 상태가 "HudSight 실행 중"으로 변경됩니다.\n\n계속할까요?
+
+STEAM_NOT_STARTED					치명적인 오류.\n\n소프트웨어 실행기에 연결할 수 없습니다. Steam 클라이언트에서 프로그램을 시작하세요.
+STEAM_NO_AUTH						치명적인 오류.\n\nSteam에서 인증할 수 없습니다. 소프트웨어를 활성화하려면 Steam 클라이언트에서 시작해야 합니다.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							최대 세 개의 버튼을 누르거나 취소하려면 Escape를 누르세요.
+HOTKEY_NOT_BOUND					바운딩되지 않음
+
+SIGHT_TABS_CROSSHAIR				조준점
+SIGHT_TABS_LIBRARY					편집
+SIGHT_TABS_OVERLAY_MODE					그리기 모드
+SIGHT_TABS_COMMON					옵션
+SIGHT_TABS_INFO						정보
+
+SIGHT_TABS_CROSSHAIR_EX				조준점 선택
+SIGHT_TABS_LIBRARY_EX				조준점 목록
+SIGHT_TABS_BLACKLIST_EX				블랙리스트 설정
+SIGHT_TABS_COMMON_EX				일반 설정
+SIGHT_TABS_OVERLAY_MODE_EX			조준점 편집 모드
+
+LIBRARY_NEW_IMAGE					새로운 이미지 생성
+LIBRARY_ADD_IMAGE					새로운 이미지 추가
+LIBRARY_DELETE_IMAGE				선택된 이미지 삭제
+LIBRARY_RESTORE_DEFAULTS			기존 이미지 세트 불러오기
+LIBRARY_EDIT_IMAGE					이미지 편집
+LIBRARY_MAKE_FAVORITE				즐겨찾기 추가/해제
+LIBRARY_SHOW_ONLY_FAVORITES			즐겨찾기만 표시
+LIBRARY_EDITOR_RENAME				선택한 이미지 이름 변경
+LIBRARY_EDITOR_ENTER_NAME				이미지 이름 입력
+LIBRARY_STEAMWORKSHOP_UPLOAD			스팀 창작마당에 이미지 업로드
+LIBRARY_STEAMWORKSHOP_REMOVE			스팀 창작마당에 이미지 삭제
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		스팀 창작마당에서 이미지를 제거하는 동안 오류가 발생했습니다.\n해당 이미지 삭제를 위한 권한이 없습니다.\n\n창작마당(스팀 계정)에서 해당 항목의 구독을 취소 후, 조준점을 삭제할 수 있습니다.
+LIBRARY_STEAM_AGREEMENT				업로드를 하기 위해서는 스팀 구독 시스템 권한에 동의해야 합니다.
+
+SIGHT_EDITOR						이미지 편집
+SIGHT_EDITOR_NEW		조준점 이미지 초기화
+SIGHT_EDITOR_GEN		조준점 이미지 편집 툴
+SIGHT_EDITOR_SETTINGS		편집 툴 설정
+SIGHT_EDITOR_ENTER_NAME				이미지 이름 입력
+SIGHT_EDITOR_UNDO					실행 취소
+SIGHT_EDITOR_REDO					다시 실행
+SIGHT_EDITOR_ZOOMIN		확대
+SIGHT_EDITOR_ZOOMOUT		축소
+SIGHT_EDITOR_IMAGESIZE				이미지 사이즈
+SIGHT_EDITOR_PEN_VALUE				펜 색상
+SIGHT_EDITOR_PEN_RGBA				투명도 텐
+SIGHT_EDITOR_PIXELVALUE				커서 값
+SIGHT_EDITOR_DROPPER			스포이드
+SIGHT_EDITOR_PIXEL_OFFSET		커서 아래에 픽셀 오프셋 표시
+SIGHT_EDITOR_GEN_THICKNESS		굵기
+SIGHT_EDITOR_GEN_SIZE			사이즈
+SIGHT_EDITOR_GEN_OUTLINE		아웃라인
+SIGHT_EDITOR_GEN_GAP			간격
+SIGHT_EDITOR_GEN_STYLE1			기본 스타일
+SIGHT_EDITOR_GEN_STYLE2			추가 스타일
+SIGHT_EDITOR_GEN_STYLE_EMPTY		비우기
+SIGHT_EDITOR_GEN_STYLE_CROSS		십자선
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T자선
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	X자선
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		역V자선
+SIGHT_EDITOR_GEN_STYLE_3RAY		Y자선
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		삼각형
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2점
+SIGHT_EDITOR_GEN_STYLE_DOT		점
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		원
+SIGHT_EDITOR_GEN_STYLE_SQUARE		사각형
+SIGHT_EDITOR_OVERWRITE			이미지가 변경되었습니다.\n변경사항을 저장하시겠습니까?
+SIGHT_EDITOR_RENAME_BUSY		사용 중인 이름입니다.
+
+SIGHT_ENABLE_CUSTOM_PROFILE			조준점 개별 설정 활성화
+SIGHT_COLOR_MASK					컬러 마스크
+SIGHT_COLOR_MASK_WARNING			십자선이 너무 투명합니다. 컬러 마스크의 투명도(Alpha)를 확인하십시오.
+SIGHT_SCALE							이미지 스케일, 백분율
+SIGHT_RESET_BUTTON					초기화
+SIGHT_OFFSET						조준점 중앙 위치 설정, X/Y
+SIGHT_VIS_HOTKEY					조준점 표시 단축키
+SIGHT_VIS_MODE						단축키 설정 방식
+SIGHT_VIS_MODE_DEFAULT				단축키 토글
+SIGHT_VIS_MODE_HOLD					단축키 홀드
+SIGHT_VIS_MODE_HOLD_INV				홀드 반전
+
+SIGHT_LEAN							조준선 기울기 활성화
+SIGHT_LEAN_HOTKEYS					왼쪽 및 오른쪽 기울기 핫키
+SIGHT_LEAN_ANGLE					각도, 도
+
+SIGHT_ENABLE_ADVANCED				고급 조준경 프로필 설정 활성화
+SIGHT_SWITCH_HOTKEY					조준선 핫키로 전환
+SIGHT_SWITCH_MODE					모드 전환
+SIGHT_SWITCH_MODE_PRESS				누를 때
+SIGHT_SWITCH_MODE_RELEASE			해제 시
+
+SETTINGS_LANGUAGE_EX				언어 및 폰트 크기 설정
+SETTINGS_LANGUAGE_EX_HINT			해당 옵션 적용을 위해 프로그램을 재시작합니다.
+SETTINGS_LANGUAGE_STEAM				스팀 언어 설정
+SETTINGS_START_AS_ADMIN				항상 관리자 권한으로 시작하기
+SETTINGS_START_AS_ADMIN_HINT		일부 기능을 사용하기 위해 관리자 권한으로 실행해야 합니다.\n해당 옵션을 적용하기 위해 재시작합니다.
+SETTINGS_START_WITH_WINDOWS			윈도우 실행시 자동 시작
+SETTINGS_START_MINIMIZED			최소화
+SETTINGS_DONOT_USE_TRAY				시스템 트레이에서 아이콘 제거
+SETTINGS_MINIMIZE_TRAY				시스템 트레이로 최소화
+SETTINGS_CLOSE_MINIMIZE				닫기 버튼 클릭시 최소화 상태로 전환
+SETTINGS_CHECK_UPDATE				시작시 업데이트 확인
+SETTINGS_SHOW_HINTS					도구 팁 표시
+SETTINGS_SYSTEM_MESSAGES			시스템 메시지
+SETTINGS_LIGHT_THEME				밝은 인터페이스 테마 사용
+SETTINGS_NO_SHOW_STEAM				스팀 상태를 변경 비활성화 (스팀 게임 중 표시 안함)
+SETTINGS_USE_FAVORITES				조준점 즐겨찾기 사용
+SETTINGS_BACK_VERSION1				이전 버전으로 프로그램 전환
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(디스플레이 #%d)
+
+OVERLAY_MODE_DETAILS				세부정보
+OVERLAY_MODE_SELECT_DISPLAY			디스플레이 선택
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		조준선을 표시하는 데 사용할 디스플레이를 선택하세요.
+OVERLAY_MODE_READ_MORE				웹사이트에서 더 알아보기
+
+OVERLAY_MODE_SIMPLE_SHORT			조준선 오버레이는 모든 다른 창 위에 있는 투명 창을 사용하여 그려집니다.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay는 창 모드 또는 테두리 없는 창 모드 게임과 잘 작동합니다. 또한 전체 화면 최적화(FSO)가 활성화된 DirectX 9 또는 DirectX 12를 사용하는 게임에도 유용합니다.
+
+OVERLAY_MODE_REAL_SHORT				이것은 전체 화면 독점(FSE)에서 오버레이를 표시할 수 있는 향상된 버전의 Simple Overlay 모드입니다.
+OVERLAY_MODE_REAL_LONG				Real Overlay는 창 모드, 테두리 없는 창 모드 및 전체 화면 독점 게임과 함께 작동합니다. 관리자 권한이 필요합니다. Vulkan 및 OpenGL 전체 화면 게임과 호환되지 않습니다.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		앱을 관리자 권한으로 시작하여 Real Overlay 모드를 활성화하세요.
+OVERLAY_MODE_REAL_STATE				관리자 권한 확인 중...
+OVERLAY_MODE_REAL_ADMIN_RESTART			지금 관리자 권한으로 다시 시작하세요
+
+OVERLAY_MODE_XBOX_SHORT				이 오버레이 모드는 Real Overlay와 유사하며 전체 화면 독점 게임에서도 작동할 수 있습니다.
+OVERLAY_MODE_XBOX_LONG				Game Bar 모드는 Windows Game Bar에 의해 지원됩니다. 관리자 권한이 필요하지 않지만 (Real Overlay와 달리) Windows 스토어에서 우리의 Game Bar 확장을 설치해야 합니다. Vulkan 및 OpenGL 전체 화면 게임과 호환되지 않습니다.
+OVERLAY_MODE_XBOX_INSTALL			우리의 Game Bar 확장을 설치하세요
+OVERLAY_MODE_XBOX_LAUNCH			Game Bar 열기 (使用 Win + G 快捷键) \n\t- 우리 위젯을 실행하세요 \n\t- 고정하기 \n\t- Game Bar에 대한 마우스 클릭 투 스루 활성화.
+OVERLAY_MODE_XBOX_STATE				위젯 연결 확인 중...
+
+OVERLAY_MODE_HOOKS_SHORT			"구형" Hooks 오버레이는 게임 프로세스에서 렌더 인터셉션을 사용합니다.
+OVERLAY_MODE_HOOKS_LONG				이 모드는 모든 게임 그래픽 모드와 호환됩니다. Steam 오버레이처럼 작동하며 DirectX 9, 10, 11, 12, Vulkan 및 OpenGL 그래픽과 함께 사용할 수 있습니다. 그러나 일부 안티 치트 시스템은 이러한 오버레이 (DLL 주입)를 좋아하지 않습니다.
+OVERLAY_MODE_HOOKS_LAUNCH			게임을 시작하고 몇 초 기다리면 조준선을 볼 수 있습니다. 조준선이 보이지 않지만 보일 것이라고 확신한다면, 지원팀에 메시지를 보내주십시오.\n\n이 모드에서는 바탕화면에서 조준선이 보이지 않지만, 게임 내에서만 보입니다!
+
+OVERLAY_TEST_SUCCESS				(성공)
+OVERLAY_TEST_FAILED				(실패)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				블랙리스트 모드
+BLACKLIST_WHITE_MODE				화이트리스트 모드
+BLACKLIST_BLOCKED					차단된 프로세스
+BLACKLIST_ALLOWED					허용된 프로세스
+BLACKLIST_BLOCK						프로세스 차단
+BLACKLIST_ALLOW						프로세서 허용
+BLACKLIST_UNBLOCK					프로세스 삭제
+BLACKLIST_SELECT					프로세스 선택

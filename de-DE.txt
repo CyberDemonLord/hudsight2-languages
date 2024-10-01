@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          Abbrechen
+BTN_CLOSE                           Schließen
+TRAYMENU_CLOSE			Schließen HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     Software ist aktiviert.
+ABOUT_TRIAL                         Software ist in der Demo.
+CURRENT_VERSION                     Build %d (%s)
+STEAM_VERSION_ON                    Steam-Version
+STEAM_NO_STATUS_CHANGE              Status nicht geändert
+ADMINISTRATOR				Administrator
+FIRST_START_ADMIN1			Dies ist der erste Start der Anwendung.\nMöglicherweise müssen Sie mit erhöhten Rechten ausführen, um zusätzliche Funktionen zu erhalten.
+FIRST_START_ADMIN2			Um die Vulkan-Unterstützung zu aktivieren, müssen Sie nur einmal mit erhöhten Rechten starten.\nReal Overlay-Modus (<a href="REAL_OVERLAY">overlays without hooks</a>) erfordert, dauerhaft "als Administrator" auszuführen.\n\nSie können diese Option später in den Anwendungseinstellungen (Options-Registerkarte) ändern.
+FIRST_START_ADMIN_YES1			"Als Administrator" ausführen
+FIRST_START_ADMIN_NO1			Keine Berechtigungen erhöhen
+FIRST_START_ADMIN_YES2			Weiter "als Administrator" ausführen
+FIRST_START_ADMIN_NO2			Erhöhte Berechtigungen beim nächsten Start deaktivieren
+
+TRIAL_WANT_CODE						Möchten Sie Ihren Aktivierungscode erhalten?
+TRIAL_GET_LICENSE					Eine Lizenz bestellen
+TRIAL_ACTIVATE						Software aktivieren
+TRIAL_ACTIVATION_CODE				Aktivierungscode
+TRIAL_ACTIVATION_ERROR				Fehler bei der Aktivierung der Software:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Aktivieren...
+TRIAL_REMINDER						Sie verwenden die Demoversion von HudSight 2.\n\nKaufen Sie eine Lizenz, um alle Demobeschränkungen zu entfernen und uns zu helfen, dieses Tool zu verbessern!
+TRIAL_REMINDER2						Die Einschränkungen der Demoversion: Fadenkreuz-Einstellungen können nicht gespeichert oder geladen werden, und es gibt ein Wasserzeichen über dem Spielbildschirm.
+TRIAL_REMINDER3						Wenn Sie eine Lizenz kaufen, helfen Sie uns, das Programm zu verbessern.\nWerde Teil unserer Gemeinschaft!
+TRIAL_REMINDER_SOFTWARE				Einstellungen werden im Testmodus nicht gespeichert
+TRIAL_REMINDER_STOP					Die Demoversion von HudSight 2 speichert keine Änderungen der Fadenkreuzeinstellungen.\n\nDiese Demobeschränkung wird in der voll lizenzierten Version entfernt.
+TRIAL_RECOVER_WANT					Wiederherstellung Ihres Aktivierungscodes
+TRIAL_RECOVER_EMAIL					Geben Sie Ihre E-Mail-Adresse ein
+TRIAL_RECOVER						Code senden
+TRIAL_RECOVER_CHECK_EMAIL			Bitte überprüfen Sie Ihre E-Mail
+TRIAL_GET_LICENSE					Eine Lizenz erhalten
+TRIAL_TRY_IT						Versuche es
+TRIAL_FREE_GAME						Die Aktivierung wurde mit einem speziellen Schlüssel durchgeführt.\nDie Software funktioniert als Vollversion für das Spiel: %s
+TRIAL_STEAM_NOT_SHOW				HudSight muss über den Steam-Client aktiviert werden.\nIhr Steam-Status wird auf "HudSight wird ausgeführt" geändert.\n\nSollen wir fortfahren?
+
+STEAM_NOT_STARTED					Fatales Fehler.\n\nKann nicht mit dem Software-Launcher verbinden. Bitte starten Sie das Programm über den Steam-Client.
+STEAM_NO_AUTH						Fatales Fehler.\n\nKann sich nicht bei Steam autorisieren. Um die Software zu aktivieren, müssen Sie sie über den Steam-Client starten.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Drücken Sie bis zu drei Tasten oder Escape, um abzubrechen
+HOTKEY_NOT_BOUND					Nicht zugeordnet
+
+SIGHT_TABS_CROSSHAIR				Fadenkreuz
+SIGHT_TABS_LIBRARY					Bibliothek
+SIGHT_TABS_OVERLAY_MODE					Zeichenmodus
+SIGHT_TABS_COMMON					Optionen
+SIGHT_TABS_INFO						Informationen
+
+SIGHT_TABS_CROSSHAIR_EX				Verfügbare Fadenkreuze
+SIGHT_TABS_LIBRARY_EX				Fadenkreuz-Bibliothek
+SIGHT_TABS_BLACKLIST_EX				Schwarze Liste Einstellungen
+SIGHT_TABS_COMMON_EX				Allgemeine Einstellungen
+SIGHT_TABS_OVERLAY_MODE_EX			Fadenkreuz-Zeichnungsmodus
+
+LIBRARY_NEW_IMAGE					Ein neues Bild erstellen
+LIBRARY_ADD_IMAGE					Ein Bild von der Festplatte hinzufügen
+LIBRARY_DELETE_IMAGE				Ausgewähltes Bild löschen
+LIBRARY_RESTORE_DEFAULTS			Standardbilderset wiederherstellen
+LIBRARY_EDIT_IMAGE					Bild bearbeiten
+LIBRARY_MAKE_FAVORITE				Favorit markieren/ausblenden
+LIBRARY_SHOW_ONLY_FAVORITES			Nur Favoriten anzeigen
+LIBRARY_EDITOR_RENAME				Ausgewähltes Bild umbenennen
+LIBRARY_EDITOR_ENTER_NAME				Bildnamen eingeben
+LIBRARY_STEAMWORKSHOP_UPLOAD			Bild in den Steam workshop hochladen
+LIBRARY_STEAMWORKSHOP_REMOVE			Bild aus dem Steam workshop entfernen
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Fehler beim Entfernen des Bildes aus dem Steam workshop.\nWahrscheinlich haben Sie nicht die erforderlichen Rechte dafür.\n\nSie können sich von diesem Artikel im workshop (in Ihrem Steam-Konto) abmelden und dieses Fadenkreuz hier löschen.
+LIBRARY_STEAM_AGREEMENT				Zuerst müssen Sie dem Steam-Abonnentenvertrag zustimmen, um eine korrekte Verarbeitung Ihrer Uploads sicherzustellen.
+
+SIGHT_EDITOR						Bildbearbeiter
+SIGHT_EDITOR_NEW		Klares Fadenkreuzbild
+SIGHT_EDITOR_GEN		Fadenkreuzbild-Generator
+SIGHT_EDITOR_SETTINGS		Editor-Einstellungen
+SIGHT_EDITOR_ENTER_NAME				Bildnamen eingeben
+SIGHT_EDITOR_UNDO					Rückgängig machen
+SIGHT_EDITOR_REDO					Wiederherstellen
+SIGHT_EDITOR_ZOOMIN		Vergrößern
+SIGHT_EDITOR_ZOOMOUT		Verkleinern
+SIGHT_EDITOR_IMAGESIZE				Bildgröße
+SIGHT_EDITOR_PEN_VALUE				Stiftfarbe
+SIGHT_EDITOR_PEN_RGBA				RGBA-Stift verwenden
+SIGHT_EDITOR_PIXELVALUE				Wert unter dem Cursor
+SIGHT_EDITOR_DROPPER			Farbauswahlwerkzeug
+SIGHT_EDITOR_PIXEL_OFFSET		Versatz des Pixels unter dem Cursor anzeigen
+SIGHT_EDITOR_GEN_THICKNESS		Dicke
+SIGHT_EDITOR_GEN_SIZE			Größe
+SIGHT_EDITOR_GEN_OUTLINE		Umrandung
+SIGHT_EDITOR_GEN_GAP			Abstand
+SIGHT_EDITOR_GEN_STYLE1			Primärstil
+SIGHT_EDITOR_GEN_STYLE2			Zusätzlicher Stil
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Leer
+SIGHT_EDITOR_GEN_STYLE_CROSS		Kreuz
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T-förmig
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Diagonales Kreuz
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		Dreistrahl
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Raubtier
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 Punkte
+SIGHT_EDITOR_GEN_STYLE_DOT		Punkt
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Kreis
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Quadrat
+SIGHT_EDITOR_OVERWRITE			Das Bild wurde geändert.\nMöchten Sie die Änderungen speichern?
+SIGHT_EDITOR_RENAME_BUSY		Dieser Name ist bereits vergeben
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Benutzerdefiniertes Profil für dieses Fadenkreuz
+SIGHT_COLOR_MASK					Farbmaske
+SIGHT_COLOR_MASK_WARNING			Das Fadenkreuz ist fast unsichtbar, überprüfen Sie den Transparenzkanal (Alpha) der Farbmaske
+SIGHT_SCALE							Bildmaßstab, Prozent
+SIGHT_RESET_BUTTON					Zurücksetzen
+SIGHT_OFFSET						Versatz vom Bildschirmzentrum, X/Y
+SIGHT_VIS_HOTKEY					Sichtbarkeitshotkey
+SIGHT_VIS_MODE						Sichtbarkeitsmodus
+SIGHT_VIS_MODE_DEFAULT				Drücken, um die Sichtbarkeit umzuschalten
+SIGHT_VIS_MODE_HOLD					Halte für Sichtbarkeit
+SIGHT_VIS_MODE_HOLD_INV				Umgekehrter Haltemodus
+
+SIGHT_LEAN							Fadenkreuz neigen aktivieren
+SIGHT_LEAN_HOTKEYS					Hotkeys für Neigen nach links und rechts
+SIGHT_LEAN_ANGLE					Neigungswinkel, Grad
+
+SIGHT_ENABLE_ADVANCED				Erweiterten Fadenkreuzprofil-Einstellungen aktivieren
+SIGHT_SWITCH_HOTKEY					Fadenkreuz-Hotkey wechseln
+SIGHT_SWITCH_MODE					Modus wechseln
+SIGHT_SWITCH_MODE_PRESS				Bei Druck
+SIGHT_SWITCH_MODE_RELEASE			Bei Freigabe
+
+SETTINGS_LANGUAGE_EX				Benutzersprache und Schriftgröße
+SETTINGS_LANGUAGE_EX_HINT			Sie müssen das Programm neu starten, um diese Optionen anzuwenden.
+SETTINGS_LANGUAGE_STEAM				Sprache der Steam-App
+SETTINGS_START_AS_ADMIN				Mit hohen Rechten (als Administrator) starten
+SETTINGS_START_AS_ADMIN_HINT		Hohe Rechte sind erforderlich, um auf bestimmte Funktionen zuzugreifen.\nSie müssen das Programm neu starten, um diese Option anzuwenden.
+SETTINGS_START_WITH_WINDOWS			Autostart mit Windows
+SETTINGS_START_MINIMIZED			Minimiert starten
+SETTINGS_DONOT_USE_TRAY				Das Symbol aus dem Infobereich entfernen
+SETTINGS_MINIMIZE_TRAY				In den Infobereich minimieren
+SETTINGS_CLOSE_MINIMIZE				Schließen-Button als Minimieren
+SETTINGS_CHECK_UPDATE				Beim Start nach Updates suchen
+SETTINGS_SHOW_HINTS					Tooltips anzeigen
+SETTINGS_SYSTEM_MESSAGES			Systemnachrichten
+SETTINGS_LIGHT_THEME				Helles Benutzeroberflächenthema verwenden
+SETTINGS_NO_SHOW_STEAM				Status von Steam nicht ändern
+SETTINGS_USE_FAVORITES				Bevorzugte Fadenkreuze aktivieren
+SETTINGS_BACK_VERSION1				Zurückschalten auf Version 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Anzeige #%d)
+
+OVERLAY_MODE_DETAILS				Details
+OVERLAY_MODE_SELECT_DISPLAY			Anzeige auswählen
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Wählen Sie die Anzeige aus, die verwendet werden soll, um Ihr Fadenkreuz anzuzeigen.
+OVERLAY_MODE_READ_MORE				Erfahren Sie mehr auf der Website
+
+OVERLAY_MODE_SIMPLE_SHORT			Das Fadenkreuz-Overlay wird mit einem transparenten Fenster gezeichnet, das über allen anderen Fenstern liegt.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay funktioniert gut mit Fenstermodus- oder randlosen Fenstermodus-Spielen. Es ist auch nützlich für Spiele, die DirectX 9 oder DirectX 12 mit aktivierten Vollbildoptimierungen (FSO) verwenden.
+
+OVERLAY_MODE_REAL_SHORT				Dies ist eine verbesserte Version des Simple Overlay-Modus, die das Anzeigen des Overlays im exklusiven Vollbildmodus (FSE) ermöglicht.
+OVERLAY_MODE_REAL_LONG				Real Overlay funktioniert mit Fenstermodus, randlosem Fenstermodus und im exklusiven Vollbildmodus. Es erfordert Administratorrechte. Inkompatibel mit Vulkan- und OpenGL-Vollbildspielen.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Starte die App als Administrator, um den Real Overlay-Modus zu aktivieren.
+OVERLAY_MODE_REAL_STATE				Überprüfe die Administratorrechte...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Jetzt als Administrator neu starten
+
+OVERLAY_MODE_XBOX_SHORT				Dieser Overlay-Modus ähnelt dem Real Overlay und kann in Spielen mit exklusivem Vollbildmodus funktionieren.
+OVERLAY_MODE_XBOX_LONG				Der Game Bar-Modus wird von der Windows Game Bar unterstützt. It doesn't require Admin provileges (as Real Overlay), but you will need to install our Game Bar extension from the Windows Store. Inkompatibel mit Vulkan- und OpenGL-Vollbildspielen.
+OVERLAY_MODE_XBOX_INSTALL			Installiere unsere Game Bar-Erweiterung
+OVERLAY_MODE_XBOX_LAUNCH			Öffne die Game Bar (mit der Tastenkombination Win+G) \n\t- Starte unser Widget \n\t- Heft es an \n\t- Aktiviere das Klicken durch die Maus für die Game Bar.
+OVERLAY_MODE_XBOX_STATE				Überprüfe die Verbindung des Widgets...
+
+OVERLAY_MODE_HOOKS_SHORT			Das "alte" Hooks-Overlay verwendet eine Render-Intercept-Technik im Spielprozess.
+OVERLAY_MODE_HOOKS_LONG				Dieser Modus ist mit jedem Grafikmodus von Spielen kompatibel. Er funktioniert wie das Steam-Overlay und kann mit DirectX 9, 10, 11, 12, Vulkan und OpenGL-Grafiken verwendet werden. Einige Anti-Cheat-Programme mögen jedoch solche Overlays (DLL-Injektionen) nicht.
+OVERLAY_MODE_HOOKS_LAUNCH			Starte einfach das Spiel, warte ein paar Sekunden, und du solltest dein Fadenkreuz sehen. Falls du das Fadenkreuz nicht siehst und dir sicher bist, dass es sichtbar sein sollte, sende bitte eine Nachricht an den Support.\n\nDas Fadenkreuz ist in diesem Modus auf dem Desktop nicht sichtbar, sondern nur in Spielen!
+
+OVERLAY_TEST_SUCCESS				(Erfolg)
+OVERLAY_TEST_FAILED				(Fehlgeschlagen)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Schwarze Liste Modus
+BLACKLIST_WHITE_MODE				Weiße Liste Modus
+BLACKLIST_BLOCKED					Blockierte Prozesse
+BLACKLIST_ALLOWED					Erlaubte Prozesse
+BLACKLIST_BLOCK						Prozess blockieren
+BLACKLIST_ALLOW						Prozess erlauben
+BLACKLIST_UNBLOCK					Prozess entfernen
+BLACKLIST_SELECT					Prozess auswählen

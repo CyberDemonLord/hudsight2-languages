@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          ยกเลิก
+BTN_CLOSE                           ปิด
+TRAYMENU_CLOSE			ปิด HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     ซอฟต์แวร์เปิดใช้งานแล้ว.
+ABOUT_TRIAL                         ซอฟต์แวร์อยู่ในโหมดทดลองใช้.
+CURRENT_VERSION                     เวอร์ชัน %d (%s)
+STEAM_VERSION_ON                    เวอร์ชัน Steam
+STEAM_NO_STATUS_CHANGE              สถานะไม่เปลี่ยนแปลง
+ADMINISTRATOR				ผู้ดูแลระบบ
+FIRST_START_ADMIN1			นี่คือการเริ่มต้นครั้งแรกของแอปพลิเคชัน\nคุณอาจต้องรันด้วยสิทธิพิเศษสูงเพื่อให้ได้คุณสมบัติเพิ่มเติม.
+FIRST_START_ADMIN2			ในการเปิดใช้งานการรองรับ Vulkan คุณต้องเริ่มต้นด้วยสิทธิพิเศษสูงเพียงครั้งเดียว.\nโหมด Real Overlay (<a href="REAL_OVERLAY">โอเวอร์เลย์โดยไม่ต้องใช้ฮุค</a>) จำเป็นต้องรัน "ในฐานะผู้ดูแลระบบ" ตลอดเวลา.\n\nคุณสามารถเปลี่ยนตัวเลือกนี้ได้ในภายหลังในตั้งค่าของแอปพลิเคชัน (แท็บตัวเลือก).
+FIRST_START_ADMIN_YES1			รัน "ในฐานะผู้ดูแลระบบ"
+FIRST_START_ADMIN_NO1			ไม่เพิ่มสิทธิ์
+FIRST_START_ADMIN_YES2			ทำงานต่อไป "ในฐานะผู้ดูแลระบบ"
+FIRST_START_ADMIN_NO2			ปิดสิทธิ์สูงสุดในครั้งถัดไปที่เริ่มต้น
+
+TRIAL_WANT_CODE						คุณต้องการรับรหัสการเปิดใช้งานหรือไม่?
+TRIAL_GET_LICENSE					สั่งซื้อใบอนุญาต
+TRIAL_ACTIVATE						เปิดใช้งานซอฟต์แวร์
+TRIAL_ACTIVATION_CODE				รหัสการเปิดใช้งาน
+TRIAL_ACTIVATION_ERROR				พบข้อผิดพลาดในการเปิดใช้งานซอฟต์แวร์:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			กำลังเปิดใช้งาน...
+TRIAL_REMINDER						คุณกำลังใช้เวอร์ชันทดลองของ HudSight 2.\n\nซื้อใบอนุญาตเพื่อเอาความจำกัดทั้งหมดของเวอร์ชันทดลองออกและช่วยเราพัฒนาทูลนี้!
+TRIAL_REMINDER2						ข้อจำกัดของเวอร์ชันทดลอง: การตั้งค่ากระบอกเลนส์ไม่สามารถบันทึกหรือติดตั้งใหม่ได้ และจะมีลายน้ำอยู่บนหน้าจอเกม.
+TRIAL_REMINDER3						เมื่อคุณซื้อใบอนุญาต คุณจะช่วยเราให้โปรแกรมดีขึ้น\nเป็นส่วนหนึ่งของชุมชนของเรา!
+TRIAL_REMINDER_SOFTWARE				การตั้งค่าไม่ได้ถูกบันทึกในโหมดทดลอง
+TRIAL_REMINDER_STOP					เวอร์ชันทดลองของ HudSight 2 ไม่สามารถบันทึกการเปลี่ยนแปลงของการตั้งค่ากระบอกเลนส์ได้。\n\nข้อจำกัดนี้จะถูกลบออกในเวอร์ชันเต็มที่มีใบอนุญาต.
+TRIAL_RECOVER_WANT					กู้คืนรหัสการเปิดใช้งานของคุณ
+TRIAL_RECOVER_EMAIL					ใส่อีเมลของคุณ
+TRIAL_RECOVER						ส่งรหัส
+TRIAL_RECOVER_CHECK_EMAIL			โปรดตรวจสอบอีเมลของคุณ
+TRIAL_GET_LICENSE					รับใบอนุญาต
+TRIAL_TRY_IT						ทดลองใช้
+TRIAL_FREE_GAME						การเปิดใช้ได้ทำโดยใช้รหัสพิเศษ。\nซอฟต์แวร์ทำงานเป็นเวอร์ชันเต็มสำหรับเกม: %s
+TRIAL_STEAM_NOT_SHOW				HudSight ต้องเปิดใช้งานโดยใช้ Steam client。\nสถานะ Steam ของคุณจะเปลี่ยนเป็น "กำลังรัน HudSight"。\n\nเราควรดำเนินการต่อไปไหม?
+
+STEAM_NOT_STARTED					ข้อผิดพลาดร้ายแรง。\n\nไม่สามารถเชื่อมต่อกับโปรแกรมเริ่มต้นซอฟต์แวร์ โปรดเริ่มโปรแกรมจาก Steam client.
+STEAM_NO_AUTH						ข้อผิดพลาดร้ายแรง。\n\nไม่สามารถอนุญาตใน Steam เพื่อเปิดใช้งานซอฟต์แวร์ คุณต้องเริ่มมันจาก Steam client.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							กดปุ่มสามปุ่มหรือตกลงเพื่อยกเลิก
+HOTKEY_NOT_BOUND					ไม่ได้ผูก
+
+SIGHT_TABS_CROSSHAIR				จุดกระสุน
+SIGHT_TABS_LIBRARY					ไลบรารี
+SIGHT_TABS_OVERLAY_MODE					โหมดการวาด
+SIGHT_TABS_COMMON					ตัวเลือก
+SIGHT_TABS_INFO						ข้อมูล
+
+SIGHT_TABS_CROSSHAIR_EX				จุดกระสุนที่มีอยู่
+SIGHT_TABS_LIBRARY_EX				ไลบรารีจุดกระสุน
+SIGHT_TABS_BLACKLIST_EX				การตั้งค่าห้าม
+SIGHT_TABS_COMMON_EX				การตั้งค่าทั่วไป
+SIGHT_TABS_OVERLAY_MODE_EX			โหมดวาดจุดกระสุน
+
+LIBRARY_NEW_IMAGE					สร้างภาพใหม่
+LIBRARY_ADD_IMAGE					เพิ่มภาพจากดิสก์
+LIBRARY_DELETE_IMAGE				ลบภาพที่เลือก
+LIBRARY_RESTORE_DEFAULTS			คืนค่าชุดภาพเริ่มต้น
+LIBRARY_EDIT_IMAGE					แก้ไขภาพ
+LIBRARY_MAKE_FAVORITE				ทำเครื่องหมาย/ยกเลิกทำเครื่องหมายเป็นรายการโปรด
+LIBRARY_SHOW_ONLY_FAVORITES			แสดงเฉพาะรายการโปรด
+LIBRARY_EDITOR_RENAME				เปลี่ยนชื่อภาพที่เลือก
+LIBRARY_EDITOR_ENTER_NAME				ป้อนชื่อภาพ
+LIBRARY_STEAMWORKSHOP_UPLOAD			อัปโหลดภาพไปยัง Steam workshop
+LIBRARY_STEAMWORKSHOP_REMOVE			ลบภาพจาก Steam workshop
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		เกิดข้อผิดพลาดในการลบภาพจาก Steam workshop\nอาจเป็นไปได้ว่าคุณไม่มีสิทธิ์ในเรื่องนี้\n\nคุณสามารถยกเลิกการติดตามรายการนี้ใน workshop (ในบัญชี Steam ของคุณ) และลบ reticle นี้ที่นี่.
+LIBRARY_STEAM_AGREEMENT				คุณต้องตกลงตามข้อตกลงสมาชิก Steam ก่อนเพื่อให้การอัปโหลดของคุณถูกประมวลผลอย่างถูกต้อง.
+
+SIGHT_EDITOR						โปรแกรมแก้ไขภาพ
+SIGHT_EDITOR_NEW		ภาพ reticle สะอาด
+SIGHT_EDITOR_GEN		เครื่องมือสร้างภาพ reticle
+SIGHT_EDITOR_SETTINGS		การตั้งค่าโปรแกรมแก้ไข
+SIGHT_EDITOR_ENTER_NAME				ป้อนชื่อภาพ
+SIGHT_EDITOR_UNDO					ย้อนกลับ
+SIGHT_EDITOR_REDO					ทำซ้ำ
+SIGHT_EDITOR_ZOOMIN		ขยาย
+SIGHT_EDITOR_ZOOMOUT		ย่อ
+SIGHT_EDITOR_IMAGESIZE				ขนาดภาพ
+SIGHT_EDITOR_PEN_VALUE				สีปากกา
+SIGHT_EDITOR_PEN_RGBA				ใช้ปากกา RGBA
+SIGHT_EDITOR_PIXELVALUE				ค่าภายใต้ตัวชี้
+SIGHT_EDITOR_DROPPER			Eเครื่องมือหยิบสี
+SIGHT_EDITOR_PIXEL_OFFSET		แสดงการเลื่อนของพิกเซลภายใต้ตัวชี้
+SIGHT_EDITOR_GEN_THICKNESS		ความหนา
+SIGHT_EDITOR_GEN_SIZE			ขนาด
+SIGHT_EDITOR_GEN_OUTLINE		กรอบ
+SIGHT_EDITOR_GEN_GAP			ช่องว่าง
+SIGHT_EDITOR_GEN_STYLE1			สไตล์หลัก
+SIGHT_EDITOR_GEN_STYLE2			สไตล์เพิ่มเติม
+SIGHT_EDITOR_GEN_STYLE_EMPTY		ว่างเปล่า
+SIGHT_EDITOR_GEN_STYLE_CROSS		กากบาท
+SIGHT_EDITOR_GEN_STYLE_TCROSS		รูปตัว T
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	กากบาทเฉียง
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		ลูกศร
+SIGHT_EDITOR_GEN_STYLE_3RAY		3 แฉก
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		ผู้ล่า
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 จุด
+SIGHT_EDITOR_GEN_STYLE_DOT		จุด
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		วงกลม
+SIGHT_EDITOR_GEN_STYLE_SQUARE		สี่เหลี่ยม
+SIGHT_EDITOR_OVERWRITE			ภาพถูกเปลี่ยน.\nคุณต้องการบันทึกการเปลี่ยนแปลงหรือไม่?
+SIGHT_EDITOR_RENAME_BUSY		ชื่อนี้ถูกใช้แล้ว
+
+SIGHT_ENABLE_CUSTOM_PROFILE			โปรไฟล์เฉพาะสำหรับ reticle นี้
+SIGHT_COLOR_MASK					หน้ากากสี
+SIGHT_COLOR_MASK_WARNING			reticle แทบมองไม่เห็น, โปรดตรวจสอบช่องโปร่งใส (Alpha) ของหน้ากากสี
+SIGHT_SCALE							ขนาดภาพ, เปอร์เซ็นต์
+SIGHT_RESET_BUTTON					ตั้งค่าใหม่
+SIGHT_OFFSET						การเลื่อนจากกลางจอ, X/Y
+SIGHT_VIS_HOTKEY					ปุ่มลัดสำหรับการมองเห็น
+SIGHT_VIS_MODE						โหมดการมองเห็น
+SIGHT_VIS_MODE_DEFAULT				กดเพื่อสลับการมองเห็น
+SIGHT_VIS_MODE_HOLD					กดค้างเพื่อมองเห็น
+SIGHT_VIS_MODE_HOLD_INV				โหมดกดค้างย้อนกลับ
+
+SIGHT_LEAN							เปิดใช้งานการเอียง reticle
+SIGHT_LEAN_HOTKEYS					ปุ่มลัดสำหรับการเอียงซ้ายและขวา
+SIGHT_LEAN_ANGLE					มุม, องศา
+
+SIGHT_ENABLE_ADVANCED				เปิดใช้งานการตั้งค่าโปรไฟล์จุดเล็งขั้นสูง
+SIGHT_SWITCH_HOTKEY					สับเปลี่ยนไปยังปุ่มลัดของ reticle
+SIGHT_SWITCH_MODE					โหมดการสับเปลี่ยน
+SIGHT_SWITCH_MODE_PRESS				กดเพื่อสับเปลี่ยน
+SIGHT_SWITCH_MODE_RELEASE			ปล่อยเพื่อสับเปลี่ยน
+
+SETTINGS_LANGUAGE_EX				ภาษาและขนาดฟอนต์ของอินเตอร์เฟซ
+SETTINGS_LANGUAGE_EX_HINT			คุณต้องรีสตาร์ทโปรแกรมเพื่อให้การตั้งค่าเหล่านี้มีผล.
+SETTINGS_LANGUAGE_STEAM				Sภาษาแอพ Steam
+SETTINGS_START_AS_ADMIN				เริ่มต้นด้วยสิทธิพิเศษสูง (ในฐานะ Admin)
+SETTINGS_START_AS_ADMIN_HINT		ต้องการสิทธิพิเศษสูงเพื่อเข้าถึงฟีเจอร์บางอย่าง。\nคุณต้องรีสตาร์ทโปรแกรมเพื่อให้การตั้งค่านี้มีผล.
+SETTINGS_START_WITH_WINDOWS			เริ่มต้นอัตโนมัติกับ Windows
+SETTINGS_START_MINIMIZED			เริ่มต้นในโหมดย่อ
+SETTINGS_DONOT_USE_TRAY				ลบไอคอนออกจากพื้นที่ทำงาน
+SETTINGS_MINIMIZE_TRAY				ย่อไปยังพื้นที่ทำงาน
+SETTINGS_CLOSE_MINIMIZE				ปุ่มปิดเป็นปุ่มย่อ
+SETTINGS_CHECK_UPDATE				ตรวจสอบการอัปเดตเมื่อเริ่มต้น
+SETTINGS_SHOW_HINTS					แสดงคำอธิบายเครื่องมือ
+SETTINGS_SYSTEM_MESSAGES			ข้อความระบบ
+SETTINGS_LIGHT_THEME				ใช้ธีมอินเตอร์เฟซแบบสว่าง
+SETTINGS_NO_SHOW_STEAM				ไม่เปลี่ยนแปลงสถานะ Steam
+SETTINGS_USE_FAVORITES				เปิดใช้งาน reticle ที่ชื่นชอบ
+SETTINGS_BACK_VERSION1				สลับกลับไปยังเวอร์ชัน 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(แสดงผล #%d)
+
+OVERLAY_MODE_DETAILS				รายละเอียด
+OVERLAY_MODE_SELECT_DISPLAY			เลือกการแสดงผล
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		เลือกการแสดงผลที่จะใช้เพื่อแสดงเคอร์เซอร์ของคุณ.
+OVERLAY_MODE_READ_MORE				อ่านเพิ่มเติมที่เว็บไซต์
+
+OVERLAY_MODE_SIMPLE_SHORT			เคอร์เซอร์ทับจะถูกวาดโดยใช้หน้าต่างโปร่งใสที่อยู่เหนือหน้าต่างอื่นทั้งหมด.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay ทำงานได้ดีในเกมแบบ Windowed หรือ Borderless Windowed นอกจากนี้ยังมีประโยชน์สำหรับเกมที่ใช้ DirectX 9 หรือ DirectX 12 ที่เปิดใช้งาน Fullscreen Optimizations (FSO).
+
+OVERLAY_MODE_REAL_SHORT				นี่คือเวอร์ชันที่ปรับปรุงของโหมด Simple Overlay ที่สามารถแสดงการทับซ้อนใน Fullscreen Exclusive (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay ทำงานได้กับเกมแบบ Windowed, Borderless Windowed และ Fullscreen Exclusive ต้องการสิทธิ์ของผู้ดูแลระบบ. ไม่เข้ากันกับเกมที่ใช้ Vulkan และ OpenGL แบบเต็มหน้าจอ.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		เริ่มแอปในฐานะผู้ดูแลระบบเพื่อเปิดใช้งานโหมด Real Overlay.
+OVERLAY_MODE_REAL_STATE				กำลังตรวจสอบสิทธิ์ผู้ดูแลระบบ...
+OVERLAY_MODE_REAL_ADMIN_RESTART			เริ่มใหม่ในฐานะผู้ดูแลระบบตอนนี้
+
+OVERLAY_MODE_XBOX_SHORT				โหมดการทับซ้อนนี้มีความคล้ายคลึงกับ Real Overlay และสามารถทำงานในเกมแบบ Fullscreen Exclusive ได้.
+OVERLAY_MODE_XBOX_LONG				โหมด Game Bar ขับเคลื่อนโดย Windows Game Bar. มันไม่ต้องการสิทธิ์ผู้ดูแลระบบ (เหมือนกับ Real Overlay) แต่คุณจะต้องติดตั้งส่วนขยาย Game Bar ของเราจาก Windows Store. ไม่เข้ากันกับเกมที่ใช้ Vulkan และ OpenGL แบบเต็มหน้าจอ.
+OVERLAY_MODE_XBOX_INSTALL			ติดตั้งส่วนขยาย Game Bar ของเรา
+OVERLAY_MODE_XBOX_LAUNCH			เปิด Game Bar (โดยใช้ทางลัด Win+G) \n\t- เริ่มใช้งานวิดเจ็ตของเรา \n\t- ติดมัน \n\t- เปิดใช้งานการคลิกผ่านด้วยเมาส์สำหรับ Game Bar.
+OVERLAY_MODE_XBOX_STATE				กำลังตรวจสอบการเชื่อมต่อวิดเจ็ต...
+
+OVERLAY_MODE_HOOKS_SHORT			การแสดงผลแบบ "สไตล์เก่า" ของ Hooks ใช้การแทรกซ้อนการเรนเดอร์ในกระบวนการเกม.
+OVERLAY_MODE_HOOKS_LONG				โหมดนี้เข้ากันได้กับโหมดกราฟิกเกมใด ๆ มันทำงานเหมือน Steam overlay และสามารถใช้กับกราฟิก DirectX 9, 10, 11, 12, Vulkan และ OpenGL ได้. อย่างไรก็ตาม ระบบป้องกันการโกงบางระบบไม่ชอบ overlay แบบนี้ (การฉีด DLL)。
+OVERLAY_MODE_HOOKS_LAUNCH			แค่เริ่มเกม รอไม่กี่วินาที คุณควรจะเห็นเล็งของคุณ. หากคุณไม่เห็นเล็งและมั่นใจว่ามันควรจะมองเห็นได้ กรุณาส่งข้อความไปยังฝ่ายสนับสนุน.\n\nจุดตัดมองไม่เห็นในโหมดนี้บนเดสก์ท็อป แต่จะเห็นเฉพาะในเกมเท่านั้น!
+
+OVERLAY_TEST_SUCCESS				(สำเร็จ)
+OVERLAY_TEST_FAILED				(ล้มเหลว)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				โหมดแบล็คลิสต์
+BLACKLIST_WHITE_MODE				โหมดไวท์ลิสต์
+BLACKLIST_BLOCKED					กระบวนการที่ถูกบล็อก
+BLACKLIST_ALLOWED					กระบวนการที่ได้รับอนุญาต
+BLACKLIST_BLOCK						บล็อกกระบวนการ
+BLACKLIST_ALLOW						อนุญาตกระบวนการ
+BLACKLIST_UNBLOCK					ลบการบล็อกกระบวนการ
+BLACKLIST_SELECT					เลือกกระบวนการ

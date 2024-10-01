@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          Annulla
+BTN_CLOSE                           Chiudi
+TRAYMENU_CLOSE			Chiudi HudSight 2
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     Software attivato.
+ABOUT_TRIAL                         Software in modalità di prova.
+CURRENT_VERSION                     Versione %d (%s)
+STEAM_VERSION_ON                    Versione Steam
+STEAM_NO_STATUS_CHANGE              Stato non cambiato
+ADMINISTRATOR				Amministratore
+FIRST_START_ADMIN1			Questo è il primo avvio dell'applicazione.\nPotresti aver bisogno di eseguire con privilegi elevati per ottenere funzionalità aggiuntive.
+FIRST_START_ADMIN2			Per abilitare il supporto Vulkan, devi avviare con privilegi elevati solo una volta.\nLa modalità Real Overlay (<a href="REAL_OVERLAY">overlay senza hook</a>) richiede di eseguire "come amministratore" permanentemente.\n\nPuoi modificare questa opzione in seguito nelle impostazioni dell'applicazione (scheda Opzioni).
+FIRST_START_ADMIN_YES1			Esegui "come amministratore"
+FIRST_START_ADMIN_NO1			Non elevare i privilegi
+FIRST_START_ADMIN_YES2			Continua a eseguire "come amministratore"
+FIRST_START_ADMIN_NO2			Disabilita i privilegi elevati al prossimo avvio
+
+TRIAL_WANT_CODE						Vuoi ricevere il tuo codice di attivazione?
+TRIAL_GET_LICENSE					Ordina una licenza
+TRIAL_ACTIVATE						Attiva il software
+TRIAL_ACTIVATION_CODE				Codice di attivazione
+TRIAL_ACTIVATION_ERROR				Errore durante l'attivazione del software\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Attivazione in corso...
+TRIAL_REMINDER						Stai usando la versione demo di HudSight 2.\n\nAcquista una licenza per rimuovere tutte le restrizioni della demo e aiutarci a migliorare questo strumento!
+TRIAL_REMINDER2						Le restrizioni della versione demo: le impostazioni dei mirini non possono essere salvate o caricate, c'è un watermark sopra lo schermo di gioco.
+TRIAL_REMINDER3						Quando acquisti una licenza, ci aiuti a migliorare il programma.\nDiventa parte della nostra comunità!
+TRIAL_REMINDER_SOFTWARE				Le impostazioni non vengono salvate in modalità di prova
+TRIAL_REMINDER_STOP					La versione demo di HudSight 2 non salva le modifiche delle impostazioni dei mirini.\n\nQuesta restrizione della demo sarà rimossa nella versione completamente licenziata.
+TRIAL_RECOVER_WANT					Recupera il tuo codice di attivazione
+TRIAL_RECOVER_EMAIL					Inserisci la tua email
+TRIAL_RECOVER						Invia il codice
+TRIAL_RECOVER_CHECK_EMAIL			Controlla la tua e-mail
+TRIAL_GET_LICENSE					Ottieni una licenza
+TRIAL_TRY_IT						Provalo
+TRIAL_FREE_GAME						L'attivazione è stata effettuata utilizzando un codice speciale.\nIl software funziona come versione completa per il gioco: %s
+TRIAL_STEAM_NOT_SHOW				HudSight deve essere attivato utilizzando il client Steam.\nIl tuo stato Steam sarà cambiato in "sto usando HudSight".\n\nDobbiamo continuare?
+
+STEAM_NOT_STARTED					Errore fatale.\n\nImpossibile connettersi al launcher del software. Si prega di avviare il programma dal client Steam.
+STEAM_NO_AUTH						Errore fatale.\n\nImpossibile autorizzarsi in Steam. Per attivare il software è necessario avviarlo dal client Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Premi fino a tre tasti o Esc per annullare
+HOTKEY_NOT_BOUND					Non assegnato
+
+SIGHT_TABS_CROSSHAIR				Mirino
+SIGHT_TABS_LIBRARY					Libreria
+SIGHT_TABS_OVERLAY_MODE					Modalità di disegno
+SIGHT_TABS_COMMON					Opzioni
+SIGHT_TABS_INFO						Informazioni
+
+SIGHT_TABS_CROSSHAIR_EX				Mirini disponibili
+SIGHT_TABS_LIBRARY_EX				Libreria dei mirini
+SIGHT_TABS_BLACKLIST_EX				Impostazioni blackelist
+SIGHT_TABS_COMMON_EX				Impostazioni generali
+SIGHT_TABS_OVERLAY_MODE_EX			Modalità di disegno del mirino
+
+LIBRARY_NEW_IMAGE					Crea una nuova immagine
+LIBRARY_ADD_IMAGE					Aggiungi un'immagine dal disco
+LIBRARY_DELETE_IMAGE				Elimina l'immagine selezionata
+LIBRARY_RESTORE_DEFAULTS			Ripristina il set di immagini predefinite
+LIBRARY_EDIT_IMAGE					Modifica immagine
+LIBRARY_MAKE_FAVORITE				Segna/non segnare come preferito
+LIBRARY_SHOW_ONLY_FAVORITES			Mostra solo i preferiti
+LIBRARY_EDITOR_RENAME				Rinomina immagine selezionata
+LIBRARY_EDITOR_ENTER_NAME				Inserisci il nome dell'immagine
+LIBRARY_STEAMWORKSHOP_UPLOAD			Carica immagine su Steam Workshop
+LIBRARY_STEAMWORKSHOP_REMOVE			Rimuovi immagine da Steam Workshop
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Errore durante la rimozione dell'immagine da Steam Workshop.\nProbabilmente non hai i diritti per farlo.\n\nPuoi disiscriversi da questo elemento nel workshop (nel tuo account Steam) e eliminare questo mirino qui.
+LIBRARY_STEAM_AGREEMENT				Prima devi accettare il Contratto di Abbonamento di Steam per un'elaborazione corretta dei tuoi caricamenti.
+
+SIGHT_EDITOR						Image editor
+SIGHT_EDITOR_NEW		Cancella immagine del mirino
+SIGHT_EDITOR_GEN		Generatore di immagini del mirino
+SIGHT_EDITOR_SETTINGS		Impostazioni dell'editor
+SIGHT_EDITOR_ENTER_NAME				Inserisci il nome dell'immagine
+SIGHT_EDITOR_UNDO					Annulla
+SIGHT_EDITOR_REDO					Ripeti
+SIGHT_EDITOR_ZOOMIN		Zoom avanti
+SIGHT_EDITOR_ZOOMOUT		Zoom indietro
+SIGHT_EDITOR_IMAGESIZE				Dimensione immagine
+SIGHT_EDITOR_PEN_VALUE				Colore della penna
+SIGHT_EDITOR_PEN_RGBA				Usa penna RGBA
+SIGHT_EDITOR_PIXELVALUE				Valore sotto il cursore
+SIGHT_EDITOR_DROPPER			Contagocce
+SIGHT_EDITOR_PIXEL_OFFSET		Mostra offset del pixel sotto il cursore
+SIGHT_EDITOR_GEN_THICKNESS		Spessore
+SIGHT_EDITOR_GEN_SIZE			Dimensione
+SIGHT_EDITOR_GEN_OUTLINE		Contorno
+SIGHT_EDITOR_GEN_GAP			Intervallo
+SIGHT_EDITOR_GEN_STYLE1			Stile primario
+SIGHT_EDITOR_GEN_STYLE2			Stile aggiuntivo
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Vuoto
+SIGHT_EDITOR_GEN_STYLE_CROSS		Croce
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T-shaped
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Croce diagonale
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-ray
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predatore
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 punti
+SIGHT_EDITOR_GEN_STYLE_DOT		Punto
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Cerchio
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Quadrato
+SIGHT_EDITOR_OVERWRITE			L'immagine è cambiata.\nVuoi salvare le modifiche?
+SIGHT_EDITOR_RENAME_BUSY		Questo nome è già stato preso
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Profilo personalizzato per questo mirino
+SIGHT_COLOR_MASK					Maschera di colore
+SIGHT_COLOR_MASK_WARNING			Il mirino è quasi invisibile, controlla il canale di trasparenza (Alpha) della maschera di colore
+SIGHT_SCALE							Scala dell'immagine, percentuale
+SIGHT_RESET_BUTTON					Ripristina
+SIGHT_OFFSET						Offset dal centro dello schermo, X/Y
+SIGHT_VIS_HOTKEY					Tasto di visibilità
+SIGHT_VIS_MODE						Modalità di visibilità
+SIGHT_VIS_MODE_DEFAULT				Premi per attivare/disattivare la visibilità
+SIGHT_VIS_MODE_HOLD					Tieni premuto per la visibilità
+SIGHT_VIS_MODE_HOLD_INV				Modalità Hold inversa
+
+SIGHT_LEAN							Abilita il leaning del mirino
+SIGHT_LEAN_HOTKEYS					Tasti rapidi per il leaning a sinistra e a destra
+SIGHT_LEAN_ANGLE					Angolo, gradi
+
+SIGHT_ENABLE_ADVANCED				Abilita le impostazioni avanzate del profilo del mirino
+SIGHT_SWITCH_HOTKEY					Tasto rapido per cambiare mirino
+SIGHT_SWITCH_MODE					Modalità di cambio
+SIGHT_SWITCH_MODE_PRESS				Al rilascio
+SIGHT_SWITCH_MODE_RELEASE			Alla pressione
+
+SETTINGS_LANGUAGE_EX				Lingua dell'interfaccia e dimensione del carattere
+SETTINGS_LANGUAGE_EX_HINT			È necessario riavviare il programma per applicare queste opzioni.
+SETTINGS_LANGUAGE_STEAM				Lingua dell'app Steam
+SETTINGS_START_AS_ADMIN				Avvia con privilegi elevati (come Admin)
+SETTINGS_START_AS_ADMIN_HINT		Sono richiesti privilegi elevati per accedere ad alcune funzionalità.\nÈ necessario riavviare il programma per applicare questa opzione.
+SETTINGS_START_WITH_WINDOWS			Avvio automatico con Windows
+SETTINGS_START_MINIMIZED			Avvia ridotto a icona
+SETTINGS_DONOT_USE_TRAY				Rimuovi l'icona dalla barra di sistema
+SETTINGS_MINIMIZE_TRAY				Riduci a icona nella barra di sistema
+SETTINGS_CLOSE_MINIMIZE				Il pulsante di chiusura si comporta come minimizza
+SETTINGS_CHECK_UPDATE				Controlla gli aggiornamenti all'avvio
+SETTINGS_SHOW_HINTS					Mostra suggerimenti
+SETTINGS_SYSTEM_MESSAGES			Messaggi di sistema
+SETTINGS_LIGHT_THEME				Usa un tema interfaccia chiara
+SETTINGS_NO_SHOW_STEAM				Non alterare lo stato di Steam
+SETTINGS_USE_FAVORITES				Abilita mirini preferiti
+SETTINGS_BACK_VERSION1				Torna alla Versione 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Visualizzazione #%d)
+
+OVERLAY_MODE_DETAILS				Dettagli
+OVERLAY_MODE_SELECT_DISPLAY			Seleziona visualizzazione
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Seleziona la visualizzazione che verrà utilizzata per mostrare il tuo mirino.
+OVERLAY_MODE_READ_MORE				Leggi di più sul sito web
+
+OVERLAY_MODE_SIMPLE_SHORT			Il mirino viene disegnato utilizzando una finestra trasparente che è sopra tutte le altre finestre.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay funziona bene con giochi in finestra o a schermo senza bordo. Utile anche per giochi che utilizzano DirectX 9 o DirectX 12 con ottimizzazioni per schermo intero abilitate (FSO).
+
+OVERLAY_MODE_REAL_SHORT				Questa è una versione migliorata della modalità Simple Overlay che può visualizzare l’overlay in Fullscreen Exclusive (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay funziona con giochi in finestra, a schermo senza bordo e a schermo intero esclusivo. Richiede privilegi di amministratore. Incompatibile con giochi a schermo intero Vulkan e OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Avvia l'app come amministratore per abilitare la modalità Real Overlay.
+OVERLAY_MODE_REAL_STATE				Verifica dei privilegi di amministratore...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Riavvia come amministratore ora
+
+OVERLAY_MODE_XBOX_SHORT				Questa modalità di overlay è simile a Real Overlay e può funzionare in giochi a schermo intero esclusivo.
+OVERLAY_MODE_XBOX_LONG				La modalità Game Bar è alimentata dalla Windows Game Bar. Non richiede privilegi di amministratore (come Real Overlay), ma sarà necessario installare la nostra estensione Game Bar dal Windows Store. Incompatibile con giochi a schermo intero Vulkan e OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Installa la nostra estensione Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Apri Game Bar (utilizzando la scorciatoia Win+G) \n\t- Avvia il nostro widget \n\t- Fissalo \n\t- Abilita il passaggio del clic del mouse per Game Bar.
+OVERLAY_MODE_XBOX_STATE				Verifica della connessione del widget...
+
+OVERLAY_MODE_HOOKS_SHORT			L'overlay "stile vecchio" Hooks utilizza l'intercettazione del rendering nel processo di gioco.
+OVERLAY_MODE_HOOKS_LONG				Questa modalità è compatibile con qualsiasi modalità grafica del gioco. Funziona come l'overlay di Steam e può essere utilizzata con grafica DirectX 9, 10, 11, 12, Vulkan e OpenGL. Tuttavia, alcuni sistemi anti-cheat non gradiscono tali sovrapposizioni (iniezioni DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			Basta avviare il gioco, attendere qualche secondo e dovresti vedere il tuo mirino. Se non vedi il mirino e sei sicuro che dovrebbe essere visibile, ti preghiamo di inviare un messaggio all'assistenza.\n\nIl mirino non è visibile in questa modalità sul desktop, ma solo nei giochi!
+
+OVERLAY_TEST_SUCCESS				(Successo)
+OVERLAY_TEST_FAILED				(Fallito)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Modalità blacklist
+BLACKLIST_WHITE_MODE				Modalità whitelist
+BLACKLIST_BLOCKED					Processi bloccati
+BLACKLIST_ALLOWED					Processi consentiti
+BLACKLIST_BLOCK						Blocca processo
+BLACKLIST_ALLOW						Consenti processo
+BLACKLIST_UNBLOCK					Rimuovi processo
+BLACKLIST_SELECT					Seleziona processo

@@ -5,7 +5,7 @@
 //  special symbols like \n, \r, %d, %s, etc are not translatable
 //
 //  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
-//  or here http://www.science.co.il/Language/Locale-codes.php
+//  or here https://www.science.co.il/language/Codes.php
 //  for example, English language and United States country gives "en-US" locale name
 //
 
@@ -23,10 +23,10 @@ STEAM_VERSION_ON                    Steam version
 STEAM_NO_STATUS_CHANGE              Durum değişmedi
 ADMINISTRATOR				Yönetici
 FIRST_START_ADMIN1			Bu, uygulamanın ilk başlangıcıdır.\nEk özellikler elde etmek için yükseltilmiş ayrıcalıklarla çalıştırmanız gerekebilir.
-FIRST_START_ADMIN2			Vulkan desteğini etkinleştirmek için yalnızca bir kez yükseltilmiş ayrıcalıklarla başlamanız gerekir.\nReal Overlay modu (<a href=“REAL_OVERLAY”>kancasız kaplamalar</a>) sürekli olarak “yönetici olarak” çalıştırmayı gerektirir.\n\nBu seçeneği daha sonra uygulama ayarlarından (Ortak sekmesi) değiştirebilirsiniz.
-FIRST_START_ADMIN_YES1			“Yönetici olarak” çalıştırın
+FIRST_START_ADMIN2			Vulkan desteğini etkinleştirmek için yalnızca bir kez yükseltilmiş ayrıcalıklarla başlamanız gerekir.\nReal Overlay modu (<a href="REAL_OVERLAY">kancasız kaplamalar</a>) sürekli olarak "yönetici olarak" çalıştırmayı gerektirir.\n\nBu seçeneği daha sonra uygulama ayarlarından (Seçenekler sekmesi) değiştirebilirsiniz.
+FIRST_START_ADMIN_YES1			"Yönetici olarak" çalıştırın
 FIRST_START_ADMIN_NO1			Ayrıcalıkları yükseltmeyin
-FIRST_START_ADMIN_YES2			“Yönetici olarak” çalıştırmaya devam edin
+FIRST_START_ADMIN_YES2			"Yönetici olarak" çalıştırmaya devam edin
 FIRST_START_ADMIN_NO2			Bir sonraki başlangıçta yükseltilmiş ayrıcalıkları kapatın
 
 TRIAL_WANT_CODE						Aktivasyon kodunuzu almak ister misiniz?
@@ -47,7 +47,7 @@ TRIAL_RECOVER_CHECK_EMAIL			Lütfen e-postanızı kontrol edin
 TRIAL_GET_LICENSE					Bir lisans alın
 TRIAL_TRY_IT						Dene bakalım
 TRIAL_FREE_GAME						Etkinleştirme özel bir anahtar kullanılarak yapıldı.\nYazılım oyun için tam sürüm olarak çalışıyor: %s
-TRIAL_STEAM_NOT_SHOW				HudSight'ın Steam istemcisi kullanılarak etkinleştirilmesi gerekiyor.\nSteam durumunuz “HudSight çalışıyor” olarak değiştirilecek.\n\nDevam edelim mi?
+TRIAL_STEAM_NOT_SHOW				HudSight'ın Steam istemcisi kullanılarak etkinleştirilmesi gerekiyor.\nSteam durumunuz "HudSight çalışıyor" olarak değiştirilecek.\n\nDevam edelim mi?
 
 STEAM_NOT_STARTED					Ölümcül hata.\n\nYazılım başlatıcısına bağlanılamıyor. Lütfen programı Steam istemcisinden başlatın.
 STEAM_NO_AUTH						Ölümcül hata.\n\nSteam'de yetkilendirme yapılamıyor. Yazılımı etkinleştirmek için Steam istemcisinden başlatmanız gerekir.
@@ -59,13 +59,14 @@ HOTKEY_NOT_BOUND					Bağlı değil
 
 SIGHT_TABS_CROSSHAIR				Nişangah
 SIGHT_TABS_LIBRARY					Kütüphane
-SIGHT_TABS_COMMON					Genel
+SIGHT_TABS_OVERLAY_MODE					Çizim modu
+SIGHT_TABS_COMMON					Seçenekler
 SIGHT_TABS_INFO						Bilgilendirme
 
 SIGHT_TABS_CROSSHAIR_EX				Mevcut nişangahlar
 SIGHT_TABS_LIBRARY_EX				Nişangah kütüphanesi
 SIGHT_TABS_BLACKLIST_EX				Karaliste Ayarları
-SIGHT_TABS_COMMON_EX				Genel Ayarlar
+SIGHT_TABS_COMMON_EX				Genel ayarlar
 SIGHT_TABS_OVERLAY_MODE_EX			Nişangah çizim modu
 
 LIBRARY_NEW_IMAGE					Yeni bir resim oluşturun
@@ -133,7 +134,7 @@ SIGHT_LEAN							Nişangah eğimini etkinleştir
 SIGHT_LEAN_HOTKEYS					Sola ve sağa eğilmek için kısayol tuşları
 SIGHT_LEAN_ANGLE					Açı, derece
 
-SIGHT_ENABLE_ADVANCED				Gelişmiş ayarları etkinleştirin
+SIGHT_ENABLE_ADVANCED				Gelişmiş nişangah profili ayarlarını etkinleştir
 SIGHT_SWITCH_HOTKEY					Nişangah kısayol tuşuna geç
 SIGHT_SWITCH_MODE					Anahtar modu
 SIGHT_SWITCH_MODE_PRESS				Basında
@@ -145,7 +146,6 @@ SETTINGS_LANGUAGE_STEAM				Steam uygulama dili
 SETTINGS_START_AS_ADMIN				Yüksek ayrıcalıklarla başlayın (Yönetici olarak)
 SETTINGS_START_AS_ADMIN_HINT		Bazı özelliklere erişmek için yüksek ayrıcalıklar gerekir.\nBu seçeneği uygulamak için programı yeniden başlatmanız gerekir.
 SETTINGS_START_WITH_WINDOWS			Windows ile Otomatik Başlatma
-SETTINGS_ADMIN_REQUIRED				Bu seçeneği etkinleştirmek için yönetici olarak başlat
 SETTINGS_START_MINIMIZED			Simge durumuna küçültülmüş olarak başlat
 SETTINGS_DONOT_USE_TRAY				Simgeyi sistem tepsisinden kaldırma
 SETTINGS_MINIMIZE_TRAY				Sistem tepsisine küçültme
@@ -159,12 +159,39 @@ SETTINGS_USE_FAVORITES				Favori artı işaretlerini etkinleştir
 SETTINGS_BACK_VERSION1				Sürüm 1'e geri dönün
 
 //////////    Overlay mode settings    //////////
-OVERLAY_MODE_HOOKS				Varsayılan (kancalar)
-OVERLAY_MODE_XBOX				Xbox Oyun Çubuğu (oyun çubuğu widget'ını kullanarak)
-OVERLAY_MODE_MIRROR				Real Overlay (yönetici gereklidir)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Real Overlay modunu etkinleştirmek için yönetici olarak başlatın
 
-OVERLAY_MODE_READ_MORE				Kullanmadan önce bunu okuyun
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Ekran #%d)
+
+OVERLAY_MODE_DETAILS				Detaylar
+OVERLAY_MODE_SELECT_DISPLAY			Ekranı seç
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Nişangahınızın görüntüleneceği ekranı seçin.
+OVERLAY_MODE_READ_MORE				Web sitesinde daha fazlasını okuyun
+
+OVERLAY_MODE_SIMPLE_SHORT			Nişangah overlay'i, diğer tüm pencerelerin üstünde bulunan şeffaf bir pencereyle çizilmektedir.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay, Pencereli veya Kenarsız Pencereli oyunlarla iyi çalışır. Aynı zamanda, Fullscreen Optimizasyonları (FSO) etkin olan DirectX 9 veya DirectX 12 kullanan oyunlar için de kullanışlıdır.
+
+OVERLAY_MODE_REAL_SHORT				Bu, Simple Overlay modunun, tam ekran özel (FSE) olarak overlayi görüntüleyebilen geliştirilmiş bir versiyonudur.
+OVERLAY_MODE_REAL_LONG				Real Overlay, Pencere Modu, Kenarlıksız Pencere Modu ve Tam Ekran Özel oyunlarla çalışır. Yönetici ayrıcalıkları gerektirir. Vulkan ve OpenGL tam ekran oyunlarıyla uyumsuzdur.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Real Overlay modunu etkinleştirmek için uygulamayı yönetici olarak başlatın.
+OVERLAY_MODE_REAL_STATE				Yönetici ayrıcalıkları kontrol ediliyor...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Şimdi yönetici olarak yeniden başlatın
+
+OVERLAY_MODE_XBOX_SHORT				Bu overlay modu, Real Overlay ile benzerlik gösterir ve Tam Ekran Ayrıcalıklı oyunlarda çalışabilir.
+OVERLAY_MODE_XBOX_LONG				Game Bar modu, Windows Game Bar tarafından desteklenmektedir. Yönetici ayrıcalıkları gerektirmez (Real Overlay gibi), ancak Windows Mağazası'ndan Game Bar eklentimizi indirmeniz gerekecek. Vulkan ve OpenGL tam ekran oyunlarıyla uyumsuzdur.
+OVERLAY_MODE_XBOX_INSTALL			Game Bar eklentimizi kurun
+OVERLAY_MODE_XBOX_LAUNCH			Game Bar'ı açın (Win+G kısayolunu kullanarak) \n\t- Widget'imizi başlatın \n\t- Onu sabitleyin \n\t- Game Bar için fare tıklamasına geçiş yapmayı etkinleştirin.
+OVERLAY_MODE_XBOX_STATE				Widget bağlantısı kontrol ediliyor...
+
+OVERLAY_MODE_HOOKS_SHORT			"Eski tarz" Hooks overlay, oyun sürecinde render yakalamayı kullanır.
+OVERLAY_MODE_HOOKS_LONG				Bu mod, herhangi bir oyun grafik modu ile uyumludur. Steam overlay gibi çalışır ve DirectX 9, 10, 11, 12, Vulkan ve OpenGL grafiklerinde kullanılabilir. Ancak bazı anti-hile yazılımları bu tür overlay'leri (DLL enjekte etme) sevmez.
+OVERLAY_MODE_HOOKS_LAUNCH			Sadece oyunu başlatın, birkaç saniye bekleyin ve çapraz nişanınızı görmelisiniz. Eğer çapraz nişanınızı göremiyorsanız ve görünür olacağına dair eminseniz, lütfen destek ekibine bir mesaj gönderin.\n\nÇapraz nişan bu modda masaüstünde görünmez, yalnızca oyunlarda görüntülenir!
+
+OVERLAY_TEST_SUCCESS				(Başarılı)
+OVERLAY_TEST_FAILED				(Başarısız)
 
 //////////    Blacklist settings    //////////
 

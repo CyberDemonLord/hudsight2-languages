@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL                          キャンセル
+BTN_CLOSE                           閉じる
+TRAYMENU_CLOSE			HudSight 2を閉じる
+
+ABOUT_COPYRIGHT                     Eduard Kozadaev
+ABOUT_ACTIVATED                     ソフトウェアはアクティブです。
+ABOUT_TRIAL                         ソフトウェアは試用モードです。
+CURRENT_VERSION                     ビルド %d (%s)
+STEAM_VERSION_ON                    Steamバージョン
+STEAM_NO_STATUS_CHANGE              ステータスは変更されませんでした
+ADMINISTRATOR				管理者
+FIRST_START_ADMIN1			これはアプリケーションの初回起動です。\n追加機能を利用するには、管理者権限で実行する必要があります。
+FIRST_START_ADMIN2			Vulkan サポートを有効にするには、特権昇格で一度だけ起動する必要があります。\nReal Overlayモード (<a href="REAL_OVERLAY">フックなしのオーバーレイ</a>) 常に「管理者として実行」する必要があります。\n\nこのオプションは後でアプリケーションの設定 (オプションタブ) で変更できます。
+FIRST_START_ADMIN_YES1			"管理者"として起動
+FIRST_START_ADMIN_NO1			権限を昇格させない
+FIRST_START_ADMIN_YES2			"管理者"起動を続行
+FIRST_START_ADMIN_NO2			次回の起動時に権限を昇格させない
+
+TRIAL_WANT_CODE						アクティベーションコードを取得しますか？
+TRIAL_GET_LICENSE					ライセンスを注文
+TRIAL_ACTIVATE						ソフトウェアをアクティブ化
+TRIAL_ACTIVATION_CODE				アクティベーションコード
+TRIAL_ACTIVATION_ERROR				ソフトウェアのアクティベーション中にエラーが発生しました：\n\n%s
+TRIAL_ACTIVATION_PROGRESS			アクティベーション中...
+TRIAL_REMINDER						あなたはHudSight 2のデモ版を使用しています。\n\nライセンスを購入して、すべてのデモ制限を解除し、このツールの改善を手助けしてください！
+TRIAL_REMINDER2						デモ版の制限：クロスヘアの設定は保存または読み込むことができず、ゲーム画面にウォーターマークが表示されます。
+TRIAL_REMINDER3						ライセンスを購入すると、プログラムを改善する手助けができます。\n私たちのコミュニティの一員になりましょう！
+TRIAL_REMINDER_SOFTWARE				トライアルモードでは設定は保存されません
+TRIAL_REMINDER_STOP					HudSight 2のデモ版ではクロスヘアの設定の変更が保存されません。\n\nこのデモ制限は、フルライセンス版では解除されます。
+TRIAL_RECOVER_WANT					アクティベーションコードを復元する
+TRIAL_RECOVER_EMAIL					あなたのメールアドレスを入力してください
+TRIAL_RECOVER						コードを送信する
+TRIAL_RECOVER_CHECK_EMAIL			メールを確認してください
+TRIAL_GET_LICENSE					ライセンスを取得する
+TRIAL_TRY_IT						試してみる
+TRIAL_FREE_GAME						特殊キーを使用してアクティベーションが行われました。\nソフトウェアはゲームのフルバージョンとして機能します： %s
+TRIAL_STEAM_NOT_SHOW				HudSightはSteamクライアントを使用してアクティベートする必要があります。\nあなたのSteamステータスが「HudSightを実行中」に変更されます。\n\n続行しますか？
+
+STEAM_NOT_STARTED					致命的なエラーです。\n\nソフトウェアランチャーに接続できません。Steamクライアントからプログラムを起動してください。
+STEAM_NO_AUTH						致命的なエラーです。\n\nSteamで認証できません。ソフトウェアをアクティベートするには、Steamクライアントから起動する必要があります。
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							最大3つのボタンを押すか、キャンセルするにはEscapeを押してください
+HOTKEY_NOT_BOUND					バインドされていません
+
+SIGHT_TABS_CROSSHAIR				クロスヘア
+SIGHT_TABS_LIBRARY					ライブラリ
+SIGHT_TABS_OVERLAY_MODE					描画モード
+SIGHT_TABS_COMMON					オプション
+SIGHT_TABS_INFO						情報
+
+SIGHT_TABS_CROSSHAIR_EX				利用可能なクロスヘア
+SIGHT_TABS_LIBRARY_EX				クロスヘアライブラリ
+SIGHT_TABS_BLACKLIST_EX				ブラックリスト設定
+SIGHT_TABS_COMMON_EX				一般設定
+SIGHT_TABS_OVERLAY_MODE_EX			クロスヘア描画モード
+
+LIBRARY_NEW_IMAGE					新しい画像を作成
+LIBRARY_ADD_IMAGE					ディスクから画像を追加
+LIBRARY_DELETE_IMAGE				選択した画像を削除
+LIBRARY_RESTORE_DEFAULTS			デフォルトの画像セットを復元
+LIBRARY_EDIT_IMAGE					画像を編集
+LIBRARY_MAKE_FAVORITE				お気に入りにマーク/マーク解除
+LIBRARY_SHOW_ONLY_FAVORITES			お気に入りのみ表示
+LIBRARY_EDITOR_RENAME				選択した画像の名前を変更
+LIBRARY_EDITOR_ENTER_NAME				画像名を入力
+LIBRARY_STEAMWORKSHOP_UPLOAD			画像をSteamワークショップにアップロード
+LIBRARY_STEAMWORKSHOP_REMOVE			Steamワークショップから画像を削除
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		スチームワークショップから画像を削除中にエラーが発生しました。\nおそらく権限がありません。\n\nワークショップでこのアイテムの購読を解除し (Steamアカウント内)、ここでこのクロスヘアを削除できます。
+LIBRARY_STEAM_AGREEMENT				まず、アップロードを正しく処理するために、Steamの利用規約に同意する必要があります。
+
+SIGHT_EDITOR						画像編集ツール
+SIGHT_EDITOR_NEW		クロスヘア画像をクリア
+SIGHT_EDITOR_GEN		クロスヘア画像ジェネレーター
+SIGHT_EDITOR_SETTINGS		エディター設定
+SIGHT_EDITOR_ENTER_NAME				画像名を入力してください
+SIGHT_EDITOR_UNDO					元に戻す
+SIGHT_EDITOR_REDO					やり直す
+SIGHT_EDITOR_ZOOMIN		拡大
+SIGHT_EDITOR_ZOOMOUT		縮小
+SIGHT_EDITOR_IMAGESIZE				画像サイズ
+SIGHT_EDITOR_PEN_VALUE				ペンの色
+SIGHT_EDITOR_PEN_RGBA				RGBAペンを使用
+SIGHT_EDITOR_PIXELVALUE				カーソルの下の値
+SIGHT_EDITOR_DROPPER			スポイト
+SIGHT_EDITOR_PIXEL_OFFSET		カーソルの下のピクセルのオフセットを表示
+SIGHT_EDITOR_GEN_THICKNESS		厚さ
+SIGHT_EDITOR_GEN_SIZE			サイズ
+SIGHT_EDITOR_GEN_OUTLINE		アウトライン
+SIGHT_EDITOR_GEN_GAP			隙間
+SIGHT_EDITOR_GEN_STYLE1			プライマリスタイル
+SIGHT_EDITOR_GEN_STYLE2			追加スタイル
+SIGHT_EDITOR_GEN_STYLE_EMPTY		空
+SIGHT_EDITOR_GEN_STYLE_CROSS		クロス
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T字型
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	斜めのクロス
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		矢印
+SIGHT_EDITOR_GEN_STYLE_3RAY		3本線
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		プレデター
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2点
+SIGHT_EDITOR_GEN_STYLE_DOT		点
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		サークル
+SIGHT_EDITOR_GEN_STYLE_SQUARE		四角
+SIGHT_EDITOR_OVERWRITE			画像が変更されました。\n変更を保存しますか？
+SIGHT_EDITOR_RENAME_BUSY		この名前は既に使用されています
+
+SIGHT_ENABLE_CUSTOM_PROFILE			このクロスヘアのカスタムプロファイル
+SIGHT_COLOR_MASK					カラーマスク
+SIGHT_COLOR_MASK_WARNING			クロスヘアがほとんど見えません。カラー画像の透明度チャンネル (アルファ) を確認してください
+SIGHT_SCALE							画像スケール、パーセント
+SIGHT_RESET_BUTTON					リセット
+SIGHT_OFFSET						スクリーンの中心からのオフセット、X/Y
+SIGHT_VIS_HOTKEY					可視性ホットキー
+SIGHT_VIS_MODE						可視性モード
+SIGHT_VIS_MODE_DEFAULT				可視性を切り替えるには押してください
+SIGHT_VIS_MODE_HOLD					可視性のために保持
+SIGHT_VIS_MODE_HOLD_INV				逆保持モード
+
+SIGHT_LEAN							クロスヘアの傾きを有効にする
+SIGHT_LEAN_HOTKEYS					左右の傾きのためのホットキー
+SIGHT_LEAN_ANGLE					角度、度
+
+SIGHT_ENABLE_ADVANCED				高度な照準器プロファイル設定を有効にする
+SIGHT_SWITCH_HOTKEY					クロスヘアホットキーに切り替え
+SIGHT_SWITCH_MODE					切り替えモード
+SIGHT_SWITCH_MODE_PRESS				押したとき
+SIGHT_SWITCH_MODE_RELEASE			離したとき
+
+SETTINGS_LANGUAGE_EX				インターフェース言語とフォントサイズ
+SETTINGS_LANGUAGE_EX_HINT			これらのオプションを適用するには、プログラムを再起動する必要があります。
+SETTINGS_LANGUAGE_STEAM				Steamアプリの言語
+SETTINGS_START_AS_ADMIN				管理者として高い権限で開始する
+SETTINGS_START_AS_ADMIN_HINT		一部の機能にアクセスするには高い権限が必要です。\nこのオプションを適用するには、プログラムを再起動する必要があります。
+SETTINGS_START_WITH_WINDOWS			Windowsと共に自動起動
+SETTINGS_START_MINIMIZED			最小化して起動
+SETTINGS_DONOT_USE_TRAY				システムトレイからアイコンを削除
+SETTINGS_MINIMIZE_TRAY				システムトレイに最小化
+SETTINGS_CLOSE_MINIMIZE				閉じるボタンで最小化
+SETTINGS_CHECK_UPDATE				起動時に更新をチェック
+SETTINGS_SHOW_HINTS					ツールチップを表示
+SETTINGS_SYSTEM_MESSAGES			システムメッセージ
+SETTINGS_LIGHT_THEME				明るいインターフェーステーマを使用
+SETTINGS_NO_SHOW_STEAM				Steamのステータスを変更しない
+SETTINGS_USE_FAVORITES				お気に入りの十字線を有効にする
+SETTINGS_BACK_VERSION1				バージョン1に戻る
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(ディスプレイ #%d)
+
+OVERLAY_MODE_DETAILS				詳細
+OVERLAY_MODE_SELECT_DISPLAY			ディスプレイの選択
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		ディスプレイの選択
+OVERLAY_MODE_READ_MORE				ウェブサイトで続きを読む
+
+OVERLAY_MODE_SIMPLE_SHORT			クロスハイアオーバーレイは、すべての他のウィンドウの上にある透明なウィンドウを使用して描かれます。
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay は、ウィンドウモードまたはボーダーレスウィンドウモードのゲームでうまく機能します。 また、Fullscreen Optimizations (FSO) が有効になっている DirectX 9 または DirectX 12 を使用するゲームにも便利です。
+
+OVERLAY_MODE_REAL_SHORT				これは、フルスクリーン専用（FSE）でオーバーレイを表示できる改良版の Simple Overlay モードです。
+OVERLAY_MODE_REAL_LONG				Real Overlay は、ウィンドウモード、ボーダーレスウィンドウモード、およびフルスクリーン専用のゲームで動作します。 管理者権限が必要です。 Vulkan および OpenGL のフルスクリーンゲームとは互換性がありません。
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Real Overlay モードを有効にするには、アプリを管理者として起動してください。
+OVERLAY_MODE_REAL_STATE				管理者権限を確認中...
+OVERLAY_MODE_REAL_ADMIN_RESTART			今すぐ管理者として再起動
+
+OVERLAY_MODE_XBOX_SHORT				このオーバーレイモードは Real Overlay に似ており、フルスクリーン専用のゲームでも動作します。
+OVERLAY_MODE_XBOX_LONG				Game Bar モードは Windows Game Bar によって提供されています。 管理者権限（Real Overlay と同様）は必要ありませんが、Windows Store から当社の Game Bar 拡張機能をインストールする必要があります。 Vulkan および OpenGL のフルスクリーンゲームとは互換性がありません。
+OVERLAY_MODE_XBOX_INSTALL			私たちの Game Bar 拡張機能をインストールしてください
+OVERLAY_MODE_XBOX_LAUNCH			Game Barを開く（Win+G ショートカットを使用して）\n\t- ウィジェットを起動する\n\t- ピン留めする\n\t- マウスのクリック透過を有効にする (Game Bar のために)。
+OVERLAY_MODE_XBOX_STATE				ウィジェットの接続を確認しています...
+
+OVERLAY_MODE_HOOKS_SHORT			"古いスタイル"のHooksオーバーレイは、ゲームプロセス内でレンダリングのインターセプションを使用します。
+OVERLAY_MODE_HOOKS_LONG				このモードは、どのゲームのグラフィックモードとも互換性があります。 Steamオーバーレイとして機能し、DirectX 9、10、11、12、Vulkan、およびOpenGLグラフィックスで使用できます。 しかし、いくつかのアンチチートは、そのようなオーバーレイ（DLLインジェクション）を好みません。
+OVERLAY_MODE_HOOKS_LAUNCH			ゲームを開始し、数秒待つと、クロスヘアが表示されるはずです。 クロスヘアが見えず、表示されるはずだと確信している場合は、サポートにメッセージを送信してください。\n\nこのモードではデスクトップ上ではクロスヘアは表示されず、ゲーム内でのみ表示されます！
+
+OVERLAY_TEST_SUCCESS				(成功)
+OVERLAY_TEST_FAILED				(失敗)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				ブラックリストモード
+BLACKLIST_WHITE_MODE				ホワイトリストモード
+BLACKLIST_BLOCKED					ブロックされたプロセス
+BLACKLIST_ALLOWED					許可されたプロセス
+BLACKLIST_BLOCK						プロセスをブロック
+BLACKLIST_ALLOW						プロセスを許可
+BLACKLIST_UNBLOCK					プロセスのブロックを解除
+BLACKLIST_SELECT					プロセスを選択
