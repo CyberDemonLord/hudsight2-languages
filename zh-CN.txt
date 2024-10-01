@@ -59,13 +59,14 @@ HOTKEY_NOT_BOUND					未绑定
 
 SIGHT_TABS_CROSSHAIR				准星
 SIGHT_TABS_LIBRARY					库
-SIGHT_TABS_COMMON					常规
+SIGHT_TABS_OVERLAY_MODE				绘图模式
+SIGHT_TABS_COMMON				选项
 SIGHT_TABS_INFO						信息
 
 SIGHT_TABS_CROSSHAIR_EX				可用的准星
 SIGHT_TABS_LIBRARY_EX				准星库
 SIGHT_TABS_BLACKLIST_EX				黑名单设置
-SIGHT_TABS_COMMON_EX				常规设置
+SIGHT_TABS_COMMON_EX				选项
 SIGHT_TABS_OVERLAY_MODE_EX			准星绘制模式
 
 LIBRARY_NEW_IMAGE					创建新图片
@@ -145,7 +146,6 @@ SETTINGS_LANGUAGE_STEAM				Steam 应用程序语言
 SETTINGS_START_AS_ADMIN             以管理员权限启动
 SETTINGS_START_AS_ADMIN_HINT        需要高权限才能访问某些功能。\n您需要重新启动程序以应用此选项。
 SETTINGS_START_WITH_WINDOWS         随 Windows 启动
-SETTINGS_ADMIN_REQUIRED             启用此选项需要以管理员身份启动
 SETTINGS_START_MINIMIZED            启动时最小化
 SETTINGS_DONOT_USE_TRAY             从系统托盘中移除图标
 SETTINGS_MINIMIZE_TRAY              最小化到系统托盘
@@ -159,12 +159,39 @@ SETTINGS_USE_FAVORITES              启用收藏的准星
 SETTINGS_BACK_VERSION1              切换回版本1
 
 //////////    覆盖模式设置    //////////
-OVERLAY_MODE_HOOKS				默认 (hooks)
-OVERLAY_MODE_XBOX				Xbox Game Bar (使用游戏栏小组件)
-OVERLAY_MODE_MIRROR				Real Overlay (需要管理员权限)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		以管理员身份启动以启用Real Overlay模式
+OVERLAY_MODE_SIMPLE                简单叠加
+OVERLAY_MODE_HOOKS                 钩子
+OVERLAY_MODE_XBOX                  游戏栏
+OVERLAY_MODE_MIRROR                真实叠加
+OVERLAY_DISPLAY                    （显示器 #%d）
 
-OVERLAY_MODE_READ_MORE				使用前请阅读此内容
+OVERLAY_MODE_DETAILS               详情
+OVERLAY_MODE_SELECT_DISPLAY         选择显示器
+OVERLAY_MODE_SELECT_DISPLAY_TEXT    选择将用于显示准星的显示器。
+OVERLAY_MODE_READ_MORE              在网站上查看更多信息
+
+OVERLAY_MODE_SIMPLE_SHORT           准星叠加使用一个透明窗口绘制在所有其他窗口之上。
+OVERLAY_MODE_SIMPLE_LONG            该模式适用于窗口化或无边框全屏游戏。也适用于启用了全屏优化的DirectX 9或DirectX 12游戏。
+
+OVERLAY_MODE_REAL_SHORT             这是简单叠加模式的改进版本，可以在独占全屏下显示叠加。
+OVERLAY_MODE_REAL_LONG              真实叠加适用于窗口化、无边框和独占全屏游戏。它需要管理员权限。与Vulkan和OpenGL全屏游戏不兼容。
+OVERLAY_MODE_REAL_ADMIN_REQUIRED    以管理员身份启动应用程序以启用真实叠加模式。
+OVERLAY_MODE_REAL_STATE             检查管理员权限...
+OVERLAY_MODE_REAL_ADMIN_RESTART     现在以管理员身份重新启动
+
+OVERLAY_MODE_XBOX_SHORT             此叠加模式类似于真实叠加，叠加可以在独占全屏游戏中工作。
+OVERLAY_MODE_XBOX_LONG              游戏栏模式由Windows游戏栏提供支持。它不需要管理员权限（如真实叠加），但您需要从Windows商店安装我们的游戏栏扩展。与Vulkan和OpenGL全屏游戏不兼容。
+OVERLAY_MODE_XBOX_INSTALL           安装我们的游戏栏扩展
+OVERLAY_MODE_XBOX_LAUNCH            打开游戏栏（使用Win-G快捷键）\n\t- 启动我们的组件\n\t- 固定它\n\t- 为游戏栏启用点击穿透。
+OVERLAY_MODE_XBOX_STATE             检查组件连接...
+
+OVERLAY_MODE_HOOKS_SHORT            使用代码注入到游戏进程中的旧式叠加。
+OVERLAY_MODE_HOOKS_LONG             此模式兼容任何渲染模式。它像Steam叠加一样工作，可以用于DirectX 9、10、11、12、Vulkan和OpenGL图形。但某些反作弊软件不喜欢这种注入方式。
+OVERLAY_MODE_HOOKS_LAUNCH           只需启动游戏，等待几秒钟，您应该能看到您的准星。如果没有看到并且您确信它应该可见，请发送消息给支持。\n\n此模式下准星在桌面上不可见，只在游戏中可见。
+
+OVERLAY_TEST_SUCCESS                （成功）
+OVERLAY_TEST_FAILED                 （失败）
+
 
 //////////    黑名单设置    //////////
 

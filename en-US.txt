@@ -59,13 +59,14 @@ HOTKEY_NOT_BOUND					Not bound
 
 SIGHT_TABS_CROSSHAIR				Crosshair
 SIGHT_TABS_LIBRARY					Library
-SIGHT_TABS_COMMON					Common
+SIGHT_TABS_OVERLAY_MODE					Draw mode
+SIGHT_TABS_COMMON					Options
 SIGHT_TABS_INFO						Information
 
 SIGHT_TABS_CROSSHAIR_EX				Available crosshairs
 SIGHT_TABS_LIBRARY_EX				Crosshairs library
 SIGHT_TABS_BLACKLIST_EX				Blacklist settings
-SIGHT_TABS_COMMON_EX				Common settings
+SIGHT_TABS_COMMON_EX				Options
 SIGHT_TABS_OVERLAY_MODE_EX			Crosshair draw mode
 
 LIBRARY_NEW_IMAGE					Create a new image
@@ -145,7 +146,6 @@ SETTINGS_LANGUAGE_STEAM				Steam app language
 SETTINGS_START_AS_ADMIN				Start with high privileges (as Admin)
 SETTINGS_START_AS_ADMIN_HINT		High privileges are required to access some features.\nYou need to restart the program to apply this option.
 SETTINGS_START_WITH_WINDOWS			Autostart with Windows
-SETTINGS_ADMIN_REQUIRED				Start as admin to enable this option
 SETTINGS_START_MINIMIZED			Start minimized
 SETTINGS_DONOT_USE_TRAY				Remove the icon from the system tray
 SETTINGS_MINIMIZE_TRAY				Minimize to the system tray
@@ -159,12 +159,39 @@ SETTINGS_USE_FAVORITES				Enable favorite crosshairs
 SETTINGS_BACK_VERSION1				Switch back to Version 1
 
 //////////    Overlay mode settings    //////////
-OVERLAY_MODE_HOOKS				Default (hooks)
-OVERLAY_MODE_XBOX				Xbox Game Bar (using game bar widget)
-OVERLAY_MODE_MIRROR				Real Overlay (admin is required)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Start as admin to enable Real Overlay mode
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Display #%d)
 
-OVERLAY_MODE_READ_MORE				Read this before using
+OVERLAY_MODE_DETAILS				Details
+OVERLAY_MODE_SELECT_DISPLAY			Select display
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Select the display that will be used to show your crosshair.
+OVERLAY_MODE_READ_MORE				Read more on the website
+
+OVERLAY_MODE_SIMPLE_SHORT			Crosshair overlay is drawn using a transparent window that is on top of all other windows.
+OVERLAY_MODE_SIMPLE_LONG			This mode works good with windowed or borderless fullscreen games. Also useful for games that use DirectX 9 or DirectX 12 with enabled Fullscreen Optimizations.
+
+OVERLAY_MODE_REAL_SHORT				This is an improved version of the Simple Overlay mode that can display the overlay in exclusive fullscreen.
+OVERLAY_MODE_REAL_LONG				Real Overlay works with windowed, borderless, and exclusive fullscreen games. It requires Admin privileges. Incompatible with Vulkan and OpenGL fullscreen games.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Start app as admin to enable Real Overlay mode.
+OVERLAY_MODE_REAL_STATE				Checking admin privileges...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Restart as admin now
+
+OVERLAY_MODE_XBOX_SHORT				This overlay mode is similar to Real Overlay, the overlay can work in exclusive fullscreen games.
+OVERLAY_MODE_XBOX_LONG				Game Bar mode is powered by Windows Game Bar. It doesn't require Admin provileges (as Real Overlay), but you will need to install our Game Bar extension from the Windows Store. Incompatible with Vulkan and OpenGL fullscreen games.
+OVERLAY_MODE_XBOX_INSTALL			Install our Game Bar extension
+OVERLAY_MODE_XBOX_LAUNCH			Open Game bar (with Win-G shortcut) \n\t- Launch our widget \n\t- Pin it \n\t- Enable click-through for Game Bar.
+OVERLAY_MODE_XBOX_STATE				Checking widget connection...
+
+OVERLAY_MODE_HOOKS_SHORT			Old style overlays that use code injection into the game process. 
+OVERLAY_MODE_HOOKS_LONG				This mode is compatible with any rendering mode. It works as Steam overlay and can be used with DirectX 9, 10, 11, 12, Vulkan and OpenGL graphics. But some anti-cheats don't like such injections.
+OVERLAY_MODE_HOOKS_LAUNCH			Just start the game, wait for a few seconds and you should see your crosshair. If you don't see the crosshair and you're sure it must be visible, please send a message to support.\n\nCrosshair in this mode is not visible on the desktop, but only in games.
+
+OVERLAY_TEST_SUCCESS				(Success)
+OVERLAY_TEST_FAILED				(Failed)
+
 
 //////////    Blacklist settings    //////////
 

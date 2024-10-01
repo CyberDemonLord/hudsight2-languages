@@ -59,7 +59,8 @@ HOTKEY_NOT_BOUND					Не задано
 
 SIGHT_TABS_CROSSHAIR				Прицел
 SIGHT_TABS_LIBRARY					Библиотека
-SIGHT_TABS_COMMON					Общее
+SIGHT_TABS_OVERLAY_MODE					Режим отображения
+SIGHT_TABS_COMMON					Настройки
 SIGHT_TABS_INFO						Информация
 
 SIGHT_TABS_CROSSHAIR_EX				Доступные прицелы
@@ -159,10 +160,39 @@ SETTINGS_USE_FAVORITES				Включить избранные прицелы
 SETTINGS_BACK_VERSION1				Переключиться обратно на Версию 1
 
 //////////    Overlay mode settings    //////////
-OVERLAY_MODE_HOOKS				Стандартный (hooks)
-OVERLAY_MODE_XBOX				Xbox Game Bar (через виджет game bar)
-OVERLAY_MODE_MIRROR				Real Overlay (требуются права администратора)
-OVERLAY_MODE_MIRROR_ADMIN_REQUIRED		Запустите от имени администратора для включения режима Real Overlay
+OVERLAY_MODE_SIMPLE				Простой Оверлей
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Реальный Оверлей
+OVERLAY_DISPLAY					(Экран #%d)
+
+OVERLAY_MODE_DETAILS				Детально
+OVERLAY_MODE_SELECT_DISPLAY			Выбор экрана
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Выберите экран, на котором будет показываться ваш прицел.
+OVERLAY_MODE_READ_MORE				Прочитать больше на сайте
+
+OVERLAY_MODE_SIMPLE_SHORT			Оверлей прицела рисуется на прозрачном окне, которое располагается поверх всех других окон.
+OVERLAY_MODE_SIMPLE_LONG			Этот режим хорошо работает с играми в окне или в окне на весь экран. Также он полезен для игр, использующих DirectX 9 или DirectX 12 с включенной Полноэкранной Оптимизацией.
+
+OVERLAY_MODE_REAL_SHORT				Это улучшенная версия режима Простой Оверлей, которая может показывать оверлей в полноэкранном эксклюзивном режиме.
+OVERLAY_MODE_REAL_LONG				Реальный Оверлей работает с играми в окне, окне на весь экран или в эксклюзивном полноэкранном режиме. Требуются привилегии Администратора. Несовместим с полноэкранными играми на Vulkan и OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Запустите от имени администратора для включения режима Реальный Оверлей.
+OVERLAY_MODE_REAL_STATE				Проверка привилегий администратора...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Перезапустить как Администратор сейчас
+
+OVERLAY_MODE_XBOX_SHORT				Этот режим похож на Реальный Оверлей, в нем оверлей может показываться в играх с полноэкранными эксклюзивными графическими режимами.
+OVERLAY_MODE_XBOX_LONG				Режим Game Bar работает с помощью Windows Game Bar. Ему не требуются привилегии Администратора (как для Реального Оверлея), но вам необходимо установить и настроить наш виджет Game Bar из Магазина Windows. Несовместим с полноэкранными играми на Vulkan и OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Установить наш виджет Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Откройте Game bar (с помощью горячей клавиши Win-G) \n\t- Запустите виджет \n\t- Прикрепите его \n\t- Включите сквозной клик для мыши в Game Bar.
+OVERLAY_MODE_XBOX_STATE				Проверка соединения с виджетом...
+
+OVERLAY_MODE_HOOKS_SHORT			Оверлей "старого стиля", использует перехват рендера в процессе игры. 
+OVERLAY_MODE_HOOKS_LONG				Этот режим совместим с любым игровым графическим режимом. Он работает точно так же, как, например, оверлей Steam и может быть использован с играми на DirectX 9, 10, 11, 12, Vulkan и OpenGL. Однако, не все анти-читы любят такие оверлеи.
+OVERLAY_MODE_HOOKS_LAUNCH			Просто запустите игру, подождите несколько секунд и вы увидите прицел. Если вы не видите прицел и уверены, что он должен быть, пожалуйста, напишите нам в поддержку.\n\nПрицел в этом режиме не показывается на десктопе, а только в играх!
+
+OVERLAY_TEST_SUCCESS				(Успешно)
+OVERLAY_TEST_FAILED				(Неудачно)
+
 
 OVERLAY_MODE_READ_MORE					Прочитайте это перед использованием
 
