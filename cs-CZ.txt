@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL							Zrušit
+BTN_CLOSE							Zavřít
+TRAYMENU_CLOSE			Zavřít HudSight 2
+
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Software je aktivováno.
+ABOUT_TRIAL							Software je v zkušebním režimu.
+CURRENT_VERSION						Verze %d (%s)
+STEAM_VERSION_ON					Verze ze Steamu
+STEAM_NO_STATUS_CHANGE				Stav se nezměnil
+ADMINISTRATOR				Administrátor
+FIRST_START_ADMIN1			Toto je první spuštění aplikace.\nMůžete potřebovat spustit s vyššími oprávněními, abyste získali další funkce.
+FIRST_START_ADMIN2			Pro umožnění podpory Vulkan musíte spustit s vyššími oprávněními pouze jednou.\nReal Overlay režim (<a href="REAL_OVERLAY">overlay bez hooků</a>) vyžaduje trvalé spuštění "jako administrátor".\n\nTuto možnost můžete později změnit v nastavení aplikace (na kartě Možnosti).
+FIRST_START_ADMIN_YES1			Spustit "jako administrátor"
+FIRST_START_ADMIN_NO1			Nezvyšovat oprávnění
+FIRST_START_ADMIN_YES2			Pokračovat ve spuštění "jako administrátor"
+FIRST_START_ADMIN_NO2			Vypnout vyšší oprávnění při příštím spuštění
+
+TRIAL_WANT_CODE						Chtěli byste získat svůj aktivační kód?
+TRIAL_GET_LICENSE					Objednat licenci
+TRIAL_ACTIVATE						Aktivovat software
+TRIAL_ACTIVATION_CODE				Aktivační kód
+TRIAL_ACTIVATION_ERROR				Chyba při aktivaci software:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Aktivuje se...
+TRIAL_REMINDER						Používáte demo verzi HudSight 2.\n\nKupte licenci, abyste odstranili všechna omezení demo verze a pomohli nám zlepšit tento nástroj!
+TRIAL_REMINDER2						Omezení demo verze: nastavení kříží nelze ukládat ani načítat, na herní obrazovce je vodotisk.
+TRIAL_REMINDER3						Když si koupíte licenci, pomáháte nám program vylepšit.\nStaňte se součástí naší komunity!
+TRIAL_REMINDER_SOFTWARE				Nastavení nejsou v zkušebním režimu uložena
+TRIAL_REMINDER_STOP					Demo verze HudSight 2 neukládá změny nastavení kříží.\n\nToto omezení demo verze bude odstraněno v plné licencované verzi.
+TRIAL_RECOVER_WANT					Obnovit svůj aktivační kód
+TRIAL_RECOVER_EMAIL					Zadejte svůj e-mail
+TRIAL_RECOVER						Odeslat kód
+TRIAL_RECOVER_CHECK_EMAIL			Zkontrolujte svůj e-mail
+TRIAL_GET_LICENSE					Získat licenci
+TRIAL_TRY_IT						Vyzkoušet to
+TRIAL_FREE_GAME						Aktivace byla provedena pomocí zvláštního klíče.\nSoftware funguje jako plná verze pro hru: %s
+TRIAL_STEAM_NOT_SHOW				HudSight musí být aktivován pomocí Steam klienta.\nVáš Steam stav bude změněn na "spuštěn HudSight".\n\nMáme pokračovat?
+
+STEAM_NOT_STARTED					Fatální chyba.\n\nNedaří se připojit k softwarovému spouštěči. Prosím, spusťte program z Steam klienta.
+STEAM_NO_AUTH						Fatální chyba.\n\nNedaří se autorizovat v Steamu. Pro aktivaci software musíte spustit z Steam klienta.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Stiskněte až tři tlačítka nebo Esc pro zrušení
+HOTKEY_NOT_BOUND					Není přiřazeno
+
+SIGHT_TABS_CROSSHAIR				Kříž
+SIGHT_TABS_LIBRARY					Knihovna
+SIGHT_TABS_OVERLAY_MODE					Režim kreslení
+SIGHT_TABS_COMMON					Možnosti
+SIGHT_TABS_INFO						Informace
+
+SIGHT_TABS_CROSSHAIR_EX				Dostupné kříže
+SIGHT_TABS_LIBRARY_EX				Knihovna křížových zaměřovačů
+SIGHT_TABS_BLACKLIST_EX				Nastavení černé listiny
+SIGHT_TABS_COMMON_EX				Obecná nastavení
+SIGHT_TABS_OVERLAY_MODE_EX			Režim kreslení křížového zaměřovače
+
+LIBRARY_NEW_IMAGE					Vytvořit nový obrázek
+LIBRARY_ADD_IMAGE					Přidat obrázek z disku
+LIBRARY_DELETE_IMAGE				Smazat vybraný obrázek
+LIBRARY_RESTORE_DEFAULTS			Obnovit výchozí sadu obrázků
+LIBRARY_EDIT_IMAGE					Upravit obrázek
+LIBRARY_MAKE_FAVORITE				Označit/odebrat jako oblíbené
+LIBRARY_SHOW_ONLY_FAVORITES			Zobrazit pouze oblíbené
+LIBRARY_EDITOR_RENAME				Přejmenovat vybraný obrázek
+LIBRARY_EDITOR_ENTER_NAME				Zadejte název obrázku
+LIBRARY_STEAMWORKSHOP_UPLOAD			Nahrát obrázek do Steam workshopu
+LIBRARY_STEAMWORKSHOP_REMOVE			Odebrat obrázek ze Steam workshopu
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Chyba při odstraňování obrázku ze Steam workshopu.\nPravděpodobně na to nemáte práva.\n\nMůžete se z tohoto předmětu odhlásit v workshopu (ve svém účtu Steam) a tento křížový zaměřovač smazat zde.
+LIBRARY_STEAM_AGREEMENT				Nejprve musíte souhlasit s dohodou pro odběratele Steam, aby bylo zajištěno správné zpracování vašich nahrání.
+
+SIGHT_EDITOR						Edito obrazu
+SIGHT_EDITOR_NEW		Vymazat obrázek křížku
+SIGHT_EDITOR_GEN		Generátor obrázku křížku
+SIGHT_EDITOR_SETTINGS		Nastavení editoru
+SIGHT_EDITOR_ENTER_NAME				Zadejte název obrázku
+SIGHT_EDITOR_UNDO					Zpět
+SIGHT_EDITOR_REDO					Znovu
+SIGHT_EDITOR_ZOOMIN		Přiblížit
+SIGHT_EDITOR_ZOOMOUT		Odlézt
+SIGHT_EDITOR_IMAGESIZE				Velikost obrázku
+SIGHT_EDITOR_PEN_VALUE				Barva pera
+SIGHT_EDITOR_PEN_RGBA				Použít RGBA pero
+SIGHT_EDITOR_PIXELVALUE				Hodnota pod kurzorem
+SIGHT_EDITOR_DROPPER			Oční kapátko
+SIGHT_EDITOR_PIXEL_OFFSET		Zobrazit posun pixelu pod kurzorem
+SIGHT_EDITOR_GEN_THICKNESS		Tloušťka
+SIGHT_EDITOR_GEN_SIZE			Velikost
+SIGHT_EDITOR_GEN_OUTLINE		Rámeček
+SIGHT_EDITOR_GEN_GAP			Vzdálenost
+SIGHT_EDITOR_GEN_STYLE1			Primární styl
+SIGHT_EDITOR_GEN_STYLE2			Doplňkový styl
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Prázdný
+SIGHT_EDITOR_GEN_STYLE_CROSS		Kříž
+SIGHT_EDITOR_GEN_STYLE_TCROSS		Tvar T
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Kříž s diagonálou
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Šíp
+SIGHT_EDITOR_GEN_STYLE_3RAY		Trojitý paprsek
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predátor
+SIGHT_EDITOR_GEN_STYLE_2DOTS		Dvě tečky
+SIGHT_EDITOR_GEN_STYLE_DOT		Tečka
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Kruh
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Čtverec
+SIGHT_EDITOR_OVERWRITE			Obrázek byl změněn.\nChcete uložit změny?
+SIGHT_EDITOR_RENAME_BUSY		Tento název je již obsazen
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Vlastní profil pro tento křížek
+SIGHT_COLOR_MASK					Barvená maska
+SIGHT_COLOR_MASK_WARNING			Křížek je téměř neviditelný, zkontrolujte kanál průhlednosti (Alpha) barevné masky
+SIGHT_SCALE							Měítko obrázku, procenta
+SIGHT_RESET_BUTTON					Obnovit
+SIGHT_OFFSET						Posun od středu obrazovky, X/Y
+SIGHT_VIS_HOTKEY					Horká klávesa pro viditelnost
+SIGHT_VIS_MODE						Režim viditelnosti
+SIGHT_VIS_MODE_DEFAULT				Stiskněte pro přepnutí viditelnosti
+SIGHT_VIS_MODE_HOLD					Přidržte pro viditelnost
+SIGHT_VIS_MODE_HOLD_INV				Reverzní režim přidržení
+
+SIGHT_LEAN							Povolte naklonění křížku
+SIGHT_LEAN_HOTKEYS					Horké klávesy pro naklonění vlevo a vpravo
+SIGHT_LEAN_ANGLE					Úhel, stupně
+
+SIGHT_ENABLE_ADVANCED				Povolte pokročilé nastavení profilu křížku
+SIGHT_SWITCH_HOTKEY					Přepnutí na horkou klávesu křížku
+SIGHT_SWITCH_MODE					Přepínací režim
+SIGHT_SWITCH_MODE_PRESS				Při stisknutí
+SIGHT_SWITCH_MODE_RELEASE			Při uvolnění
+
+SETTINGS_LANGUAGE_EX				Jazyk rozhraní a velikost písma
+SETTINGS_LANGUAGE_EX_HINT			Musíte restartovat program, aby se tyto možnosti aplikovaly.
+SETTINGS_LANGUAGE_STEAM				Jazyk aplikace Steam
+SETTINGS_START_AS_ADMIN				Spustit s vysokými oprávněními (jako administrátor)
+SETTINGS_START_AS_ADMIN_HINT		Vysoká oprávnění jsou vyžadována k přístupu k některým funkcím.\nMusíte restartovat program, aby se tato možnost uplatnila.
+SETTINGS_START_WITH_WINDOWS			Autostart s Windows
+SETTINGS_START_MINIMIZED			Zahájit minimalizováno
+SETTINGS_DONOT_USE_TRAY				Odstranit ikonu ze systémové lišty
+SETTINGS_MINIMIZE_TRAY				Minimalizovat do systémové lišty
+SETTINGS_CLOSE_MINIMIZE				Tlačítko zavřít jako minimalizovat
+SETTINGS_CHECK_UPDATE				Zkontrolovat aktualizace při spuštění
+SETTINGS_SHOW_HINTS					Zobrazit nápovědy
+SETTINGS_SYSTEM_MESSAGES			Systémové zprávy
+SETTINGS_LIGHT_THEME				Použít světlé téma rozhraní
+SETTINGS_NO_SHOW_STEAM				Neměnit stav Steam
+SETTINGS_USE_FAVORITES				Povolit oblíbené křížky
+SETTINGS_BACK_VERSION1				Přepnout zpět na verzi 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Zobrazit #%d)
+
+OVERLAY_MODE_DETAILS				Podrobnosti
+OVERLAY_MODE_SELECT_DISPLAY			Výběr displeje
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Vyberte displej, který se použije k zobrazení vašeho křížku.
+OVERLAY_MODE_READ_MORE				Přečtěte si více na webu
+
+OVERLAY_MODE_SIMPLE_SHORT			Překryvný křížek je vykreslen pomocí průhledného okna, které je nad všemi ostatními okny.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay funguje dobře s okny nebo bezrámovými okny her. Také užitečné pro hry, které používají DirectX 9 nebo DirectX 12 s povolenými optimalizacemi na celé obrazovce (FSO).
+
+OVERLAY_MODE_REAL_SHORT				Toto je vylepšená verze režimu Simple Overlay, která může zobrazit překryvník v exkluzivním režimu celé obrazovky (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay funguje s okny, bezrámovými okny a exkluzivními režimy celé obrazovky. Vyžaduje administrátorská práva. Nekompatibilní s hrami na celou obrazovku ve Vulkan a OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Spusťte aplikaci jako administrátor pro povolení režimu Real Overlay.
+OVERLAY_MODE_REAL_STATE				Zkontrolování administrátorských oprávnění...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Restartujte nyní jako administrátor
+
+OVERLAY_MODE_XBOX_SHORT				Tento režim overlay je podobný režimu Real Overlay a může fungovat ve hrách s exkluzivním režimem celé obrazovky.
+OVERLAY_MODE_XBOX_LONG				Režim Game Bar je napájen Windows Game Bar. Nepotřebuje administrátorská oprávnění (jako Real Overlay), ale budete muset nainstalovat naši příponu Game Bar z Windows Store. Nekompatibilní s hrami na celou obrazovku ve Vulkan a OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Nainstalujte naši příponu Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Otevřít Game Bar (použitím klávesy Win+G) \n\t- Spustit náš widget \n\t- Připnout ho \n\t- Povolit prokliknutí myši pro Game Bar.
+OVERLAY_MODE_XBOX_STATE				Kontroluji připojení widgetu...
+
+OVERLAY_MODE_HOOKS_SHORT			"Starý styl" Hooks overlay používá zachycení renderování v herním procesu.
+OVERLAY_MODE_HOOKS_LONG				Tento režim je kompatibilní s jakýmkoli grafickým módem hry. Funguje jako overlay Steam a může být použit s grafickými rozhraními DirectX 9, 10, 11, 12, Vulkan a OpenGL. Některé anticheaty však takové overlaye (injekce DLL) nemají rády.
+OVERLAY_MODE_HOOKS_LAUNCH			Stačí spustit hru, počkat několik sekund a měli byste vidět svůj křížek. Pokud křížek nevidíte a jste si jisti, že by měl být viditelný, prosím pošlete zprávu na podporu.\n\nKřížek není v tomto režimu viditelný na ploše, ale pouze ve hrách!
+
+OVERLAY_TEST_SUCCESS				(Úspěšně)
+OVERLAY_TEST_FAILED				(Neúspěšně)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Mód černé listiny
+BLACKLIST_WHITE_MODE				Mód bílé listiny
+BLACKLIST_BLOCKED					Blokované procesy
+BLACKLIST_ALLOWED					Povolené procesy
+BLACKLIST_BLOCK						Blokovat proces
+BLACKLIST_ALLOW						Povolit proces
+BLACKLIST_UNBLOCK					Odebrat proces
+BLACKLIST_SELECT					Vybrat proces

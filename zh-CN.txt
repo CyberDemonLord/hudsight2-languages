@@ -11,16 +11,16 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          取消
-BTN_CLOSE                           关闭
+BTN_CANCEL							取消
+BTN_CLOSE							关闭
 TRAYMENU_CLOSE			关闭 HudSight 2
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     软件已激活。
-ABOUT_TRIAL                         软件处于试用模式。
-CURRENT_VERSION                     构建版本 %d (%s)
-STEAM_VERSION_ON                    Steam 版本
-STEAM_NO_STATUS_CHANGE              状态未改变
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						软件已激活。
+ABOUT_TRIAL							软件处于试用模式。
+CURRENT_VERSION						构建版本 %d (%s)
+STEAM_VERSION_ON					Steam 版本
+STEAM_NO_STATUS_CHANGE				状态未改变
 ADMINISTRATOR				管理员
 FIRST_START_ADMIN1			这是应用程序的首次启动。\n您可能需要以管理员权限运行以获取额外功能。
 FIRST_START_ADMIN2			要启用 Vulkan 支持，您只需以管理员权限启动一次。\nReal Overlay 模式 (<a href="REAL_OVERLAY">无hooks覆盖</a>)需要永久以管理员身份运行。\n\n您可以稍后在应用程序设置中更改此选项 (选项标签)。
@@ -122,41 +122,41 @@ SIGHT_ENABLE_CUSTOM_PROFILE			启用自定义配置文件
 SIGHT_COLOR_MASK					颜色遮罩
 SIGHT_COLOR_MASK_WARNING			准星几乎不可见，请检查颜色遮罩的透明通道 (Alpha)
 SIGHT_SCALE							图片缩放百分比
-SIGHT_RESET_BUTTON                  重置
-SIGHT_OFFSET                        距屏幕中心的偏移量，X/Y
-SIGHT_VIS_HOTKEY                    可见性热键
-SIGHT_VIS_MODE                      可见性模式
-SIGHT_VIS_MODE_DEFAULT              按下切换可见性
-SIGHT_VIS_MODE_HOLD                 按住显示
-SIGHT_VIS_MODE_HOLD_INV             反向按住模式
+SIGHT_RESET_BUTTON					重置
+SIGHT_OFFSET						距屏幕中心的偏移量，X/Y
+SIGHT_VIS_HOTKEY					可见性热键
+SIGHT_VIS_MODE						可见性模式
+SIGHT_VIS_MODE_DEFAULT				按下切换可见性
+SIGHT_VIS_MODE_HOLD					按住显示
+SIGHT_VIS_MODE_HOLD_INV				反向按住模式
 
-SIGHT_LEAN                          启用准星倾斜
-SIGHT_LEAN_HOTKEYS                  左右倾斜热键
-SIGHT_LEAN_ANGLE                    角度，度数
+SIGHT_LEAN							启用准星倾斜
+SIGHT_LEAN_HOTKEYS					左右倾斜热键
+SIGHT_LEAN_ANGLE					角度，度数
 
-SIGHT_ENABLE_ADVANCED               启用高级瞄准点配置文件设置
-SIGHT_SWITCH_HOTKEY                 切换准星热键
-SIGHT_SWITCH_MODE                   切换模式
-SIGHT_SWITCH_MODE_PRESS             按下切换
-SIGHT_SWITCH_MODE_RELEASE           松开切换
+SIGHT_ENABLE_ADVANCED				启用高级瞄准点配置文件设置
+SIGHT_SWITCH_HOTKEY					切换准星热键
+SIGHT_SWITCH_MODE					切换模式
+SIGHT_SWITCH_MODE_PRESS				按下切换
+SIGHT_SWITCH_MODE_RELEASE			松开切换
 
-SETTINGS_LANGUAGE_EX                界面语言和字体大小
-SETTINGS_LANGUAGE_EX_HINT           您需要重新启动程序以应用这些选项。
+SETTINGS_LANGUAGE_EX				界面语言和字体大小
+SETTINGS_LANGUAGE_EX_HINT			您需要重新启动程序以应用这些选项。
 SETTINGS_LANGUAGE_STEAM				Steam 应用程序语言
-SETTINGS_START_AS_ADMIN             以管理员权限启动
-SETTINGS_START_AS_ADMIN_HINT        需要高权限才能访问某些功能。\n您需要重新启动程序以应用此选项。
-SETTINGS_START_WITH_WINDOWS         随 Windows 启动
-SETTINGS_START_MINIMIZED            启动时最小化
-SETTINGS_DONOT_USE_TRAY             从系统托盘中移除图标
-SETTINGS_MINIMIZE_TRAY              最小化到系统托盘
-SETTINGS_CLOSE_MINIMIZE             关闭按钮作为最小化
-SETTINGS_CHECK_UPDATE               启动时检查更新
-SETTINGS_SHOW_HINTS                 显示工具提示
-SETTINGS_SYSTEM_MESSAGES            系统消息
-SETTINGS_LIGHT_THEME                使用浅色界面主题
-SETTINGS_NO_SHOW_STEAM              不改变 Steam 状态
-SETTINGS_USE_FAVORITES              启用收藏的准星
-SETTINGS_BACK_VERSION1              切换回版本 1
+SETTINGS_START_AS_ADMIN				以管理员权限启动
+SETTINGS_START_AS_ADMIN_HINT		需要高权限才能访问某些功能。\n您需要重新启动程序以应用此选项。
+SETTINGS_START_WITH_WINDOWS			随 Windows 启动
+SETTINGS_START_MINIMIZED			启动时最小化
+SETTINGS_DONOT_USE_TRAY				从系统托盘中移除图标
+SETTINGS_MINIMIZE_TRAY				最小化到系统托盘
+SETTINGS_CLOSE_MINIMIZE				关闭按钮作为最小化
+SETTINGS_CHECK_UPDATE				启动时检查更新
+SETTINGS_SHOW_HINTS					显示工具提示
+SETTINGS_SYSTEM_MESSAGES			系统消息
+SETTINGS_LIGHT_THEME				使用浅色界面主题
+SETTINGS_NO_SHOW_STEAM				不改变 Steam 状态
+SETTINGS_USE_FAVORITES				启用收藏的准星
+SETTINGS_BACK_VERSION1				切换回版本 1
 
 //////////    Overlay mode settings    //////////
 
@@ -195,11 +195,11 @@ OVERLAY_TEST_FAILED				(失败)
 
 //////////    Blacklist settings    //////////
 
-BLACKLIST_BLACK_MODE                黑名单模式
-BLACKLIST_WHITE_MODE                白名单模式
-BLACKLIST_BLOCKED                   已阻止的进程
-BLACKLIST_ALLOWED                   已允许的进程
-BLACKLIST_BLOCK                     阻止进程
-BLACKLIST_ALLOW                     允许进程
-BLACKLIST_UNBLOCK                   移除进程
-BLACKLIST_SELECT                    选择进程
+BLACKLIST_BLACK_MODE				黑名单模式
+BLACKLIST_WHITE_MODE				白名单模式
+BLACKLIST_BLOCKED					已阻止的进程
+BLACKLIST_ALLOWED					已允许的进程
+BLACKLIST_BLOCK						阻止进程
+BLACKLIST_ALLOW						允许进程
+BLACKLIST_UNBLOCK					移除进程
+BLACKLIST_SELECT					选择进程

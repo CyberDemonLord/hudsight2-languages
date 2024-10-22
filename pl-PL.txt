@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL							Anuluj
+BTN_CLOSE							Zamknij
+TRAYMENU_CLOSE			Zamknij HudSight 2
+
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Oprogramowanie jest aktywowane.
+ABOUT_TRIAL							Oprogramowanie jest w trybie testowym.
+CURRENT_VERSION						Wersja %d (%s)
+STEAM_VERSION_ON					Wersja Steam
+STEAM_NO_STATUS_CHANGE				Status się nie zmienił
+ADMINISTRATOR				Administrator
+FIRST_START_ADMIN1			To jest pierwszy start aplikacji.\nMoże być konieczne uruchomienie z podwyższonymi uprawnieniami, aby uzyskać dodatkowe funkcje.
+FIRST_START_ADMIN2			Aby włączyć wsparcie dla Vulkan, musisz uruchomić z podwyższonymi uprawnieniami tylko raz.\nTryb Real Overlay (<a href="REAL_OVERLAY">nakładki bez hooków</a>) wymaga uruchamiania "jako administrator" na stałe.\n\nMożesz zmienić tę opcję później w ustawieniach aplikacji (zakładka Opcje).
+FIRST_START_ADMIN_YES1			Uruchom "jako administrator"
+FIRST_START_ADMIN_NO1			Nie zwiększaj uprawnień
+FIRST_START_ADMIN_YES2			Kontynuuj uruchamianie "jako administrator"
+FIRST_START_ADMIN_NO2			Wyłącz podwyższone uprawnienia przy następnym uruchomieniu
+
+TRIAL_WANT_CODE						Czy chcesz otrzymać kod aktywacyjny?
+TRIAL_GET_LICENSE					Zamów licencję
+TRIAL_ACTIVATE						Aktywuj oprogramowanie
+TRIAL_ACTIVATION_CODE				Kod aktywacyjny
+TRIAL_ACTIVATION_ERROR				Błąd aktywacji oprogramowania:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Aktywacja...
+TRIAL_REMINDER						Używasz wersji demo HudSight 2.\n\nKup licencję, aby usunąć wszystkie ograniczenia wersji demo i pomóc nam ulepszyć to narzędzie!
+TRIAL_REMINDER2						Ograniczenia wersji demo: ustawienia celowników nie mogą być zapisywane ani ładowane, na ekranie gry znajduje się znak wodny.
+TRIAL_REMINDER3						Kiedy kupujesz licencję, pomagasz nam uczynić program lepszym.\nStań się częścią naszej społeczności!
+TRIAL_REMINDER_SOFTWARE				Ustawienia nie są zapisywane w trybie próbnym
+TRIAL_REMINDER_STOP					Wersja demo HudSight 2 nie zapisuje zmian ustawień celowników.\n\nTo ograniczenie wersji demo zostanie usunięte w pełnej wersji licencjonowanej.
+TRIAL_RECOVER_WANT					Odzyskaj swój kod aktywacyjny
+TRIAL_RECOVER_EMAIL					Wprowadź swój e-mail
+TRIAL_RECOVER						Wyślij kod
+TRIAL_RECOVER_CHECK_EMAIL			Sprawdź swoją pocztę e-mail
+TRIAL_GET_LICENSE					Uzyskaj licencję
+TRIAL_TRY_IT						Wypróbuj to
+TRIAL_FREE_GAME						Aktywacja została wykonana przy użyciu specjalnego klucza.\nOprogramowanie działa jako pełna wersja dla gry: %s.
+TRIAL_STEAM_NOT_SHOW				HudSight musi być aktywowany za pomocą klienta Steam.\nTwój status Steam zostanie zmieniony na "uruchomienie HudSight".\n\nCzy kontynuować?
+
+STEAM_NOT_STARTED					Krytyczny błąd.\n\nNie można połączyć się z uruchamiaczem oprogramowania. Proszę uruchomić program z klienta Steam.
+STEAM_NO_AUTH						Krytyczny błąd.\n\nNie można autoryzować w Steam. Aby aktywować oprogramowanie, musisz uruchomić je z klienta Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Naciśnij maksymalnie trzy przyciski lub Escape, aby anulować
+HOTKEY_NOT_BOUND					Nie przypisano
+
+SIGHT_TABS_CROSSHAIR				Celownik
+SIGHT_TABS_LIBRARY					Biblioteka
+SIGHT_TABS_OVERLAY_MODE					Tryb rysowania
+SIGHT_TABS_COMMON					Opcje
+SIGHT_TABS_INFO						Informacje
+
+SIGHT_TABS_CROSSHAIR_EX				Dostępne celowniki
+SIGHT_TABS_LIBRARY_EX				Biblioteka celowników
+SIGHT_TABS_BLACKLIST_EX				Ustawienia czarnej listy
+SIGHT_TABS_COMMON_EX				Ustawienia ogólne
+SIGHT_TABS_OVERLAY_MODE_EX			Tryb rysowania celownika
+
+LIBRARY_NEW_IMAGE					Utwórz nowy obraz
+LIBRARY_ADD_IMAGE					Dodaj obraz z dysku
+LIBRARY_DELETE_IMAGE				Usuń wybrany obraz
+LIBRARY_RESTORE_DEFAULTS			Przywróć domyślny zestaw obrazów
+LIBRARY_EDIT_IMAGE					Edytuj obraz
+LIBRARY_MAKE_FAVORITE				Oznacz/odznacz ulubiony
+LIBRARY_SHOW_ONLY_FAVORITES			Pokaż tylko ulubione
+LIBRARY_EDITOR_RENAME				Zmień nazwę wybranego obrazu
+LIBRARY_EDITOR_ENTER_NAME				Wprowadź nazwę obrazu
+LIBRARY_STEAMWORKSHOP_UPLOAD			Prześlij obraz do warsztatu Steam
+LIBRARY_STEAMWORKSHOP_REMOVE			Usuń obraz z warsztatu Steam
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Błąd podczas usuwania obrazu z warsztatu Steam.\nPrawdopodobnie nie masz do tego uprawnień.\n\nMożesz zrezygnować z tego przedmiotu w warsztacie (na swoim koncie Steam) i usunąć ten celownik tutaj.
+LIBRARY_STEAM_AGREEMENT				Najpierw musisz zgodzić się na Umowę subskrybenta Steam, aby prawidłowo przetwarzać swoje przesyłki.
+
+SIGHT_EDITOR						Edytor obrazów
+SIGHT_EDITOR_NEW		Wyczyść obraz celownika
+SIGHT_EDITOR_GEN		Generator obrazów celowników
+SIGHT_EDITOR_SETTINGS		Ustawienia edytora
+SIGHT_EDITOR_ENTER_NAME				Wprowadź nazwę obrazu
+SIGHT_EDITOR_UNDO					Cofnij
+SIGHT_EDITOR_REDO					Przywróć
+SIGHT_EDITOR_ZOOMIN		Powiększ
+SIGHT_EDITOR_ZOOMOUT		Pomniejsz
+SIGHT_EDITOR_IMAGESIZE				Rozmiar obrazu
+SIGHT_EDITOR_PEN_VALUE				Kolor pędzla
+SIGHT_EDITOR_PEN_RGBA				Użyj pędzla RGBA
+SIGHT_EDITOR_PIXELVALUE				Wartość pod wskaźnikiem
+SIGHT_EDITOR_DROPPER			Narzędzie do próbkowania koloru
+SIGHT_EDITOR_PIXEL_OFFSET		Pokaż przesunięcie piksela pod wskaźnikiem
+SIGHT_EDITOR_GEN_THICKNESS		Grubość
+SIGHT_EDITOR_GEN_SIZE			Rozmiar
+SIGHT_EDITOR_GEN_OUTLINE		Kontur
+SIGHT_EDITOR_GEN_GAP			Przerwa
+SIGHT_EDITOR_GEN_STYLE1			Styl podstawowy
+SIGHT_EDITOR_GEN_STYLE2			Styl dodatkowy
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Pusty
+SIGHT_EDITOR_GEN_STYLE_CROSS		Krzyż
+SIGHT_EDITOR_GEN_STYLE_TCROSS		Styl w kształcie litery T
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Krzyż diagonalny
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Wzór w kształcie chevronu
+SIGHT_EDITOR_GEN_STYLE_3RAY		3 promienie
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predator
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 kropki
+SIGHT_EDITOR_GEN_STYLE_DOT		Kropka
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Okrąg
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Kwadrat
+SIGHT_EDITOR_OVERWRITE			Obraz został zmieniony.\nCzy chcesz zapisać zmiany?
+SIGHT_EDITOR_RENAME_BUSY		Ta nazwa jest już zajęta
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Niestandardowy profil dla tego celownika
+SIGHT_COLOR_MASK					Maska koloru
+SIGHT_COLOR_MASK_WARNING			Celownik jest prawie niewidoczny, sprawdź kanał przezroczystości (Alfa) maski koloru
+SIGHT_SCALE							Skala obrazu, procenty
+SIGHT_RESET_BUTTON					Resetuj
+SIGHT_OFFSET						Przesunięcie od centrum ekranu, X/Y
+SIGHT_VIS_HOTKEY					Skrót klawiszowy widoczności
+SIGHT_VIS_MODE						Tryb widoczności
+SIGHT_VIS_MODE_DEFAULT				Naciśnij, aby przełączać widoczność
+SIGHT_VIS_MODE_HOLD					Przytrzymaj, aby być widocznym
+SIGHT_VIS_MODE_HOLD_INV				Tryb przytrzymania odwrotny
+
+SIGHT_LEAN							Włącz przechylenie celownika
+SIGHT_LEAN_HOTKEYS					Skróty klawiszowe do przechylenia w lewo i w prawo
+SIGHT_LEAN_ANGLE					Kąt, stopnie
+
+SIGHT_ENABLE_ADVANCED				Włącz zaawansowane ustawienia profilu celownika
+SIGHT_SWITCH_HOTKEY					Skrót klawiszowy do przełączania celownika
+SIGHT_SWITCH_MODE					Tryb przełączania
+SIGHT_SWITCH_MODE_PRESS				Przy naciśnięciu
+SIGHT_SWITCH_MODE_RELEASE			Przy zwolnieniu
+
+SETTINGS_LANGUAGE_EX				Język interfejsu i rozmiar czcionki
+SETTINGS_LANGUAGE_EX_HINT			Musisz ponownie uruchomić program, aby zastosować te opcje.
+SETTINGS_LANGUAGE_STEAM				Język aplikacji Steam
+SETTINGS_START_AS_ADMIN				Uruchom jako administrator
+SETTINGS_START_AS_ADMIN_HINT		Wysokie uprawnienia są wymagane do dostępu do niektórych funkcji.\nMusisz ponownie uruchomić program, aby zastosować tę opcję.
+SETTINGS_START_WITH_WINDOWS			Autostart przy uruchamianiu Windows
+SETTINGS_START_MINIMIZED			Rozpocznij zminimalizowane
+SETTINGS_DONOT_USE_TRAY				Usuń ikonę z zasobnika systemowego
+SETTINGS_MINIMIZE_TRAY				Zminimalizuj do zasobnika systemowego
+SETTINGS_CLOSE_MINIMIZE				Przycisk zamknij jako zminimalizuj
+SETTINGS_CHECK_UPDATE				Sprawdź aktualizacje przy starcie
+SETTINGS_SHOW_HINTS					Wyświetl podpowiedzi
+SETTINGS_SYSTEM_MESSAGES			Wiadomości systemowe
+SETTINGS_LIGHT_THEME				Użyj jasnego motywu interfejsu
+SETTINGS_NO_SHOW_STEAM				Nie zmieniaj statusu Steam
+SETTINGS_USE_FAVORITES				Włącz ulubione celowniki
+SETTINGS_BACK_VERSION1				Przełącz z powrotem na wersję 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Wyświetlacz #%d)
+
+OVERLAY_MODE_DETAILS				Szczegóły
+OVERLAY_MODE_SELECT_DISPLAY			Wybierz wyświetlacz
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Wybierz wyświetlacz, który będzie używany do wyświetlania celownika.
+OVERLAY_MODE_READ_MORE				Przeczytaj więcej na stronie internetowej
+
+OVERLAY_MODE_SIMPLE_SHORT			Nakładka celownika jest rysowana za pomocą przezroczystego okna, które jest nad wszystkimi innymi oknami.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay dobrze działa z grami w trybie okienkowym lub bezramkowym. Także przydatne dla gier korzystających z DirectX 9 lub DirectX 12 z włączoną optymalizacją pełnoekranową (FSO).
+
+OVERLAY_MODE_REAL_SHORT				To ulepszona wersja trybu Simple Overlay, która może wyświetlać nakładkę w trybie pełnoekranowym ekskluzywnym (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay działa z grami w trybie okienkowym, bezramkowym oraz pełnoekranowym ekskluzywnym. Wymaga uprawnień administratora. Niezgodny z grami w trybie pełnoekranowym Vulkan i OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Uruchom aplikację jako administrator, aby włączyć tryb Real Overlay.
+OVERLAY_MODE_REAL_STATE				Sprawdzanie uprawnień administratora...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Uruchom ponownie jako administrator teraz
+
+OVERLAY_MODE_XBOX_SHORT				Ten tryb nakładki jest podobny do Real Overlay i może działać w grach w trybie pełnoekranowym ekskluzywnym.
+OVERLAY_MODE_XBOX_LONG				Tryb Game Bar jest zasilany przez Windows Game Bar. Nie wymaga uprawnień administratora (jak Real Overlay), ale będziesz musiał zainstalować naszą wtyczkę Game Bar ze sklepu Windows. Niezgodny z grami w trybie pełnoekranowym Vulkan i OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Zainstaluj naszą wtyczkę Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Otwórz Game Bar (używając skrótu Win+G) \n\t- Uruchom nasz widget \n\t- Przypnij go \n\t- Włącz kliknięcia przez Game Bar.
+OVERLAY_MODE_XBOX_STATE				Sprawdzanie połączenia widgetu...
+
+OVERLAY_MODE_HOOKS_SHORT			Nakładka Hooks w "starym stylu" używa przechwytywania renderowania w procesie gry.
+OVERLAY_MODE_HOOKS_LONG				Ten tryb jest zgodny z dowolnym trybem graficznym gry. Działa jak nakładka Steam i można go używać z grafiką DirectX 9, 10, 11, 12, Vulkan i OpenGL. Jednak niektóre programy antycheatowe nie lubią takich nakładek (iniekcje DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			Po prostu uruchom grę, poczekaj kilka sekund i powinieneś zobaczyć swój celownik. Jeśli nie widzisz celownika i jesteś pewien, że powinien być widoczny, prosimy o wiadomość do wsparcia.\n\nCelownik nie jest widoczny w tym trybie na pulpicie, ale tylko w grach!
+
+OVERLAY_TEST_SUCCESS				(Sukces)
+OVERLAY_TEST_FAILED				(Niepowodzenie)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Tryb czarnej listy
+BLACKLIST_WHITE_MODE				Tryb białej listy
+BLACKLIST_BLOCKED					Zablokowane procesy
+BLACKLIST_ALLOWED					Dozwolone procesy
+BLACKLIST_BLOCK						Zablokuj proces
+BLACKLIST_ALLOW						Zezwól na proces
+BLACKLIST_UNBLOCK					Usuń blokadę procesu
+BLACKLIST_SELECT					Wybierz proces
