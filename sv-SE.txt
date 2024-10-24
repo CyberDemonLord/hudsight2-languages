@@ -11,152 +11,152 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          Cancel
-BTN_CLOSE                           Close
-TRAYMENU_CLOSE			Close HudSight 2
+BTN_CANCEL							Avbryt
+BTN_CLOSE							Stäng
+TRAYMENU_CLOSE			Stäng HudSight 2
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     Software is activated.
-ABOUT_TRIAL                         Software is in trial mode.
-CURRENT_VERSION                     Build %d (%s)
-STEAM_VERSION_ON                    Steam version
-STEAM_NO_STATUS_CHANGE              Status not changed
-ADMINISTRATOR				Administrator
-FIRST_START_ADMIN1			This is the first start of the application.\nYou may need to run with elevated privileges to get additional features.
-FIRST_START_ADMIN2			To enable Vulkan support you need to start with elevated privileges only once.\nReal Overlay mode (<a href="REAL_OVERLAY">overlays without hooks</a>) requires to run "as admin" permanently.\n\nYou can change this option later in the application settings (Options tab).
-FIRST_START_ADMIN_YES1			Run "as admin"
-FIRST_START_ADMIN_NO1			Do not elevate privileges
-FIRST_START_ADMIN_YES2			Continue to run "as admin"
-FIRST_START_ADMIN_NO2			Turn off elevated privileges on next startup
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Programvaran är aktiverad.
+ABOUT_TRIAL							Programvaran är i testläge.
+CURRENT_VERSION						Bygg %d (%s)
+STEAM_VERSION_ON					Steam-version
+STEAM_NO_STATUS_CHANGE				Status har inte ändrats
+ADMINISTRATOR				Administratör
+FIRST_START_ADMIN1			Detta är första gången du startar programmet.\nDu kan behöva köra med förhöjda rättigheter för att få tillgång till ytterligare funktioner.
+FIRST_START_ADMIN2			För att aktivera Vulkan-stöd måste du starta med förhöjda rättigheter endast en gång.\nReal Overlay-läge (<a href="REAL_OVERLAY">överlägg utan hooks</a>) kräver att du alltid kör "som administratör".\n\nDu kan ändra detta alternativ senare i programinställningarna (flik Alternativ).
+FIRST_START_ADMIN_YES1			Kör "som administratör"
+FIRST_START_ADMIN_NO1			Höj inte rättigheterna
+FIRST_START_ADMIN_YES2			Fortsätt att köra "som administratör"
+FIRST_START_ADMIN_NO2			Stäng av förhöjda rättigheter vid nästa uppstart
 
-TRIAL_WANT_CODE						Would you like to get your activation code?
-TRIAL_GET_LICENSE					Order a license
-TRIAL_ACTIVATE						Activate software
-TRIAL_ACTIVATION_CODE				Activation code
-TRIAL_ACTIVATION_ERROR				Error activating software:\n\n%s
-TRIAL_ACTIVATION_PROGRESS			Activating...
-TRIAL_REMINDER						You're using the HudSight 2 demo version.\n\nBuy a license to remove all demo restrictions and help us improve this tool!
-TRIAL_REMINDER2						The demo version restrictions: crosshairs settings cannot be saved or loaded, there is a watermark over a game screen.
-TRIAL_REMINDER3						When you buy a license, you help us make the program better.\nBecome a part of our community!
-TRIAL_REMINDER_SOFTWARE				Settings are not saved in the trial mode
-TRIAL_REMINDER_STOP					HudSight 2 demo version doesn't save changes of the crosshairs settings.\n\nThis demo restriction will be removed in the full licensed version.
-TRIAL_RECOVER_WANT					Recover your activation code
-TRIAL_RECOVER_EMAIL					Enter your email
-TRIAL_RECOVER						Send the code
-TRIAL_RECOVER_CHECK_EMAIL			Please check your e-mail
-TRIAL_GET_LICENSE					Get a license
-TRIAL_TRY_IT						Try it
-TRIAL_FREE_GAME						Activation was done using a special key.\nSoftware works as full version for the game: %s
-TRIAL_STEAM_NOT_SHOW				HudSight needs to be activated using Steam client.\nYour Steam status will be changed to "running HudSight".\n\nShould we continue?
+TRIAL_WANT_CODE						Skulle du vilja få din aktiveringskod?
+TRIAL_GET_LICENSE					Beställ en licens
+TRIAL_ACTIVATE						Aktivera programvaran
+TRIAL_ACTIVATION_CODE				Aktiveringskod
+TRIAL_ACTIVATION_ERROR				Fel vid aktivering av programvaran:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Aktiverar...
+TRIAL_REMINDER						Du använder HudSight 2 demoversion.\n\nKöp en licens för att ta bort alla demobegränsningar och hjälp oss att förbättra detta verktyg!
+TRIAL_REMINDER2						Demoversionens begränsningar: inställningarna för sikten kan inte sparas eller laddas, det finns ett vattenmärke över spelskärmen.
+TRIAL_REMINDER3						När du köper en licens hjälper du oss att göra programmet bättre.\nBli en del av vårt community!
+TRIAL_REMINDER_SOFTWARE				Inställningar sparas inte i testläget
+TRIAL_REMINDER_STOP					HudSight 2 demoversion sparar inte ändringar i siktsinställningarna.\n\nDenna demobegränsning kommer att tas bort i den fullständiga licensierade versionen.
+TRIAL_RECOVER_WANT					Återställ din aktiveringskod
+TRIAL_RECOVER_EMAIL					Ange din e-post
+TRIAL_RECOVER						Skicka koden
+TRIAL_RECOVER_CHECK_EMAIL			Vänligen kontrollera din e-post
+TRIAL_GET_LICENSE					Skaffa en licens
+TRIAL_TRY_IT						Prova det
+TRIAL_FREE_GAME						Aktiveringen gjordes med en speciell nyckel.\nProgramvaran fungerar som fullversion för spelet: %s
+TRIAL_STEAM_NOT_SHOW				HudSight måste aktiveras med Steam-klienten.\nDin Steam-status kommer att ändras till "kör HudSight".\n\nSka vi fortsätta?
 
-STEAM_NOT_STARTED					Fatal error.\n\nCannot connect to software launcher. Please start the program from Steam client.
-STEAM_NO_AUTH						Fatal error.\n\nCannot authorize in Steam. To activate software you need to start it from Steam client.
+STEAM_NOT_STARTED					Fatalfel.\n\nKunde inte ansluta till programvarustartsidan. Vänligen starta programmet från Steam-klienten.
+STEAM_NO_AUTH						Fatalfel.\n\nKunde inte autentisera i Steam. För att aktivera programvaran måste du starta den från Steam-klienten.
 
 //////////    Hotkeys    //////////
 
-HOTKEY_HINT							Press up to three buttons or Escape to cancel
-HOTKEY_NOT_BOUND					Not bound
+HOTKEY_HINT							Tryck på upp till tre knappar eller Esc för att avbryta
+HOTKEY_NOT_BOUND					Ej bunden
 
-SIGHT_TABS_CROSSHAIR				Crosshair
-SIGHT_TABS_LIBRARY					Library
-SIGHT_TABS_OVERLAY_MODE					Draw mode
-SIGHT_TABS_COMMON					Options
+SIGHT_TABS_CROSSHAIR				Sikte
+SIGHT_TABS_LIBRARY					Bibliotek
+SIGHT_TABS_OVERLAY_MODE					Ritläge
+SIGHT_TABS_COMMON					Alternativ
 SIGHT_TABS_INFO						Information
 
-SIGHT_TABS_CROSSHAIR_EX				Available crosshairs
-SIGHT_TABS_LIBRARY_EX				Crosshairs library
-SIGHT_TABS_BLACKLIST_EX				Blacklist settings
-SIGHT_TABS_COMMON_EX				General settings
-SIGHT_TABS_OVERLAY_MODE_EX			Crosshair draw mode
+SIGHT_TABS_CROSSHAIR_EX				Tillgängliga sikten
+SIGHT_TABS_LIBRARY_EX				Siktbibliotek
+SIGHT_TABS_BLACKLIST_EX				Inställningar för svartlista
+SIGHT_TABS_COMMON_EX				Allmänna inställningar
+SIGHT_TABS_OVERLAY_MODE_EX			Siktsritläge
 
-LIBRARY_NEW_IMAGE					Create a new image
-LIBRARY_ADD_IMAGE					Add an image from disk
-LIBRARY_DELETE_IMAGE				Delete selected image
-LIBRARY_RESTORE_DEFAULTS			Restore default images set
-LIBRARY_EDIT_IMAGE					Edit image
-LIBRARY_MAKE_FAVORITE				Mark/unmark favorite
-LIBRARY_SHOW_ONLY_FAVORITES			Show only favorites
-LIBRARY_EDITOR_RENAME				Rename selected image
-LIBRARY_EDITOR_ENTER_NAME				Enter image name
-LIBRARY_STEAMWORKSHOP_UPLOAD			Upload image to Steam workshop
-LIBRARY_STEAMWORKSHOP_REMOVE			Remove image from Steam workshop
-LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Error removing the image from Steam workshop.\nProbably you have not rights for this.\n\nYou may unsubscribe from this item in the workshop (in your Steam account) and delete this crosshair here.
-LIBRARY_STEAM_AGREEMENT				First you need to agree to the Steam Subscriber Agreement for correct processing of your uploads.
+LIBRARY_NEW_IMAGE					Skapa en ny bild
+LIBRARY_ADD_IMAGE					Lägg till en bild från disk
+LIBRARY_DELETE_IMAGE				Ta bort vald bild
+LIBRARY_RESTORE_DEFAULTS			Återställ standardbilderna
+LIBRARY_EDIT_IMAGE					Redigera bild
+LIBRARY_MAKE_FAVORITE				Markera/avmarkera som favorit
+LIBRARY_SHOW_ONLY_FAVORITES			Visa endast favoriter
+LIBRARY_EDITOR_RENAME				Döp om vald bild
+LIBRARY_EDITOR_ENTER_NAME				Ange bildnamn
+LIBRARY_STEAMWORKSHOP_UPLOAD			Ladda upp bild till Steam Workshop
+LIBRARY_STEAMWORKSHOP_REMOVE			Ta bort bild från Steam Workshop
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Fel vid borttagning av bilden från Steam Workshop.\nDu har förmodligen inte rättigheter för detta.\n\nDu kan avprenumerera på detta objekt i workshop (i ditt Steam-konto) och ta bort denna sikt här.
+LIBRARY_STEAM_AGREEMENT				Först måste du godkänna Steam Subscriber Agreement för korrekt bearbetning av dina uppladdningar.
 
-SIGHT_EDITOR						Image editor
-SIGHT_EDITOR_NEW		Clear crosshair image
-SIGHT_EDITOR_GEN		Crosshair image generator
-SIGHT_EDITOR_SETTINGS		Editor settings
-SIGHT_EDITOR_ENTER_NAME				Enter image name
-SIGHT_EDITOR_UNDO					Undo
-SIGHT_EDITOR_REDO					Redo
-SIGHT_EDITOR_ZOOMIN		Zoom in
-SIGHT_EDITOR_ZOOMOUT		Zoom out
-SIGHT_EDITOR_IMAGESIZE				Image size
-SIGHT_EDITOR_PEN_VALUE				Pen color
-SIGHT_EDITOR_PEN_RGBA				Use RGBA pen
-SIGHT_EDITOR_PIXELVALUE				Value under cursor
-SIGHT_EDITOR_DROPPER			Eyedropper
-SIGHT_EDITOR_PIXEL_OFFSET		Show offset of pixel under cursor
-SIGHT_EDITOR_GEN_THICKNESS		Thickness
-SIGHT_EDITOR_GEN_SIZE			Size
-SIGHT_EDITOR_GEN_OUTLINE		Outline
-SIGHT_EDITOR_GEN_GAP			Gap
-SIGHT_EDITOR_GEN_STYLE1			Primary style
-SIGHT_EDITOR_GEN_STYLE2			Additional style
-SIGHT_EDITOR_GEN_STYLE_EMPTY		Empty
-SIGHT_EDITOR_GEN_STYLE_CROSS		Cross
-SIGHT_EDITOR_GEN_STYLE_TCROSS		T-shaped
-SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Diagonal cross
+SIGHT_EDITOR						Bildredigerare
+SIGHT_EDITOR_NEW		Rensa siktbild
+SIGHT_EDITOR_GEN		Siktbildsgenerator
+SIGHT_EDITOR_SETTINGS		Redigerarinställningar
+SIGHT_EDITOR_ENTER_NAME				Ange bildnamn
+SIGHT_EDITOR_UNDO					Ångra
+SIGHT_EDITOR_REDO					Gör om
+SIGHT_EDITOR_ZOOMIN		Zooma in
+SIGHT_EDITOR_ZOOMOUT		Zooma ut
+SIGHT_EDITOR_IMAGESIZE				Bildstorlek
+SIGHT_EDITOR_PEN_VALUE				Pennfärg
+SIGHT_EDITOR_PEN_RGBA				Använd RGBA-penna
+SIGHT_EDITOR_PIXELVALUE				Värde under markören
+SIGHT_EDITOR_DROPPER			Ögon droppen
+SIGHT_EDITOR_PIXEL_OFFSET		Visa förskjutning av pixen under markören
+SIGHT_EDITOR_GEN_THICKNESS		Tjocklek
+SIGHT_EDITOR_GEN_SIZE			Storlek
+SIGHT_EDITOR_GEN_OUTLINE		Kontur
+SIGHT_EDITOR_GEN_GAP			Avstånd
+SIGHT_EDITOR_GEN_STYLE1			Primär stil
+SIGHT_EDITOR_GEN_STYLE2			Tilläggsstil
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Tom
+SIGHT_EDITOR_GEN_STYLE_CROSS		Kors
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T-formad
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Diagonal kors
 SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
-SIGHT_EDITOR_GEN_STYLE_3RAY		3-ray
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-stråle
 SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predator
-SIGHT_EDITOR_GEN_STYLE_2DOTS		2 dots
-SIGHT_EDITOR_GEN_STYLE_DOT		Dot
-SIGHT_EDITOR_GEN_STYLE_CIRCLE		Circle
-SIGHT_EDITOR_GEN_STYLE_SQUARE		Square
-SIGHT_EDITOR_OVERWRITE			The image is changed.\nDo you want to save the changes?
-SIGHT_EDITOR_RENAME_BUSY		This name is already taken
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 prickar
+SIGHT_EDITOR_GEN_STYLE_DOT		Prick
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Cirkel
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Fyrkant
+SIGHT_EDITOR_OVERWRITE			Bilden har ändrats.\nVill du spara ändringarna?
+SIGHT_EDITOR_RENAME_BUSY		Det namnet är redan taget
 
-SIGHT_ENABLE_CUSTOM_PROFILE			Custom profile for this crosshair
-SIGHT_COLOR_MASK					Color mask
-SIGHT_COLOR_MASK_WARNING			The crosshair is almost invisible, check the transparency channel (Alpha) of the color mask
-SIGHT_SCALE							Image scale, percents
-SIGHT_RESET_BUTTON					Reset
-SIGHT_OFFSET						Offset from screen center, X/Y
-SIGHT_VIS_HOTKEY					Visibility hotkey
-SIGHT_VIS_MODE						Visibility mode
-SIGHT_VIS_MODE_DEFAULT				Press to toggle visibility
-SIGHT_VIS_MODE_HOLD					Hold for visibility
-SIGHT_VIS_MODE_HOLD_INV				Inversed Hold mode
+SIGHT_ENABLE_CUSTOM_PROFILE			Användarprofil för detta sikt
+SIGHT_COLOR_MASK					Färgmall
+SIGHT_COLOR_MASK_WARNING			Siktet är nästan osynligt, kontrollera transparenskanalen (Alpha) för färgmallen
+SIGHT_SCALE							Bildskala, procent
+SIGHT_RESET_BUTTON					Återställ
+SIGHT_OFFSET						Förskjutning från skärmens centrum, X/Y
+SIGHT_VIS_HOTKEY					Visningsgenväg
+SIGHT_VIS_MODE						Visningsläge
+SIGHT_VIS_MODE_DEFAULT				Tryck för att växla synlighet
+SIGHT_VIS_MODE_HOLD					Håll för att visa
+SIGHT_VIS_MODE_HOLD_INV				Inverterad Håll-läge
 
-SIGHT_LEAN							Enable crosshair lean
-SIGHT_LEAN_HOTKEYS					Hotkeys for lean left and right
-SIGHT_LEAN_ANGLE					Angle, degrees
+SIGHT_LEAN							Aktivera siktets lutning
+SIGHT_LEAN_HOTKEYS					Genvägar för lutning vänster och höger
+SIGHT_LEAN_ANGLE					Vinkel, grader
 
-SIGHT_ENABLE_ADVANCED				Enable advanced crosshair profile settings
-SIGHT_SWITCH_HOTKEY					Switch to crosshair hotkey
-SIGHT_SWITCH_MODE					Switch mode
-SIGHT_SWITCH_MODE_PRESS				On press
-SIGHT_SWITCH_MODE_RELEASE			On release
+SIGHT_ENABLE_ADVANCED				Aktivera avancerade inställningar för siktprofil
+SIGHT_SWITCH_HOTKEY					Växla till siktgenväg
+SIGHT_SWITCH_MODE					Växlingsläge
+SIGHT_SWITCH_MODE_PRESS				Vid tryck
+SIGHT_SWITCH_MODE_RELEASE			Vid frigivning
 
-SETTINGS_LANGUAGE_EX				Interface language and font size
-SETTINGS_LANGUAGE_EX_HINT			You need to restart the program to apply these options.
-SETTINGS_LANGUAGE_STEAM				Steam app language
-SETTINGS_START_AS_ADMIN				Start with high privileges (as Admin)
-SETTINGS_START_AS_ADMIN_HINT		High privileges are required to access some features.\nYou need to restart the program to apply this option.
-SETTINGS_START_WITH_WINDOWS			Autostart with Windows
-SETTINGS_START_MINIMIZED			Start minimized
-SETTINGS_DONOT_USE_TRAY				Remove the icon from the system tray
-SETTINGS_MINIMIZE_TRAY				Minimize to the system tray
-SETTINGS_CLOSE_MINIMIZE				Close button as minimize
-SETTINGS_CHECK_UPDATE				Check for updates on start
-SETTINGS_SHOW_HINTS					Show tooltips
-SETTINGS_SYSTEM_MESSAGES			System messages
-SETTINGS_LIGHT_THEME				Use light interface theme
-SETTINGS_NO_SHOW_STEAM				Do not alter the Steam status
-SETTINGS_USE_FAVORITES				Enable favorite crosshairs
-SETTINGS_BACK_VERSION1				Switch back to Version 1
+SETTINGS_LANGUAGE_EX				Gränssnittsspråk och teckenstorlek
+SETTINGS_LANGUAGE_EX_HINT			Du måste starta om programmet för att tillämpa dessa alternativ.
+SETTINGS_LANGUAGE_STEAM				Språk för Steam-app
+SETTINGS_START_AS_ADMIN				Starta med höga rättigheter (som administratör)
+SETTINGS_START_AS_ADMIN_HINT		Höga rättigheter krävs för att få åtkomst till vissa funktioner.\nDu måste starta om programmet för att tillämpa detta alternativ.
+SETTINGS_START_WITH_WINDOWS			Autostart med Windows
+SETTINGS_START_MINIMIZED			Starta minimerad
+SETTINGS_DONOT_USE_TRAY				Ta bort ikonen från systemfältet
+SETTINGS_MINIMIZE_TRAY				Minimera till systemfältet
+SETTINGS_CLOSE_MINIMIZE				Stängningsknappen som minimera
+SETTINGS_CHECK_UPDATE				Kontrollera efter uppdateringar vid start
+SETTINGS_SHOW_HINTS					Visa verktygstips
+SETTINGS_SYSTEM_MESSAGES			Systemmeddelanden
+SETTINGS_LIGHT_THEME				Använd ljus gränssnittstema
+SETTINGS_NO_SHOW_STEAM				Ändra inte Steam-status
+SETTINGS_USE_FAVORITES				Aktivera favoritfärger
+SETTINGS_BACK_VERSION1				Växla tillbaka till version 1
 
 //////////    Overlay mode settings    //////////
 
@@ -164,42 +164,42 @@ OVERLAY_MODE_SIMPLE				Simple Overlay
 OVERLAY_MODE_HOOKS				Hooks
 OVERLAY_MODE_XBOX				Game Bar
 OVERLAY_MODE_MIRROR				Real Overlay
-OVERLAY_DISPLAY					(Display #%d)
+OVERLAY_DISPLAY					(Visar #%d)
 
-OVERLAY_MODE_DETAILS				Details
-OVERLAY_MODE_SELECT_DISPLAY			Select display
-OVERLAY_MODE_SELECT_DISPLAY_TEXT		Select the display that will be used to show your crosshair.
-OVERLAY_MODE_READ_MORE				Read more on the website
+OVERLAY_MODE_DETAILS				Detaljer
+OVERLAY_MODE_SELECT_DISPLAY			Välj skärm
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Välj den skärm som kommer att användas för att visa ditt sikt.
+OVERLAY_MODE_READ_MORE				Läs mer på webbplatsen
 
-OVERLAY_MODE_SIMPLE_SHORT			Crosshair overlay is drawn using a transparent window that is on top of all other windows.
-OVERLAY_MODE_SIMPLE_LONG			Simple Overlay works well with Windowed or Borderless Windowed games. Also useful for games that use DirectX 9 or DirectX 12 with enabled Fullscreen Optimizations (FSO).
+OVERLAY_MODE_SIMPLE_SHORT			Siktöverlägget ritas med ett transparent fönster som ligger över alla andra fönster.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay fungerar bra med fönsterade eller utan kantfönsterade spel. Även användbart för spel som använder DirectX 9 eller DirectX 12 med aktiverad helskärmsoptimering (FSO).
 
-OVERLAY_MODE_REAL_SHORT				This is an improved version of the Simple Overlay mode that can display the overlay in Fullscreen Exclusive (FSE).
-OVERLAY_MODE_REAL_LONG				Real Overlay works with Windowed, Borderless Windowed and Fullscreen Exclusive games. It requires Admin privileges. Incompatible with Vulkan and OpenGL fullscreen games.
-OVERLAY_MODE_REAL_ADMIN_REQUIRED		Start app as admin to enable Real Overlay mode.
-OVERLAY_MODE_REAL_STATE				Checking admin privileges...
-OVERLAY_MODE_REAL_ADMIN_RESTART			Restart as admin now
+OVERLAY_MODE_REAL_SHORT				Detta är en förbättrad version av Simple Overlay-läget som kan visa överlägget i Fullscreen Exclusive (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay fungerar med fönsterade, utan kantfönsterade och Fullscreen Exclusive-spel. Det kräver administratörsrättigheter. Oförenlig med Vulkan- och OpenGL-helskärms-spel.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Starta appen som administratör för att aktivera Real Overlay-läget.
+OVERLAY_MODE_REAL_STATE				Kontrollerar administratörsrättigheter...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Starta om som administratör nu
 
-OVERLAY_MODE_XBOX_SHORT				This overlay mode is similar to Real Overlay and can work in Fullscreen Exclusive games.
-OVERLAY_MODE_XBOX_LONG				Game Bar mode is powered by Windows Game Bar. It doesn't require Admin provileges (as Real Overlay), but you will need to install our Game Bar extension from the Windows Store. Incompatible with Vulkan and OpenGL fullscreen games.
-OVERLAY_MODE_XBOX_INSTALL			Install our Game Bar extension
-OVERLAY_MODE_XBOX_LAUNCH			Open Game Bar (using the Win+G shortcut) \n\t- Launch our widget \n\t- Pin it \n\t- Enable mouse click-through for Game Bar.
-OVERLAY_MODE_XBOX_STATE				Checking widget connection...
+OVERLAY_MODE_XBOX_SHORT				Detta överläggningsläge liknar Real Overlay och kan fungera i Fullscreen Exclusive-spel.
+OVERLAY_MODE_XBOX_LONG				Game Bar-läget drivs av Windows Game Bar. Det kräver inte administratörsrättigheter (som Real Overlay), men du måste installera vår Game Bar-tillägg från Windows Store. Oförenlig med Vulkan- och OpenGL-helskärms-spel.
+OVERLAY_MODE_XBOX_INSTALL			Installera vår Game Bar-tillägg
+OVERLAY_MODE_XBOX_LAUNCH			Öppna Game Bar (använd genvägen Win+G) \n\t- Starta vår widget \n\t- Fäst den \n\t- Aktivera musens klickgenomgång för Game Bar.
+OVERLAY_MODE_XBOX_STATE				Kontrollerar widgetanslutning...
 
-OVERLAY_MODE_HOOKS_SHORT			The "old style" Hooks overlay uses render interception in the game process.
-OVERLAY_MODE_HOOKS_LONG				This mode is compatible with any game graphics mode. It works as Steam overlay and can be used with DirectX 9, 10, 11, 12, Vulkan and OpenGL graphics. However, some anti-cheats don't like such overlays (DLL injections).
-OVERLAY_MODE_HOOKS_LAUNCH			Just start the game, wait for a few seconds and you should see your crosshair. If you do not see the crosshair and are confident it should be visible, please send a message to support.\n\nThe crosshair is not visible in this mode on the desktop, but only in games!
+OVERLAY_MODE_HOOKS_SHORT			Den "gamla stilen" Hooks-överlägget använder rendering interception i spelprocessen.
+OVERLAY_MODE_HOOKS_LONG				Detta läge är kompatibelt med vilken spelgrafik som helst. Det fungerar som Steam-överlägg och kan användas med DirectX 9, 10, 11, 12, Vulkan och OpenGL-grafik. Men vissa anti-fuskarprogram gillar inte sådana överlägg (DLL-injektioner).
+OVERLAY_MODE_HOOKS_LAUNCH			Starta bara spelet, vänta i några sekunder så ska du se ditt sikt. Om du inte ser siktet och är säker på att det borde vara synligt, vänligen skicka ett meddelande till supporten.\n\nSiktet är inte synligt i detta läge på skrivbordet, utan endast i spel!
 
-OVERLAY_TEST_SUCCESS				(Success)
-OVERLAY_TEST_FAILED				(Failed)
+OVERLAY_TEST_SUCCESS				(Framgång)
+OVERLAY_TEST_FAILED				(Misslyckas)
 
 //////////    Blacklist settings    //////////
 
-BLACKLIST_BLACK_MODE				Blacklist mode
-BLACKLIST_WHITE_MODE				Whitelist mode
-BLACKLIST_BLOCKED					Blocked processes
-BLACKLIST_ALLOWED					Allowed processes
-BLACKLIST_BLOCK						Block process
-BLACKLIST_ALLOW						Allow process
-BLACKLIST_UNBLOCK					Remove process
-BLACKLIST_SELECT					Select process
+BLACKLIST_BLACK_MODE				Svartlisteläge
+BLACKLIST_WHITE_MODE				Vitlisteläge
+BLACKLIST_BLOCKED					Blockerade processer
+BLACKLIST_ALLOWED					Tillåtna processer
+BLACKLIST_BLOCK						Blockera process
+BLACKLIST_ALLOW						Tillåt process
+BLACKLIST_UNBLOCK					Ta bort process
+BLACKLIST_SELECT					Välj process

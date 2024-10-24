@@ -11,16 +11,16 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          Annuler
-BTN_CLOSE                           Fermer
+BTN_CANCEL							Annuler
+BTN_CLOSE							Fermer
 TRAYMENU_CLOSE			Fermer HudSight 2
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     Le logiciel est activé.
-ABOUT_TRIAL                         Le logiciel est en mode d'essai.
-CURRENT_VERSION                     Version %d (%s)
-STEAM_VERSION_ON                    Version Steam
-STEAM_NO_STATUS_CHANGE              Statut non changé
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Le logiciel est activé.
+ABOUT_TRIAL							Le logiciel est en mode d'essai.
+CURRENT_VERSION						Version %d (%s)
+STEAM_VERSION_ON					Version Steam
+STEAM_NO_STATUS_CHANGE				Statut non changé
 ADMINISTRATOR				Administrateur
 FIRST_START_ADMIN1			C'est le premier démarrage de l'application.\nVous devrez peut-être exécuter avec des privilèges élevés pour obtenir des fonctionnalités supplémentaires.
 FIRST_START_ADMIN2			Pour activer la prise en charge de Vulkan, vous devez démarrer avec des privilèges élevés une seule fois.\nLe mode Real Overlay (<a href="REAL_OVERLAY">superpositions sans hooks</a>) nécessite de s'exécuter "en tant qu'administrateur" en permanence.\n\nVous pouvez modifier cette option plus tard dans les paramètres de l'application (onglet Options).

@@ -11,8 +11,8 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          Cancel
-BTN_CLOSE                           Close
+BTN_CANCEL							Cancel
+BTN_CLOSE							Close
 TRAYMENU_CLOSE			Close HudSight 2
 
 ABOUT_COPYRIGHT                     Eduard Kozadaev

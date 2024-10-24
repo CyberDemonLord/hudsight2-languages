@@ -1,0 +1,205 @@
+//
+//  This is original English language file
+//  If you want to make a translation, then create file with locale name with UTF-8 encoding
+//  and translate english lines (right parts, not their identifiers :) )
+//  special symbols like \n, \r, %d, %s, etc are not translatable
+//
+//  locales names can be found here https://msdn.microsoft.com/en-us/library/cc233982.aspx
+//  or here https://www.science.co.il/language/Codes.php
+//  for example, English language and United States country gives "en-US" locale name
+//
+
+//////////    Information    //////////
+
+BTN_CANCEL							Cancelar
+BTN_CLOSE							Cerrar
+TRAYMENU_CLOSE			Cerrar HudSight 2
+
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						El software está activado.
+ABOUT_TRIAL							El software está en modo de prueba.
+CURRENT_VERSION						Versión %d (%s)
+STEAM_VERSION_ON					Versión de Steam
+STEAM_NO_STATUS_CHANGE				El estado no ha cambiado
+ADMINISTRATOR				Administrador
+FIRST_START_ADMIN1			Esta es la primera vez que se inicia la aplicación.\nEs posible que necesite ejecutarla con privilegios elevados para obtener funciones adicionales.
+FIRST_START_ADMIN2			Para habilitar el soporte para Vulkan, necesita iniciar con privilegios elevados solo una vez.\nEl modo Real Overlay (<a href="REAL_OVERLAY">superposiciones sin hooks</a>) requiere que se ejecute "como administrador" de forma permanente.\n\nPuede cambiar esta opción más tarde en la configuración de la aplicación (pestaña Opciones).
+FIRST_START_ADMIN_YES1			Ejecutar "como administrador"
+FIRST_START_ADMIN_NO1			No elevar privilegios
+FIRST_START_ADMIN_YES2			Continuar ejecutando "como administrador"
+FIRST_START_ADMIN_NO2			Desactivar privilegios elevados en el próximo inicio
+
+TRIAL_WANT_CODE						¿Le gustaría obtener su código de activación?
+TRIAL_GET_LICENSE					Ordenar una licencia
+TRIAL_ACTIVATE						Activar software
+TRIAL_ACTIVATION_CODE				Código de activación
+TRIAL_ACTIVATION_ERROR				Error al activar el software:\n\n%s
+TRIAL_ACTIVATION_PROGRESS			Activando...
+TRIAL_REMINDER						Está utilizando la versión de demostración de HudSight 2.\n\n¡Compre una licencia para eliminar todas las restricciones de demostración y ayudarnos a mejorar esta herramienta!
+TRIAL_REMINDER2						Las restricciones de la versión de demostración: la configuración de los puntos de mira no se puede guardar ni cargar, hay una marca de agua en la pantalla del juego.
+TRIAL_REMINDER3						Cuando compra una licencia, nos ayuda a mejorar el programa.\n¡Conviértase en parte de nuestra comunidad!
+TRIAL_REMINDER_SOFTWARE				Las configuraciones no se guardan en el modo de prueba
+TRIAL_REMINDER_STOP					La versión de demostración de HudSight 2 no guarda los cambios en la configuración de los puntos de mira.\n\nEsta restricción de demostración se eliminará en la versión licenciada completa.
+TRIAL_RECOVER_WANT					Recuperar su código de activación
+TRIAL_RECOVER_EMAIL					Ingrese su correo electrónico
+TRIAL_RECOVER						Enviar el código
+TRIAL_RECOVER_CHECK_EMAIL			Por favor, revise su correo electrónico
+TRIAL_GET_LICENSE					Obtener una licencia
+TRIAL_TRY_IT						Pruébalo
+TRIAL_FREE_GAME						La activación se realizó usando una clave especial.\nEl software funciona como versión completa para el juego: %s
+TRIAL_STEAM_NOT_SHOW				HudSight necesita ser activado usando el cliente de Steam.\nSu estado de Steam cambiará a "Ejecutando HudSight".\n\n¿Deberíamos continuar?
+
+STEAM_NOT_STARTED					Error fatal.\n\nNo se puede conectar al lanzador de software. Por favor, inicie el programa desde el cliente de Steam.
+STEAM_NO_AUTH						Error fatal.\n\nNo se puede autorizar en Steam. Para activar el software, necesita iniciarlo desde el cliente de Steam.
+
+//////////    Hotkeys    //////////
+
+HOTKEY_HINT							Presione hasta tres botones o Escape para cancelar
+HOTKEY_NOT_BOUND					No asignado
+
+SIGHT_TABS_CROSSHAIR				Punto de mira
+SIGHT_TABS_LIBRARY					Biblioteca
+SIGHT_TABS_OVERLAY_MODE					Modo de dibujo
+SIGHT_TABS_COMMON					Opciones
+SIGHT_TABS_INFO						Información
+
+SIGHT_TABS_CROSSHAIR_EX				Puntos de mira disponibles
+SIGHT_TABS_LIBRARY_EX				Biblioteca de puntos de mira
+SIGHT_TABS_BLACKLIST_EX				Ajustes de lista negra
+SIGHT_TABS_COMMON_EX				Ajustes generales
+SIGHT_TABS_OVERLAY_MODE_EX			Modo de dibujo del punto de mira
+
+LIBRARY_NEW_IMAGE					Crear una nueva imagen
+LIBRARY_ADD_IMAGE					Agregar una imagen desde el disco
+LIBRARY_DELETE_IMAGE				Eliminar la imagen seleccionada
+LIBRARY_RESTORE_DEFAULTS			Restaurar el conjunto de imágenes predeterminadas
+LIBRARY_EDIT_IMAGE					Editar imagen
+LIBRARY_MAKE_FAVORITE				Marcar/desmarcar como favorito
+LIBRARY_SHOW_ONLY_FAVORITES			Mostrar solo favoritos
+LIBRARY_EDITOR_RENAME				Cambiar el nombre de la imagen seleccionada
+LIBRARY_EDITOR_ENTER_NAME				Ingrese el nombre de la imagen
+LIBRARY_STEAMWORKSHOP_UPLOAD			Cargar imagen en la oficina de Steam
+LIBRARY_STEAMWORKSHOP_REMOVE			Eliminar imagen de la oficina de Steam
+LIBRARY_STEAMWORKSHOP_REMOVE_ERROR		Error al eliminar la imagen de la oficina de Steam.\nProbablemente no tiene derechos para esto.\n\nPuede cancelar la suscripción a este elemento en la oficina (en su cuenta de Steam) y eliminar este punto de mira aquí.
+LIBRARY_STEAM_AGREEMENT				Primero debe aceptar el Acuerdo del Suscriptor de Steam para el procesamiento correcto de sus cargas.
+
+SIGHT_EDITOR						Editor de imágenes
+SIGHT_EDITOR_NEW		Borrar imagen del punto de mira
+SIGHT_EDITOR_GEN		Gestor de imágenes del punto de mira
+SIGHT_EDITOR_SETTINGS		Ajustes del editor
+SIGHT_EDITOR_ENTER_NAME				Ingrese el nombre de la imagen
+SIGHT_EDITOR_UNDO					Deshacer
+SIGHT_EDITOR_REDO					Rehacer
+SIGHT_EDITOR_ZOOMIN		Acerar
+SIGHT_EDITOR_ZOOMOUT		Reducir
+SIGHT_EDITOR_IMAGESIZE				Tamaño de la imagen
+SIGHT_EDITOR_PEN_VALUE				Color del lápiz
+SIGHT_EDITOR_PEN_RGBA				Usar lápiz RGBA
+SIGHT_EDITOR_PIXELVALUE				Valor bajo el cursor
+SIGHT_EDITOR_DROPPER			Cuentagotas
+SIGHT_EDITOR_PIXEL_OFFSET		Mostrar desplazamiento del píxel bajo el cursor
+SIGHT_EDITOR_GEN_THICKNESS		Thickness
+SIGHT_EDITOR_GEN_SIZE			Tamaño
+SIGHT_EDITOR_GEN_OUTLINE		Contorno
+SIGHT_EDITOR_GEN_GAP			Separación
+SIGHT_EDITOR_GEN_STYLE1			Estilo primario
+SIGHT_EDITOR_GEN_STYLE2			Estilo adicional
+SIGHT_EDITOR_GEN_STYLE_EMPTY		Vacío
+SIGHT_EDITOR_GEN_STYLE_CROSS		Cruz
+SIGHT_EDITOR_GEN_STYLE_TCROSS		T-shaped
+SIGHT_EDITOR_GEN_STYLE_CROSS_DIAG	Cruz diagonal
+SIGHT_EDITOR_GEN_STYLE_CHEVRON		Chevron
+SIGHT_EDITOR_GEN_STYLE_3RAY		3-ray
+SIGHT_EDITOR_GEN_STYLE_PREDATOR		Predador
+SIGHT_EDITOR_GEN_STYLE_2DOTS		2 puntos
+SIGHT_EDITOR_GEN_STYLE_DOT		Punto
+SIGHT_EDITOR_GEN_STYLE_CIRCLE		Círculo
+SIGHT_EDITOR_GEN_STYLE_SQUARE		Cuadrado
+SIGHT_EDITOR_OVERWRITE			La imagen ha cambiado.\n¿Desea guardar los cambios?
+SIGHT_EDITOR_RENAME_BUSY		Este nombre ya está en uso
+
+SIGHT_ENABLE_CUSTOM_PROFILE			Perfil personalizado para este punto de mira
+SIGHT_COLOR_MASK					Máscara de color
+SIGHT_COLOR_MASK_WARNING			El punto de mira es casi invisible, verifique el canal de transparencia (Alfa) de la máscara de color
+SIGHT_SCALE							Escala de imagen, porcentajes
+SIGHT_RESET_BUTTON					Restablecer
+SIGHT_OFFSET						Desplazamiento desde el centro de la pantalla, X/Y
+SIGHT_VIS_HOTKEY					Atajo de visibilidad
+SIGHT_VIS_MODE						Modo de visibilidad
+SIGHT_VIS_MODE_DEFAULT				Presione para alternar visibilidad
+SIGHT_VIS_MODE_HOLD					Mantener para visibilidad
+SIGHT_VIS_MODE_HOLD_INV				Modo de mantener inverso
+
+SIGHT_LEAN							Habilitar inclinación del punto de mira
+SIGHT_LEAN_HOTKEYS					Atajos para inclinar a la izquierda y derecha
+SIGHT_LEAN_ANGLE					Ángulo, grados
+
+SIGHT_ENABLE_ADVANCED				Habilitar ajustes avanzados del perfil del punto de mira
+SIGHT_SWITCH_HOTKEY					Atajo para cambiar el punto de mira
+SIGHT_SWITCH_MODE					Modo de cambio
+SIGHT_SWITCH_MODE_PRESS				Al presionar
+SIGHT_SWITCH_MODE_RELEASE			Al soltar
+
+SETTINGS_LANGUAGE_EX				Idioma de la interfaz y tamaño de fuente
+SETTINGS_LANGUAGE_EX_HINT			Debes reiniciar el programa para aplicar estas opciones.
+SETTINGS_LANGUAGE_STEAM				Idioma de la app de Steam
+SETTINGS_START_AS_ADMIN				Iniciar con altos privilegios (como administrador)
+SETTINGS_START_AS_ADMIN_HINT		Se requieren altos privilegios para acceder a algunas funciones.\nDebes reiniciar el programa para aplicar esta opción.
+SETTINGS_START_WITH_WINDOWS			Inicio automático con Windows
+SETTINGS_START_MINIMIZED			Iniciar minimizado
+SETTINGS_DONOT_USE_TRAY				Eliminar el ícono de la bandeja del sistema
+SETTINGS_MINIMIZE_TRAY				Minimizar en la bandeja del sistema
+SETTINGS_CLOSE_MINIMIZE				Botón de cerrar como minimizar
+SETTINGS_CHECK_UPDATE				Buscar actualizaciones al iniciar
+SETTINGS_SHOW_HINTS					Mostrar consejos flotantes
+SETTINGS_SYSTEM_MESSAGES			Mensajes del sistema
+SETTINGS_LIGHT_THEME				Uso del tema de interfaz claro
+SETTINGS_NO_SHOW_STEAM				No alterar el estado de Steam
+SETTINGS_USE_FAVORITES				Habilitar puntos de mira favoritos
+SETTINGS_BACK_VERSION1				Cambiar de nuevo a la Versión 1
+
+//////////    Overlay mode settings    //////////
+
+OVERLAY_MODE_SIMPLE				Simple Overlay
+OVERLAY_MODE_HOOKS				Hooks
+OVERLAY_MODE_XBOX				Game Bar
+OVERLAY_MODE_MIRROR				Real Overlay
+OVERLAY_DISPLAY					(Pantalla #%d)
+
+OVERLAY_MODE_DETAILS				Detalles
+OVERLAY_MODE_SELECT_DISPLAY			Seleccionar pantalla
+OVERLAY_MODE_SELECT_DISPLAY_TEXT		Selecciona la pantalla que se usará para mostrar tu mira.
+OVERLAY_MODE_READ_MORE				Leer más en el sitio web
+
+OVERLAY_MODE_SIMPLE_SHORT			La superposición de la mira se dibuja utilizando una ventana transparente que está encima de todas las demás ventanas.
+OVERLAY_MODE_SIMPLE_LONG			Simple Overlay funciona bien con juegos en modo Ventana o Ventana sin bordes. También es útil para juegos que utilizan DirectX 9 o DirectX 12 con las Optimización de Pantalla Completa (FSO) habilitadas.
+
+OVERLAY_MODE_REAL_SHORT				Esta es una versión mejorada del modo Simple Overlay que puede mostrar la superposición en Pantalla Completa Exclusiva (FSE).
+OVERLAY_MODE_REAL_LONG				Real Overlay funciona con juegos en Ventana, Ventana sin bordes y Pantalla Completa Exclusiva. Requiere privilegios de administrador. Incompatible con juegos en pantalla completa de Vulkan y OpenGL.
+OVERLAY_MODE_REAL_ADMIN_REQUIRED		Inicia la aplicación como administrador para habilitar el modo Real Overlay.
+OVERLAY_MODE_REAL_STATE				Verificando privilegios de administrador...
+OVERLAY_MODE_REAL_ADMIN_RESTART			Reiniciar como administrador ahora
+
+OVERLAY_MODE_XBOX_SHORT				Este modo de sobreposición es similar a Real Overlay y puede funcionar en juegos en Pantalla Completa Exclusiva.
+OVERLAY_MODE_XBOX_LONG				El modo Game Bar está impulsado por Windows Game Bar. No requiere privilegios de administrador (como Real Overlay), pero necesitarás instalar nuestra extensión Game Bar desde la Tienda de Windows. Incompatible con juegos en pantalla completa de Vulkan y OpenGL.
+OVERLAY_MODE_XBOX_INSTALL			Instalar nuestra extensión Game Bar
+OVERLAY_MODE_XBOX_LAUNCH			Abrir Game Bar (usando el atajo Win+G) \n\t- Lanzar nuestro widget \n\t- Fijarlo \n\t- Habilitar la interacción con el mouse para Game Bar.
+OVERLAY_MODE_XBOX_STATE				Verificando la conexión del widget...
+
+OVERLAY_MODE_HOOKS_SHORT			La superposición de "estilo antiguo" Hooks utiliza la intercepción de renderizado en el proceso del juego.
+OVERLAY_MODE_HOOKS_LONG				Este modo es compatible con cualquier modo gráfico de juego. Funciona como la superposición de Steam y puede ser usado con gráficos DirectX 9, 10, 11, 12, Vulkan y OpenGL. Sin embargo, algunos anti-cheats no gustan de tales superposiciones (inyecciones DLL).
+OVERLAY_MODE_HOOKS_LAUNCH			Solo inicia el juego, espera unos segundos y deberías ver tu mira. Si no ves la mira y estás seguro de que debería ser visible, por favor envía un mensaje a soporte.\n\nLa mira no es visible en este modo en el escritorio, ¡sino solo en juegos!
+
+OVERLAY_TEST_SUCCESS				(Éxito)
+OVERLAY_TEST_FAILED				(Fallido)
+
+//////////    Blacklist settings    //////////
+
+BLACKLIST_BLACK_MODE				Modo lista negra
+BLACKLIST_WHITE_MODE				Modo lista blanca
+BLACKLIST_BLOCKED					Procesos bloqueados
+BLACKLIST_ALLOWED					Procesos permitidos
+BLACKLIST_BLOCK						Bloquear proceso
+BLACKLIST_ALLOW						Permitir proceso
+BLACKLIST_UNBLOCK					Eliminar proceso
+BLACKLIST_SELECT					Seleccionar proceso

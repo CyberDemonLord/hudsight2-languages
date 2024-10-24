@@ -11,16 +11,16 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          キャンセル
-BTN_CLOSE                           閉じる
+BTN_CANCEL							キャンセル
+BTN_CLOSE							閉じる
 TRAYMENU_CLOSE			HudSight 2を閉じる
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     ソフトウェアはアクティブです。
-ABOUT_TRIAL                         ソフトウェアは試用モードです。
-CURRENT_VERSION                     ビルド %d (%s)
-STEAM_VERSION_ON                    Steamバージョン
-STEAM_NO_STATUS_CHANGE              ステータスは変更されませんでした
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						ソフトウェアはアクティブです。
+ABOUT_TRIAL							ソフトウェアは試用モードです。
+CURRENT_VERSION						ビルド %d (%s)
+STEAM_VERSION_ON					Steamバージョン
+STEAM_NO_STATUS_CHANGE				ステータスは変更されませんでした
 ADMINISTRATOR				管理者
 FIRST_START_ADMIN1			これはアプリケーションの初回起動です。\n追加機能を利用するには、管理者権限で実行する必要があります。
 FIRST_START_ADMIN2			Vulkan サポートを有効にするには、特権昇格で一度だけ起動する必要があります。\nReal Overlayモード (<a href="REAL_OVERLAY">フックなしのオーバーレイ</a>) 常に「管理者として実行」する必要があります。\n\nこのオプションは後でアプリケーションの設定 (オプションタブ) で変更できます。

@@ -11,16 +11,16 @@
 
 //////////    Information    //////////
 
-BTN_CANCEL                          Abbrechen
-BTN_CLOSE                           Schließen
+BTN_CANCEL							Abbrechen
+BTN_CLOSE							Schließen
 TRAYMENU_CLOSE			Schließen HudSight 2
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     Software ist aktiviert.
-ABOUT_TRIAL                         Software ist in der Demo.
-CURRENT_VERSION                     Build %d (%s)
-STEAM_VERSION_ON                    Steam-Version
-STEAM_NO_STATUS_CHANGE              Status nicht geändert
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Software ist aktiviert.
+ABOUT_TRIAL							Software ist in der Demo.
+CURRENT_VERSION						Build %d (%s)
+STEAM_VERSION_ON					Steam-Version
+STEAM_NO_STATUS_CHANGE				Status nicht geändert
 ADMINISTRATOR				Administrator
 FIRST_START_ADMIN1			Dies ist der erste Start der Anwendung.\nMöglicherweise müssen Sie mit erhöhten Rechten ausführen, um zusätzliche Funktionen zu erhalten.
 FIRST_START_ADMIN2			Um die Vulkan-Unterstützung zu aktivieren, müssen Sie nur einmal mit erhöhten Rechten starten.\nReal Overlay-Modus (<a href="REAL_OVERLAY">overlays without hooks</a>) erfordert, dauerhaft "als Administrator" auszuführen.\n\nSie können diese Option später in den Anwendungseinstellungen (Options-Registerkarte) ändern.
