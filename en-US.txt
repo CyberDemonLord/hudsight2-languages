@@ -51,6 +51,7 @@ TRIAL_FREE_GAME						Activation was done using a special key.\nSoftware works as
 //TODO remove it on Jan 2025
 //TRIAL_STEAM_NOT_SHOW				HudSight needs to be activated using Steam client.\nYour Steam status will be changed to "running HudSight".\n\nShould we continue?
 
+STEAM_START_FROM_CLIENT					HudSight needs to be activated.\n\nPlease start the program from Steam client.
 STEAM_NOT_STARTED					Fatal error.\n\nCannot connect to software launcher. Please start the program from Steam client.
 STEAM_NO_AUTH						Fatal error.\n\nCannot authorize in Steam. To activate software you need to start it from Steam client.
 
