@@ -49,6 +49,7 @@ TRIAL_TRY_IT						해보세요
 TRIAL_FREE_GAME						활성화는 특별한 키를 사용하여 완료되었습니다.\n소프트웨어는 게임의 전체 버전으로 작동합니다: %s
 TRIAL_STEAM_NOT_SHOW				HudSight는 Steam 클라이언트를 사용하여 활성화해야 합니다.\n귀하의 Steam 상태가 "HudSight 실행 중"으로 변경됩니다.\n\n계속할까요?
 
+STEAM_START_FROM_CLIENT					HudSight를 다시 활성화해야 합니다.\n\nSteam 클라이언트에서 프로그램을 시작해 주세요.
 STEAM_NOT_STARTED					치명적인 오류.\n\n소프트웨어 실행기에 연결할 수 없습니다. Steam 클라이언트에서 프로그램을 시작하세요.
 STEAM_NO_AUTH						치명적인 오류.\n\nSteam에서 인증할 수 없습니다. 소프트웨어를 활성화하려면 Steam 클라이언트에서 시작해야 합니다.
 

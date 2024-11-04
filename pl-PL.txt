@@ -49,6 +49,7 @@ TRIAL_TRY_IT						Wypróbuj to
 TRIAL_FREE_GAME						Aktywacja została wykonana przy użyciu specjalnego klucza.\nOprogramowanie działa jako pełna wersja dla gry: %s.
 TRIAL_STEAM_NOT_SHOW				HudSight musi być aktywowany za pomocą klienta Steam.\nTwój status Steam zostanie zmieniony na "uruchomienie HudSight".\n\nCzy kontynuować?
 
+STEAM_START_FROM_CLIENT					HudSight wymaga ponownej aktywacji.\n\nProszę uruchomić program z klienta Steam.
 STEAM_NOT_STARTED					Krytyczny błąd.\n\nNie można połączyć się z uruchamiaczem oprogramowania. Proszę uruchomić program z klienta Steam.
 STEAM_NO_AUTH						Krytyczny błąd.\n\nNie można autoryzować w Steam. Aby aktywować oprogramowanie, musisz uruchomić je z klienta Steam.
 

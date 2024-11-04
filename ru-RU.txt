@@ -20,7 +20,8 @@ ABOUT_ACTIVATED						Программа активирована.
 ABOUT_TRIAL							Программа в демо режиме.
 CURRENT_VERSION						Сборка %d (%s)
 STEAM_VERSION_ON					Steam версия
-STEAM_NO_STATUS_CHANGE				Неизменный статус
+//TODO remove it on Jan 2025
+//STEAM_NO_STATUS_CHANGE				Неизменный статус
 ADMINISTRATOR				Администратор
 FIRST_START_ADMIN1			Это первый старт программы.\nВам может потребоваться запуск программы с повышенными правами для получения дополнительных возможностей.
 FIRST_START_ADMIN2			Для включения поддержки Vulkan нужно запуститься с повышенными правами только один раз.\nРежим Real Overlay (<a href="REAL_OVERLAY">оверлеи без hooks</a>) требует постоянного запуска "от имени администратора".\n\nВы можете изменить это позже в настройках программы (закладка Настройки).
@@ -47,9 +48,10 @@ TRIAL_RECOVER_CHECK_EMAIL			Пожалуйста проверьте ваш e-mai
 TRIAL_GET_LICENSE					Приобрести лицензию
 TRIAL_TRY_IT						Попробовать демо-версию
 TRIAL_FREE_GAME						Вы активировали программу специальным ключом.\nПрограмма работает как полная версия для игры: %s
-TRIAL_STEAM_NOT_SHOW				HudSight должен быть активирован с помощью клиента Steam.\nВаш статус в Steam будет изменен на "запущен HudSight".\n\nНужно ли продолжать?
+//TODO remove it on Jan 2025
+//TRIAL_STEAM_NOT_SHOW				HudSight должен быть активирован с помощью клиента Steam.\nВаш статус в Steam будет изменен на "запущен HudSight".\n\nНужно ли продолжать?
 
-STEAM_START_FROM_CLIENT					Необходимо заново активировать HudSight.\n\nПожалуйста, запустите программу из клиента Steam.
+STEAM_START_FROM_CLIENT					HudSight нужно заново активировать.\n\nПожалуйста, запустите программу из клиента Steam.
 STEAM_NOT_STARTED					Критическая ошибка.\n\nНевозможно получить данные от стартового модуля. Пожалуйста, запустите программу из клиента Steam.
 STEAM_NO_AUTH						Критическая ошибка.\n\nНевозможно авторизоваться в Steam. Для активации программы необходимо запустить ее из клиента Steam.
 
@@ -155,7 +157,8 @@ SETTINGS_CHECK_UPDATE				Проверять обновление при запу
 SETTINGS_SHOW_HINTS					Показывать всплывающие подсказки
 SETTINGS_SYSTEM_MESSAGES			Системные сообщения
 SETTINGS_LIGHT_THEME				Светлая цветовая тема
-SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
+//TODO remove it on Jan 2025
+//SETTINGS_NO_SHOW_STEAM				Не изменять статус в Steam
 SETTINGS_USE_FAVORITES				Включить избранные прицелы
 SETTINGS_BACK_VERSION1				Переключиться обратно на Версию 1
 

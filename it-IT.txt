@@ -49,6 +49,7 @@ TRIAL_TRY_IT						Provalo
 TRIAL_FREE_GAME						L'attivazione è stata effettuata utilizzando un codice speciale.\nIl software funziona come versione completa per il gioco: %s
 TRIAL_STEAM_NOT_SHOW				HudSight deve essere attivato utilizzando il client Steam.\nIl tuo stato Steam sarà cambiato in "sto usando HudSight".\n\nDobbiamo continuare?
 
+STEAM_START_FROM_CLIENT					HudSight deve essere riattivato.\n\nSi prega di avviare il programma dal client Steam.
 STEAM_NOT_STARTED					Errore fatale.\n\nImpossibile connettersi al launcher del software. Si prega di avviare il programma dal client Steam.
 STEAM_NO_AUTH						Errore fatale.\n\nImpossibile autorizzarsi in Steam. Per attivare il software è necessario avviarlo dal client Steam.
 

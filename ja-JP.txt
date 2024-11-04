@@ -49,6 +49,7 @@ TRIAL_TRY_IT						試してみる
 TRIAL_FREE_GAME						特殊キーを使用してアクティベーションが行われました。\nソフトウェアはゲームのフルバージョンとして機能します： %s
 TRIAL_STEAM_NOT_SHOW				HudSightはSteamクライアントを使用してアクティベートする必要があります。\nあなたのSteamステータスが「HudSightを実行中」に変更されます。\n\n続行しますか？
 
+STEAM_START_FROM_CLIENT					HudSightを再アクティブ化する必要があります。\n\nSteamクライアントからプログラムを起動してください。
 STEAM_NOT_STARTED					致命的なエラーです。\n\nソフトウェアランチャーに接続できません。Steamクライアントからプログラムを起動してください。
 STEAM_NO_AUTH						致命的なエラーです。\n\nSteamで認証できません。ソフトウェアをアクティベートするには、Steamクライアントから起動する必要があります。
 

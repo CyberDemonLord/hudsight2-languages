@@ -49,6 +49,7 @@ TRIAL_TRY_IT						Experimente
 TRIAL_FREE_GAME						A ativação foi feita usando uma chave especial.\nO software funciona como versão completa para o jogo: %s
 TRIAL_STEAM_NOT_SHOW				HudSight precisa ser ativado usando o cliente Steam.\nSeu status no Steam será mudado para "executando HudSight".\n\nDevemos continuar?
 
+STEAM_START_FROM_CLIENT					HudSight precisa ser reativado.\n\nPor favor, inicie o programa a partir do cliente Steam.
 STEAM_NOT_STARTED					Erro fatal.\n\nNão é possível conectar ao lançador do software. Por favor, inicie o programa a partir do cliente Steam.
 STEAM_NO_AUTH						Erro fatal.\n\nNão é possível autorizar no Steam. Para ativar o software, você precisa iniciá-lo a partir do cliente Steam.
 

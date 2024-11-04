@@ -49,6 +49,7 @@ TRIAL_TRY_IT						Prova det
 TRIAL_FREE_GAME						Aktiveringen gjordes med en speciell nyckel.\nProgramvaran fungerar som fullversion för spelet: %s
 TRIAL_STEAM_NOT_SHOW				HudSight måste aktiveras med Steam-klienten.\nDin Steam-status kommer att ändras till "kör HudSight".\n\nSka vi fortsätta?
 
+STEAM_START_FROM_CLIENT					HudSight behöver aktiveras igen.\n\nVänligen starta programmet från Steam-klienten.
 STEAM_NOT_STARTED					Fatalfel.\n\nKunde inte ansluta till programvarustartsidan. Vänligen starta programmet från Steam-klienten.
 STEAM_NO_AUTH						Fatalfel.\n\nKunde inte autentisera i Steam. För att aktivera programvaran måste du starta den från Steam-klienten.
 

@@ -49,6 +49,7 @@ TRIAL_TRY_IT						试用
 TRIAL_FREE_GAME						使用特殊密钥激活成功。\n软件在游戏： %s 中作为完整版运行
 TRIAL_STEAM_NOT_SHOW				HudSight 需要通过 Steam 客户端激活。\n您的 Steam 状态将更改为"正在运行 HudSight"。\n\n是否继续？
 
+STEAM_START_FROM_CLIENT					HudSight需要重新激活。\n\n请从Steam客户端启动程序。
 STEAM_NOT_STARTED					严重错误。\n\n无法连接到软件启动器。请从 Steam 客户端启动程序。
 STEAM_NO_AUTH						严重错误。\n\n无法在 Steam 中授权。要激活软件，您需要从 Steam 客户端启动它。
 

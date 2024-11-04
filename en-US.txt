@@ -15,13 +15,13 @@ BTN_CANCEL							Cancel
 BTN_CLOSE							Close
 TRAYMENU_CLOSE			Close HudSight 2
 
-ABOUT_COPYRIGHT                     Eduard Kozadaev
-ABOUT_ACTIVATED                     Software is activated.
-ABOUT_TRIAL                         Software is in trial mode.
-CURRENT_VERSION                     Build %d (%s)
-STEAM_VERSION_ON                    Steam version
-//TODO remove on Jan 2025
-//STEAM_NO_STATUS_CHANGE              Status not changed
+ABOUT_COPYRIGHT						Eduard Kozadaev
+ABOUT_ACTIVATED						Software is activated.
+ABOUT_TRIAL							Software is in trial mode.
+CURRENT_VERSION						Build %d (%s)
+STEAM_VERSION_ON					Steam version
+//TODO remove it on Jan 2025
+//STEAM_NO_STATUS_CHANGE				Status not changed
 ADMINISTRATOR				Administrator
 FIRST_START_ADMIN1			This is the first start of the application.\nYou may need to run with elevated privileges to get additional features.
 FIRST_START_ADMIN2			To enable Vulkan support you need to start with elevated privileges only once.\nReal Overlay mode (<a href="REAL_OVERLAY">overlays without hooks</a>) requires to run "as admin" permanently.\n\nYou can change this option later in the application settings (Options tab).
@@ -51,7 +51,7 @@ TRIAL_FREE_GAME						Activation was done using a special key.\nSoftware works as
 //TODO remove it on Jan 2025
 //TRIAL_STEAM_NOT_SHOW				HudSight needs to be activated using Steam client.\nYour Steam status will be changed to "running HudSight".\n\nShould we continue?
 
-STEAM_START_FROM_CLIENT					HudSight needs to be activated.\n\nPlease start the program from Steam client.
+STEAM_START_FROM_CLIENT					HudSight needs to be reactivated.\n\nPlease start the program from the Steam client.
 STEAM_NOT_STARTED					Fatal error.\n\nCannot connect to software launcher. Please start the program from Steam client.
 STEAM_NO_AUTH						Fatal error.\n\nCannot authorize in Steam. To activate software you need to start it from Steam client.
 

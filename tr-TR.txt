@@ -49,6 +49,7 @@ TRIAL_TRY_IT						Dene bakalım
 TRIAL_FREE_GAME						Etkinleştirme özel bir anahtar kullanılarak yapıldı.\nYazılım oyun için tam sürüm olarak çalışıyor: %s
 TRIAL_STEAM_NOT_SHOW				HudSight'ın Steam istemcisi kullanılarak etkinleştirilmesi gerekiyor.\nSteam durumunuz "HudSight çalışıyor" olarak değiştirilecek.\n\nDevam edelim mi?
 
+STEAM_START_FROM_CLIENT					HudSight yeniden etkinleştirilmelidir.\n\nLütfen programı Steam istemcisinden başlatın.
 STEAM_NOT_STARTED					Ölümcül hata.\n\nYazılım başlatıcısına bağlanılamıyor. Lütfen programı Steam istemcisinden başlatın.
 STEAM_NO_AUTH						Ölümcül hata.\n\nSteam'de yetkilendirme yapılamıyor. Yazılımı etkinleştirmek için Steam istemcisinden başlatmanız gerekir.
 
